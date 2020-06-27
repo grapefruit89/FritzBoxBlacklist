@@ -4,9 +4,8 @@
 # https://www.kowabit.de/blcklst/   
 # https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php
 
-.io
+
 .rocks
-.tv
 a3cloud.net
 adcell.com
 addition.com
@@ -24,11 +23,14 @@ bat.bing.com
 bildstatic.de
 bootstrapcdn.com
 bumlam.com
+cleverpush.com
 cloudfront.net
+cloudimg.io
 consensu.org
 criteo.com
 criteo.net
 doubleclick.net
+dymatrix.cloud
 edgekey.net
 elitepartner.de
 emetriq.de
@@ -48,7 +50,9 @@ ioam.de
 jquery.com
 jsdelivr.net
 justpremium.com
+kameleoon.eu
 lp4.io
+mateti.net
 meetrics.net
 mmnews.de
 mxcdn.net
@@ -63,14 +67,19 @@ pi-news.net
 plista.com
 pubmatic.com
 research.de.com
+rvty.net
 scorecardresearch.com
 static.xx.fbcdn.net
 subscribers.com
 taboola.com
+teads.tv
 theadex.com
 tiqcdn.com
 trafficjunky.com
 typekit.net
+upscore.com
+usercentrics.eu
+vgwort.de
 visualwebsiteoptimizer.com
 vk.ru
 vtracy.de
