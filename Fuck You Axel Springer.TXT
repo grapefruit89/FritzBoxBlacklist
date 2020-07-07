@@ -1,187 +1,187 @@
-agdlab.pl
-amiado.com
-amiadogroup.com
-antenne1.de
-antenne.de
-artcollector-magazin.de
-artinvestor.de
-as-konzerneinkauf.de
-asv.de
-audiovideofotobild.de
-aufeminin.com
-auto-bild.ro
-auto-swiat.pl
-auto-wirtschaft.ch
-auto.cz
-autobild.com.mx
-autobild.de
-autobild.es
-autobild.fi
-autobild.ge
-autobild.gr
-autobild.hu
-autobild.in
-autobild.lt
-autobild.si
-autobild.tv
-autobild.ua
-autobildallrad.de
-autobildindonesia.com
-autoexpress.co.uk
-autohaus24.de
-autojournal.fr
-autoleht.ee
-autoplus.fr
-autoshow.com.tr
-autotip.auto.cz
-autoundwirtschaft.at
-autoweek.nl
-avfbild.de
-awin.com
-axel-springer-akademie.de
-axel-voss-europa.de
-axelspringer-syndication.de
-axelspringer.com
-axelspringer.de
-axelspringer.hu
-axelspringer.pl
-azet.sk
-bams.de
-belvilla.com
-beobachter.ch
-beobachtertv.ch
-bike-bild.de
-bilanz-magazin.de
-bild.de
-blau-magazin.de
-blic.rs
-blikk.hu
-boerse-online.de
-bonial.com
-buecher.de
-businessinsider.de
-businessinsider.pl
-bz-berlin.de
-bz.de
-carboatmedia.fr
-carwale.com
-casamundo.com
-celeraone.com
-clever-tanken.de
-computerbild.de
-computerbildspiele.de
-dnn-online.de
-dnn.de
-dzienniksport.pl
-ein-herz-fuer-kinder.de
-emarketer.com
-europeanvoice.com
-fakt.pl
-faz.de
-faz.net
-ffh.de
-ffn.de
-finanz.ru
-finanzen.ch
-finanzen.net
-foodbarn.com
-forbes.pl
-forbes.ru
-gameplanet.pl
-gehalt.de
-gehaltsvergleich.com
-geo.ru
-geolenok.ru
-glamouronline.hu
-gofeminin.de
-gruenderszene.de
-handelszeitung.ch
-idealo.de
-ikiosk.de
-immergruen-medien.de
-immonet.de
-immoweb.be
-immowelt.de
-jakdojade.pl
-jobsite.co.uk
-kaufda.de
-komputerswiat.pl
-labanquesuisse.ch
-lacentrale.fr
-ladenzeile.de
-lesershop24.de
-lonny.com
-mazandmore.de
-mediaimpact.de
-medonet.pl
-meinestadt.de
-meinprospekt.de
-metal-hammer.de
-musikexpress.de
-mylittleparis.fr
-n24.de
-newsweek.pl
-nin.co.rs
-noizz.pl
-ofeminin.pl
-ok-magazine.ru
-onet.pl
-onmeda.de
-opineo.pl
-ozy.com
-partyguide.ch
-pclab.pl
-personalmarkt.de
-playpc.pl
-plejada.pl
-pme.ch
-politico.eu
-profession.hu
-przegladsportowy.pl
-radiohamburg.de
-radionrw.de
-rollingstone.de
-rs2.de
-runtastic.com
-sat1.de
-schweizerbank.ch
-schweizerversicherung.ch
-seloger.com
-skapiec.pl
-sportauto.fr
-sportbild.bild.de
-sportbild.de
-sports.pl
-sporttotal.tv
-stepstone.com
-stepstone.de
-students.at
-students.ch
-students.de
-stylebistro.com
-stylebook.de
-sympatia.pl
-techbook.de
-tele.ch
-totaljobs.com
-transfermarkt.de
-transfermarkt.tv
-travelbook.de
-tvrhet.hu
-tvstar.ch
-umzugsauktion.de
-upday.com
-usgang.ch
-verdykt.pl
-verticalmedia.com
-vod.pl
-wams.de
-welt.de
-weltn24.de
-wieistmeineip.de
-yad2.co.il
-yoc.de
-zanox.de
-zapytaj.pl
-zimbio.com
-zumi.pl
+127.0.0.1 agdlab.pl
+127.0.0.1 amiado.com
+127.0.0.1 amiadogroup.com
+127.0.0.1 antenne1.de
+127.0.0.1 antenne.de
+127.0.0.1 artcollector-magazin.de
+127.0.0.1 artinvestor.de
+127.0.0.1 as-konzerneinkauf.de
+127.0.0.1 asv.de
+127.0.0.1 audiovideofotobild.de
+127.0.0.1 aufeminin.com
+127.0.0.1 auto-bild.ro
+127.0.0.1 auto-swiat.pl
+127.0.0.1 auto-wirtschaft.ch
+127.0.0.1 auto.cz
+127.0.0.1 autobild.com.mx
+127.0.0.1 autobild.de
+127.0.0.1 autobild.es
+127.0.0.1 autobild.fi
+127.0.0.1 autobild.ge
+127.0.0.1 autobild.gr
+127.0.0.1 autobild.hu
+127.0.0.1 autobild.in
+127.0.0.1 autobild.lt
+127.0.0.1 autobild.si
+127.0.0.1 autobild.tv
+127.0.0.1 autobild.ua
+127.0.0.1 autobildallrad.de
+127.0.0.1 autobildindonesia.com
+127.0.0.1 autoexpress.co.uk
+127.0.0.1 autohaus24.de
+127.0.0.1 autojournal.fr
+127.0.0.1 autoleht.ee
+127.0.0.1 autoplus.fr
+127.0.0.1 autoshow.com.tr
+127.0.0.1 autotip.auto.cz
+127.0.0.1 autoundwirtschaft.at
+127.0.0.1 autoweek.nl
+127.0.0.1 avfbild.de
+127.0.0.1 awin.com
+127.0.0.1 axel-springer-akademie.de
+127.0.0.1 axel-voss-europa.de
+127.0.0.1 axelspringer-syndication.de
+127.0.0.1 axelspringer.com
+127.0.0.1 axelspringer.de
+127.0.0.1 axelspringer.hu
+127.0.0.1 axelspringer.pl
+127.0.0.1 azet.sk
+127.0.0.1 bams.de
+127.0.0.1 belvilla.com
+127.0.0.1 beobachter.ch
+127.0.0.1 beobachtertv.ch
+127.0.0.1 bike-bild.de
+127.0.0.1 bilanz-magazin.de
+127.0.0.1 bild.de
+127.0.0.1 blau-magazin.de
+127.0.0.1 blic.rs
+127.0.0.1 blikk.hu
+127.0.0.1 boerse-online.de
+127.0.0.1 bonial.com
+127.0.0.1 buecher.de
+127.0.0.1 businessinsider.de
+127.0.0.1 businessinsider.pl
+127.0.0.1 bz-berlin.de
+127.0.0.1 bz.de
+127.0.0.1 carboatmedia.fr
+127.0.0.1 carwale.com
+127.0.0.1 casamundo.com
+127.0.0.1 celeraone.com
+127.0.0.1 clever-tanken.de
+127.0.0.1 computerbild.de
+127.0.0.1 computerbildspiele.de
+127.0.0.1 dnn-online.de
+127.0.0.1 dnn.de
+127.0.0.1 dzienniksport.pl
+127.0.0.1 ein-herz-fuer-kinder.de
+127.0.0.1 emarketer.com
+127.0.0.1 europeanvoice.com
+127.0.0.1 fakt.pl
+127.0.0.1 faz.de
+127.0.0.1 faz.net
+127.0.0.1 ffh.de
+127.0.0.1 ffn.de
+127.0.0.1 finanz.ru
+127.0.0.1 finanzen.ch
+127.0.0.1 finanzen.net
+127.0.0.1 foodbarn.com
+127.0.0.1 forbes.pl
+127.0.0.1 forbes.ru
+127.0.0.1 gameplanet.pl
+127.0.0.1 gehalt.de
+127.0.0.1 gehaltsvergleich.com
+127.0.0.1 geo.ru
+127.0.0.1 geolenok.ru
+127.0.0.1 glamouronline.hu
+127.0.0.1 gofeminin.de
+127.0.0.1 gruenderszene.de
+127.0.0.1 handelszeitung.ch
+127.0.0.1 idealo.de
+127.0.0.1 ikiosk.de
+127.0.0.1 immergruen-medien.de
+127.0.0.1 immonet.de
+127.0.0.1 immoweb.be
+127.0.0.1 immowelt.de
+127.0.0.1 jakdojade.pl
+127.0.0.1 jobsite.co.uk
+127.0.0.1 kaufda.de
+127.0.0.1 komputerswiat.pl
+127.0.0.1 labanquesuisse.ch
+127.0.0.1 lacentrale.fr
+127.0.0.1 ladenzeile.de
+127.0.0.1 lesershop24.de
+127.0.0.1 lonny.com
+127.0.0.1 mazandmore.de
+127.0.0.1 mediaimpact.de
+127.0.0.1 medonet.pl
+127.0.0.1 meinestadt.de
+127.0.0.1 meinprospekt.de
+127.0.0.1 metal-hammer.de
+127.0.0.1 musikexpress.de
+127.0.0.1 mylittleparis.fr
+127.0.0.1 n24.de
+127.0.0.1 newsweek.pl
+127.0.0.1 nin.co.rs
+127.0.0.1 noizz.pl
+127.0.0.1 ofeminin.pl
+127.0.0.1 ok-magazine.ru
+127.0.0.1 onet.pl
+127.0.0.1 onmeda.de
+127.0.0.1 opineo.pl
+127.0.0.1 ozy.com
+127.0.0.1 partyguide.ch
+127.0.0.1 pclab.pl
+127.0.0.1 personalmarkt.de
+127.0.0.1 playpc.pl
+127.0.0.1 plejada.pl
+127.0.0.1 pme.ch
+127.0.0.1 politico.eu
+127.0.0.1 profession.hu
+127.0.0.1 przegladsportowy.pl
+127.0.0.1 radiohamburg.de
+127.0.0.1 radionrw.de
+127.0.0.1 rollingstone.de
+127.0.0.1 rs2.de
+127.0.0.1 runtastic.com
+127.0.0.1 sat1.de
+127.0.0.1 schweizerbank.ch
+127.0.0.1 schweizerversicherung.ch
+127.0.0.1 seloger.com
+127.0.0.1 skapiec.pl
+127.0.0.1 sportauto.fr
+127.0.0.1 sportbild.bild.de
+127.0.0.1 sportbild.de
+127.0.0.1 sports.pl
+127.0.0.1 sporttotal.tv
+127.0.0.1 stepstone.com
+127.0.0.1 stepstone.de
+127.0.0.1 students.at
+127.0.0.1 students.ch
+127.0.0.1 students.de
+127.0.0.1 stylebistro.com
+127.0.0.1 stylebook.de
+127.0.0.1 sympatia.pl
+127.0.0.1 techbook.de
+127.0.0.1 tele.ch
+127.0.0.1 totaljobs.com
+127.0.0.1 transfermarkt.de
+127.0.0.1 transfermarkt.tv
+127.0.0.1 travelbook.de
+127.0.0.1 tvrhet.hu
+127.0.0.1 tvstar.ch
+127.0.0.1 umzugsauktion.de
+127.0.0.1 upday.com
+127.0.0.1 usgang.ch
+127.0.0.1 verdykt.pl
+127.0.0.1 verticalmedia.com
+127.0.0.1 vod.pl
+127.0.0.1 wams.de
+127.0.0.1 welt.de
+127.0.0.1 weltn24.de
+127.0.0.1 wieistmeineip.de
+127.0.0.1 yad2.co.il
+127.0.0.1 yoc.de
+127.0.0.1 zanox.de
+127.0.0.1 zapytaj.pl
+127.0.0.1 zimbio.com
+127.0.0.1 zumi.pl
