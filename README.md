@@ -1,6 +1,6 @@
-:do_not_litter: Fritz!Box Blacklist
+:do_not_litter: Fritz!Box Bl**o**cklist
 ===================================
-
+Readme inspired by [🚯 Fritz!Box Blacklist](https://github.com/fboes/fritzbox-blacklist) by [fboes](https://github.com/fboes)
 A list of domains to be blocked in my Fritz!Box (and maybe yours).
 
 This project is meant to help some companies to see the benefits of HTTPS. :smiley:
