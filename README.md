@@ -14,7 +14,6 @@ Filter in der Fritzbox einsetzen
 
 läuft auch ohne ein Informatikstudium
 
-There is also an [extended instruction on how to set up your Fritz!Box as an AdBlocker](https://journal.3960.org/posts/2015-07-02-fritz-box-als-adblocker/) (German).
 
 
 
