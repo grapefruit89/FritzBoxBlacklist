@@ -35,15 +35,8 @@ ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)
 
 um zu testen ob alles geklappt hat
 [Adblock Testseite](https://blockads.fivefilters.org/?pihole)  
-[DNS Leak Test](https://www.dnsleaktest.com/)
-[Wer selbst für sich nach dem schnellsten DNS Server suchen möchte](https://www.grc.com/dns/dns.htm)
-
-
-
-
-
-
-
+[DNS Leak Test](https://www.dnsleaktest.com/)  
+[Wer selbst für sich nach dem schnellsten DNS Server suchen möchte](https://www.grc.com/dns/dns.htm)  
 
 Contributing
 ------------
