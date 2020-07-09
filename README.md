@@ -10,37 +10,30 @@ Filter in der Fritzbox einsetzen
 ------------
 
 1. [FritzBox-Kindersicherung - so funktioniert die Einrichtung](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)  
-2. Inhalt der [Blacklist]() in die  [Fritzbox]()kopieren
-2. Copy contents of [fritzbox-blacklist-extra.txt](https://raw.githubusercontent.com/fboes/fritzbox-blacklist/master/fritzbox-blacklist-extra.txt) to your Fritz!Box' blacklist for the removal of possibly nice services
-4. Be sure to check if HTTPS traffic is still allowed
+2. Inhalt der [Blacklist](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500.txt) in die  [Fritzbox](http://www.fritz.box/)kopieren  
 
-This will work with a standard firmware.
+läuft auch ohne ein Informatikstudium
 
 There is also an [extended instruction on how to set up your Fritz!Box as an AdBlocker](https://journal.3960.org/posts/2015-07-02-fritz-box-als-adblocker/) (German).
 
 
 
-Development
+Neuen DNS Server in der Fritzbox einsetzen
 -----------
+Meiner Mutter würde ich die Funktion eines DNS Servers mit der Analogie eines Telefonbuch´s erklären.
+In der Telefonzelle der Deutschen Post liegt auch ein Telefonbuch der Deutschen Post, wenn dem Telefonbuchhersteller ein Eintrag missfällt, so taucht er in diesem Telefonbuch nicht auf.  
+Bei den DNS Servern gibt es dann noch die möglichkeit, dass sich jemand das Telefonbuch vorher anschaut und alles was mit Werbung oder Betrug zu tun hat mit einem Dicken Textmarker ausschwärzt.  
 
-There is a maximum of 500 entries for the Fritz Box' blacklist. Choose each entry wisely.
 
-Put each domain in a single line. Do not enter comments or anything else.
 
-E.g.: To block `http://ads.example.com/some_script.js` enter `ads.example.com` or just `example.com`. `example.com` will also block all files from `www.example.com` and any other subdomain.
 
-On the structure of URLs for this blacklist consult [AVM's documentation for blacklists](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). Keep in mind to keep this list as simple as possible, to keep it useful for other routers as well.
+
+
+[Fritz!Box als AdBlocker fboës - Der Blog](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). In der einfachheit der Liste liegt die Anwenderfreundlichkeit.
 
 Contributing
 ------------
 
-I am happy to merge your contributions to this file. Please make sure that the blacklist is ordered alphabetically, and you have removed any unneccessary whitespaces.
-
 Legal stuff
 -----------
-
-Author: [Frank Boës](http://3960.org) and others
-
-Copyright & license: See LICENSE.txt
-
-These instructions are NOT affiliated with, endorsed, or sponsored by AVM.
+Original: [Frank Boës](http://3960.org) and others
