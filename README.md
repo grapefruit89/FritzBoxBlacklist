@@ -18,22 +18,25 @@ läuft auch ohne ein Informatikstudium
 
 
 
-Neuen DNS Server in der Fritzbox einsetzen
+Neuen DNS Server (in der Fritzbox einsetzen)
 -----------
 Meiner Mutter würde ich die Funktion eines DNS Servers mit der Analogie eines Telefonbuch´s erklären.
 In der Telefonzelle der Deutschen Post liegt auch ein Telefonbuch der Deutschen Post, wenn dem Telefonbuchhersteller ein Eintrag missfällt, so taucht er in diesem Telefonbuch nicht auf.  
 Bei den DNS Servern gibt es dann noch die möglichkeit, dass sich jemand das Telefonbuch vorher anschaut und alles was mit Werbung oder Betrug zu tun hat mit einem Dicken Textmarker ausschwärzt, somit kann ich den Bösen weniger auf den Leim gehen.  
 Dazu müssen wir uns erstmal für einen Vertrauenswürdigen DNS Server entscheiden  
+
 [Privacy Handbuch](https://www.privacy-handbuch.de/handbuch_93d.htm)  
 [Kuketz Empfehlungsecke](https://www.kuketz-blog.de/empfehlungsecke/#dns)  
 Mir hat der Der 2te Dismail DNS Server zugesagt IPv4: **159.69.114.157** für´s Handy unter Private DNS **fdns2.dismail.de**  
 ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)
 [PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)  
 [pi-dns.com](https://pi-dns.com/)  
-[](https://www.media-techport.de/free-dns-server/)  
+[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)  
 
-um zu testen ob alles gek
-[]()  
+um zu testen ob alles geklappt hat
+[Adblock Testseite](https://blockads.fivefilters.org/?pihole)  
+[DNS Leak Test](https://www.dnsleaktest.com/)
+[Wer selbst für sich nach dem schnellsten DNS Server suchen möchte](https://www.grc.com/dns/dns.htm)
 
 
 
