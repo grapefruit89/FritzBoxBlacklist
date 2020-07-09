@@ -1,9 +1,10 @@
 :do_not_litter: Fritz!Box Bl**o**cklist
 ===================================
 Readme inspired by [🚯 Fritz!Box Blacklist](https://github.com/fboes/fritzbox-blacklist) by [fboes](https://github.com/fboes)
-A list of domains to be blocked in my Fritz!Box (and maybe yours).
 
-This project is meant to help some companies to see the benefits of HTTPS. :smiley:
+Mein versuch die Welt mit möglichst einfachen Technischen Mitteln ein bisschen besser zu machen...
+Da die unmodifizierte Fritzbox leider nur mit 500 Einträgen zurechtkommt, versuche ich hier eine möglichst kurze aber dennoch effektive Liste mit den Alltime TOP 500 geblockten webseiten zu erstellen.  
+Mir ist bewusst das das WWW veränderlich ist und die ein oder andere Seite eines Tages nichtmehr aktuell ist aber einem großteil des InterCraps kann man somit vielleicht schon umgehen, auch ohne π **🕳**
 
 Instructions
 ------------
@@ -19,13 +20,7 @@ This will work with a standard firmware.
 
 There is also an [extended instruction on how to set up your Fritz!Box as an AdBlocker](https://journal.3960.org/posts/2015-07-02-fritz-box-als-adblocker/) (German).
 
-Know issues
------------
 
-| Domain               | Issue |
-|----------------------|-------|
-| conduit.com          | This entry may prevent some Netflix clients like Wii U from using Netflix (see [issue #6](https://github.com/fboes/fritzbox-blacklist/issues/6) for details) |
-| googleadservices.com | This entry makes the paid links in Google search results unclickable |
 
 Development
 -----------
