@@ -12,7 +12,8 @@ Filter in der Fritzbox einsetzen
 1. [FritzBox-Kindersicherung - so funktioniert die Einrichtung](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)  
 2. Inhalt der [Blacklist](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500.txt) in die  [Fritzbox](http://www.fritz.box/)kopieren  
 
-läuft auch ohne ein Informatikstudium
+läuft auch ohne ein Informatikstudium  
+[Fritz!Box als AdBlocker fboës - Der Blog](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). In der einfachheit der Liste liegt die Anwenderfreundlichkeit.  
 
 
 
@@ -21,14 +22,19 @@ Neuen DNS Server in der Fritzbox einsetzen
 -----------
 Meiner Mutter würde ich die Funktion eines DNS Servers mit der Analogie eines Telefonbuch´s erklären.
 In der Telefonzelle der Deutschen Post liegt auch ein Telefonbuch der Deutschen Post, wenn dem Telefonbuchhersteller ein Eintrag missfällt, so taucht er in diesem Telefonbuch nicht auf.  
-Bei den DNS Servern gibt es dann noch die möglichkeit, dass sich jemand das Telefonbuch vorher anschaut und alles was mit Werbung oder Betrug zu tun hat mit einem Dicken Textmarker ausschwärzt.  
+Bei den DNS Servern gibt es dann noch die möglichkeit, dass sich jemand das Telefonbuch vorher anschaut und alles was mit Werbung oder Betrug zu tun hat mit einem Dicken Textmarker ausschwärzt, somit kann ich den Bösen weniger auf den Leim gehen.
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
 
 
 
 
 
 
-[Fritz!Box als AdBlocker fboës - Der Blog](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). In der einfachheit der Liste liegt die Anwenderfreundlichkeit.
+
 
 Contributing
 ------------
