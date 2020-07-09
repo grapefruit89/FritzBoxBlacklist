@@ -1,4 +1,4 @@
-:do_not_litter: Fritz!Box Bl**o**cklist
+:do_not_litter: (Fritz!Box)  Bl**o**cklist für die Internetkiste
 ===================================
 Readme inspired by [🚯 Fritz!Box Blacklist](https://github.com/fboes/fritzbox-blacklist) by [fboes](https://github.com/fboes)
 
