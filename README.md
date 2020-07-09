@@ -1,4 +1,4 @@
-:do_not_litter: (Fritz!Box)  Bl**o**cklist für die Internetkiste
+:do_not_litter: (Fritz!Box)  Blocklist für die Internetkiste oder wie ich einfach Werbung loswerde
 ===================================
 Readme inspired by [🚯 Fritz!Box Blacklist](https://github.com/fboes/fritzbox-blacklist) by [fboes](https://github.com/fboes)
 
@@ -6,13 +6,11 @@ Mein versuch die Welt mit möglichst einfachen Technischen Mitteln ein bisschen 
 Da die unmodifizierte Fritzbox leider nur mit 500 Einträgen zurechtkommt, versuche ich hier eine möglichst kurze aber dennoch effektive Liste mit den Alltime TOP 500 geblockten webseiten zu erstellen.  
 Mir ist bewusst das das WWW veränderlich ist und die ein oder andere Seite eines Tages nichtmehr aktuell ist aber einem großteil des InterCraps kann man somit vielleicht schon umgehen, auch ohne π **🕳**
 
-Instructions
+Filter in der Fritzbox einsetzen
 ------------
 
-Short instructions:
-
-1. See [AVM's instructions on how to setup a blacklist in your Fritz!Box](http://en.avm.de/service/fritzbox/fritzbox-7490/knowledge-base/publication/show/8_Restricting-Internet-access-using-parental-controls/)
-2. Copy contents of [fritzbox-blacklist.txt](https://raw.githubusercontent.com/fboes/fritzbox-blacklist/master/fritzbox-blacklist.txt) to your Fritz!Box' blacklist
+1. [FritzBox-Kindersicherung - so funktioniert die Einrichtung](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)  
+2. Inhalt der [Blacklist]() in die  [Fritzbox]()kopieren
 2. Copy contents of [fritzbox-blacklist-extra.txt](https://raw.githubusercontent.com/fboes/fritzbox-blacklist/master/fritzbox-blacklist-extra.txt) to your Fritz!Box' blacklist for the removal of possibly nice services
 4. Be sure to check if HTTPS traffic is still allowed
 
