@@ -38,7 +38,7 @@ um zu testen ob alles geklappt hat
 [DNS Leak Test](https://www.dnsleaktest.com/)  
 [Wer selbst für sich nach dem schnellsten DNS Server suchen möchte](https://www.grc.com/dns/dns.htm)  
 Hierzu einfach die Standart Liste gegen [Beispiel DNS Server](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Beispiel%20DNS%20Server.ini) austauschen  
-Bei mir  ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Benchmark.png)
+  ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Benchmark.png)
 
 Contributing
 ------------
