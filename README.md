@@ -16,7 +16,7 @@ läuft auch ohne ein Informatikstudium
 [Fritz!Box als AdBlocker fboës - Der Blog](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). In der einfachheit der Liste liegt die Anwenderfreundlichkeit.  
 
 
-[Adblocker Testen](https://ads-blocker.com/testing/)
+[hier den Adblocker Testen](https://ads-blocker.com/testing/)
 
 
 Neuen DNS Server (in der Fritzbox einsetzen)
