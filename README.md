@@ -30,7 +30,7 @@ Dazu müssen wir uns erstmal für einen Vertrauenswürdigen DNS Server entscheid
 [Kuketz Empfehlungsecke](https://www.kuketz-blog.de/empfehlungsecke/#dns)  
 Mir hat der Der 2te Dismail DNS Server zugesagt IPv4: **159.69.114.157** für´s Handy unter Private DNS **fdns2.dismail.de**  
 ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  
-~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/)
+~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/)  
 [pi-dns.com](https://pi-dns.com/)  
 [Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)  
 
