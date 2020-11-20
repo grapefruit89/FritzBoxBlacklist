@@ -41,9 +41,14 @@ um zu testen ob alles geklappt hat
 Hierzu einfach die Standart Liste gegen [Beispiel DNS Server](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Beispiel%20DNS%20Server.ini) austauschen  
   ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Benchmark.png)
 
-Contributing
+Weiterführende Links
 ------------
-
+[xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
+[Frank Boës](https://github.com/fboes/fritzbox-blacklist)  
+[Shizoworld](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
+[KoWabit](https://kowabit.de/fritzbox-blacklist-17-01-2020/)[Kowabit erklärt](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)[Blacklist](https://kowabit.de/blcklst/)  
+[Kuketzblog weiterführende Diskussioin](https://forum.kuketz-blog.de/viewtopic.php?t=5147)  
+[Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
 Legal stuff
 -----------
 Original: [Frank Boës](http://3960.org) and others
