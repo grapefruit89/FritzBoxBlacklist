@@ -41,7 +41,7 @@ um zu testen ob alles geklappt hat
 Hierzu einfach die Standart Liste gegen [Beispiel DNS Server](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Beispiel%20DNS%20Server.ini) austauschen  
   ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Benchmark.png)
 
-Weiterführende Links
+Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 ------------
 [xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
 [Frank Boës](https://github.com/fboes/fritzbox-blacklist)  
