@@ -46,7 +46,7 @@ Weiterführende Links
 [xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
 [Frank Boës](https://github.com/fboes/fritzbox-blacklist)  
 [Shizoworld](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
-[KoWabit](https://kowabit.de/fritzbox-blacklist-17-01-2020/)·····[Kowabit erklärt](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)·····[Blacklist](https://kowabit.de/blcklst/)  
+[Kowabit](https://kowabit.de/fritzbox-blacklist-17-01-2020/)·····[Kowabit erklärt](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)·····[Kowabit Bl*cklist](https://kowabit.de/blcklst/)  
 [Kuketzblog weiterführende diskussion](https://forum.kuketz-blog.de/viewtopic.php?t=5147)  
 [Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
 Legal stuff
