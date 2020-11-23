@@ -60,6 +60,7 @@ Kowabit Stuff
   [Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
   [Domain Extractor](https://de.rakko.tools/tools/62/)  falls down [domaincheckplugin.com/extractor](http://domaincheckplugin.com/extractor)
   [SPAMHAUS The 10 Most Abused Top Level Domainst](https://www.spamhaus.org/statistics/tlds/)
+  [AM-Deadlink](https://www.aignes.com/deadlink.htm)  checkt ob die Seite noch online ist bzw existiert
 
 -----------
 Original: [Frank Boës](http://3960.org) and others
