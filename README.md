@@ -46,12 +46,13 @@ Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 [xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
 [fboes/fritzbox-blacklist](https://github.com/fboes/fritzbox-blacklist)  
 [shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
-Kowabit Stuff
+[Kuketzblog weiterführende diskussion](https://forum.kuketz-blog.de/viewtopic.php?t=5147)  
+[Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
+Kowabit Stuff  
 [Fritzbox Blacklist 17.01.2020](https://kowabit.de/fritzbox-blacklist-17-01-2020/)  
 [Den Einsatz der Blockliste erklärt (Update)](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)  
 [Bl*cklist – Sicherheit durch Zensur :c)](https://kowabit.de/blcklst/)  
-[Kuketzblog weiterführende diskussion](https://forum.kuketz-blog.de/viewtopic.php?t=5147)  
-[Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
+ 
 
 -----------
 Original: [Frank Boës](http://3960.org) and others
