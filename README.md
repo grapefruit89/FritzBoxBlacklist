@@ -44,11 +44,14 @@ Hierzu einfach die Standart Liste gegen [Beispiel DNS Server](https://github.com
 Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 ------------
 [xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
-[Frank Boës](https://github.com/fboes/fritzbox-blacklist)  
-[Shizoworld](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
-[Kowabit](https://kowabit.de/fritzbox-blacklist-17-01-2020/)·····[Kowabit erklärt](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)·····[Kowabit Bl*cklist](https://kowabit.de/blcklst/)  
+[fboes/fritzbox-blacklist](https://github.com/fboes/fritzbox-blacklist)  
+[shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
+Kowabit Stuff
+[Fritzbox Blacklist 17.01.2020](https://kowabit.de/fritzbox-blacklist-17-01-2020/)  
+[Den Einsatz der Blockliste erklärt (Update)](https://kowabit.de/den-einsatz-der-blockliste-erklaert/)  
+[Bl*cklist – Sicherheit durch Zensur :c)](https://kowabit.de/blcklst/)  
 [Kuketzblog weiterführende diskussion](https://forum.kuketz-blog.de/viewtopic.php?t=5147)  
 [Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
-Legal stuff
+
 -----------
 Original: [Frank Boës](http://3960.org) and others
