@@ -10,7 +10,9 @@ Filter in der Fritzbox einsetzen
 ------------
 
 1. [FritzBox-Kindersicherung - so funktioniert die Einrichtung](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)  
-2. Inhalt der [Blacklist](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500.txt) in DEINE  [fritz.box](http://www.fritz.box/)kopieren  
+2. Inhalt der [Blacklist]* (https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500.txt) in DEINE  [fritz.box](http://www.fritz.box/)kopieren  
+* Natürlich könnt Ihr auch die Blacklisten unter [Weiterführende Links](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/README.md#weiterf%C3%BChrende-links-alles-n%C3%BCtzliche-zum-erstellen-einer-eigenen-liste) einsetzen 
+
 
 läuft auch ohne ein Informatikstudium  
 [Fritz!Box als AdBlocker fboës - Der Blog](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist). In der einfachheit der Liste liegt die Anwenderfreundlichkeit.  
