@@ -59,7 +59,7 @@ Kowabit Stuff
   [Notepad++](https://notepad-plus-plus.org/)  
   [Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
   [Domain Extractor](https://de.rakko.tools/tools/62/)  falls down [domaincheckplugin.com/extractor](http://domaincheckplugin.com/extractor)
-  
+  [SPAMHAUS The 10 Most Abused Top Level Domainst](https://www.spamhaus.org/statistics/tlds/)
 
 -----------
 Original: [Frank Boës](http://3960.org) and others
