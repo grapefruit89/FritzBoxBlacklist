@@ -41,7 +41,7 @@ um zu testen ob alles geklappt hat
 [Adblock Testseite](https://blockads.fivefilters.org/?pihole)  
 [DNS Leak Test](https://www.dnsleaktest.com/)  
 [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)  
-Hierzu einfach die Standart Liste gegen [Beispiel DNS Server](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Liste.ini) austauschen  
+Hierzu einfach die Standart Liste gegen [DNS Liste.ini](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Liste.ini) austauschen  
 ![Einstellungen in DNS Benchmark](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/rect875.jpg)  
   ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/huh.png)
 
