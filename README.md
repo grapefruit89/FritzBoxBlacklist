@@ -31,10 +31,10 @@ Dazu müssen wir uns erstmal für einen Vertrauenswürdigen DNS Server entscheid
 [Privacy Handbuch](https://www.privacy-handbuch.de/handbuch_93d.htm)  
 [Kuketz Empfehlungsecke](https://www.kuketz-blog.de/empfehlungsecke/#dns)  
 Mir hat der Der 2te Dismail DNS Server zugesagt IPv4: **159.69.114.157** für´s Handy unter Private DNS **fdns2.dismail.de**  
-ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  Dismail ist soweit empfehlenswert, googleadservices. werden abgeschossen
-~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/)  
-[pi-dns.com](https://pi-dns.com/)  soweit oke, da muss man halt vertrauen haben
-[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben
+ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  Dismail ist soweit empfehlenswert, googleadservices. werden abgeschossen  
+~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/) soweit oke, da muss man halt vertrauen haben  
+[pi-dns.com](https://pi-dns.com/)  soweit oke, da muss man halt vertrauen haben  
+[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben  
 
 
 um zu testen ob alles geklappt hat
@@ -59,10 +59,9 @@ Kowabit Stuff
   Eigene Filterliste erstellen  
   [Notepad++](https://notepad-plus-plus.org/)  
   [Textfixer Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)  
-  [Domain Extractor](https://de.rakko.tools/tools/62/)  falls down [domaincheckplugin.com/extractor](http://domaincheckplugin.com/extractor)  
+  [Domain Extractor](https://de.rakko.tools/tools/62/) falls down [domaincheckplugin.com/extractor](http://domaincheckplugin.com/extractor)  
   [SPAMHAUS The 10 Most Abused Top Level Domainst](https://www.spamhaus.org/statistics/tlds/)  
   [AM-Deadlink](https://www.aignes.com/deadlink.htm)  checkt ob die Seite noch online ist bzw existiert  
-  
 
 -----------
 Original: [Frank Boës](http://3960.org) and others
