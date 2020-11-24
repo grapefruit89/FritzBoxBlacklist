@@ -137,8 +137,6 @@ giordanoweine.de
 goggle.de
 google-analytics.com
 google-tagmanager.com
-google.com
-googleadservices.com
 googlesyndication.com
 googletagmanager.com
 graph.facebook.com
