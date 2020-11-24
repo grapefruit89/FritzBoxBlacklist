@@ -43,7 +43,7 @@ um zu testen ob alles geklappt hat
 [Domain Name Speed Benchmark](https://www.grc.com/dns/benchmark.htm)  
 Hierzu einfach die Standart Liste gegen [DNS Liste.ini](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Liste.ini) austauschen  
 ![Einstellungen in DNS Benchmark](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/rect875.jpg)  
-  ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/huh.png)
+  ![sieht das ganze dann so aus](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/servertest.png)
 
 Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 ------------
