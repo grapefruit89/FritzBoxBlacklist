@@ -47,6 +47,10 @@ Hierzu einfach die Standart Liste gegen [DNS Liste.ini](https://github.com/grape
 
 Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 ------------
+[The Firebog](https://firebog.net/)  
+[StevenBlack/hosts](https://github.com/StevenBlack/hosts)  
+
+Schwerpunkt Fritzbox  
 [xobit.de/fritzbox-blacklist](https://www.xobit.de/fritzbox-blacklist)  
 [fboes/fritzbox-blacklist](https://github.com/fboes/fritzbox-blacklist)  
 [shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/](https://shizoworld.de/2019/12/blockliste-der-fritzbox-nutzen/)  
