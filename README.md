@@ -47,6 +47,7 @@ Hierzu einfach die Standart Liste gegen [DNS Liste.ini](https://github.com/grape
 
 Weiterführende Links (alles Nützliche zum erstellen einer eigenen Liste)
 ------------
+[Pi Hole in der Google Cloud](https://github.com/rajannpatel/Pi-Hole-PiVPN-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-OpenVPN-Configs)  
 [The Firebog](https://firebog.net/)  
 [StevenBlack/hosts](https://github.com/StevenBlack/hosts)  
 
