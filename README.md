@@ -34,7 +34,7 @@ Mir hat der Der 2te Dismail DNS Server zugesagt IPv4: **159.69.114.157** für´s
 ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  Dismail ist soweit empfehlenswert, googleadservices. werden abgeschossen  
 ~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/) soweit oke, da muss man halt vertrauen haben  
 [pi-dns.com](https://pi-dns.com/)  soweit oke, da muss man halt vertrauen haben  
-[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben  
+~~[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben~~  
 
 
 um zu testen ob alles geklappt hat
