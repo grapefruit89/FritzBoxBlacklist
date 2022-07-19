@@ -37,7 +37,7 @@ ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  Dismai
 ~~[PUBLIC-PIHOLE POWERED BY FREEK.WS](https://public-pihole.com/)~~   --> [AdHole](https://adhole.org/) soweit oke, da muss man halt vertrauen haben  
 [pi-dns.com](https://pi-dns.com/)  soweit oke, da muss man halt vertrauen haben  
 ~~[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben~~  
-[AdGuard DNS](https://adguard.com/de/adguard-dns/overview.html)  größerer Anbieter scheint soweit Seriös 
+[AdGuard DNS](https://adguard.com/de/adguard-dns/overview.html)  größerer Anbieter scheint soweit Seriös  
 [AH DNS](https://ahadns.com/)
 
 
