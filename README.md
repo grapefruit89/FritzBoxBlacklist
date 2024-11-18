@@ -34,7 +34,8 @@ Dazu müssen wir uns erstmal für einen Vertrauenswürdigen DNS Server entscheid
 [Kuketz Werbung und Tracker unter iOS/Android systemweit verbannen](https://www.kuketz-blog.de/fuer-anfaenger-bequeme-werbung-und-tracker-unter-ios-android-systemweit-verbannen/)  
 Mir hat der Der 2te Dismail DNS Server zugesagt IPv4: **159.69.114.157** für´s Handy unter Private DNS **fdns2.dismail.de**  
 ansonsten gibt es noch DNS Server mit Integriertem Werbeblocker (Pihole)  Dismail ist soweit empfehlenswert, googleadservices. werden abgeschossen  
- [DNS Privacy](https://avoidthehack.com/best-dns-privacy#ataglance) soweit oke, da muss man halt vertrauen haben  
+ [Avoid The Hack: 8 Best DNS Providers for Privacy (and adblocking)
+](https://avoidthehack.com/best-dns-privacy#ataglance) 
 [pi-dns.com](https://pi-dns.com/)  soweit oke, da muss man halt vertrauen haben  
 ~~[Media Techport by Patrick Asmus](https://www.media-techport.de/free-dns-server/)   soweit oke, da muss man halt vertrauen haben~~  
 [AdGuard DNS](https://adguard.com/de/adguard-dns/overview.html)  größerer Anbieter scheint soweit Seriös  
