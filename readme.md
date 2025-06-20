@@ -40,23 +40,43 @@ Alternativ oder ergänzend zur Fritz!Box-Blockliste kannst du einen DNS-Dienst m
 🧾 **Was ist ein DNS?**  
 Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP-Adressen. Wenn du einen DNS-Anbieter nutzt, der Werbung herausfiltert, wirst du zu weniger unerwünschtem Inhalt weitergeleitet.
 
-### 🔐 Empfehlenswerte DNS-Provider (nach Filterstärke, Konfigurierbarkeit & Overblocking-Risiko)
-
+### 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand
+# Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.
 | Anbieter | IPv4 / Hostname | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
 |----------|------------------|----------------|------------------|------------------|--------------------|--------------|
-| [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 Anfänger | 🟢 Gering (Malware) | 🔓 Nein | ❌ | DSGVO-konform, blockiert nur bekannte Bedrohungen – ideal für sorgenfreies Surfen |
-| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 Anfänger | ⚪ Keine Filter | 🔓 Nein | ❌ | Vollständig unzensiert – keine Werbung, aber auch kein Schutz (Basis für eigene Tools wie Pi-hole) |
-| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 Anfänger | 🟡 Tracker + Malware | 🔓 Nein | ❌ | Privacy-orientiert, keine Werbung, keine Logs, einfache Einrichtung über VPN oder manuell |
-| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 Fortgeschritten | 🟡 Mittel | 🔓 Gering | ❌ | Werbe- und Trackingblocker, quelloffen, von Datenschutz-Community betrieben |
-| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🟠 Mäßig | ❌ | Blockiert viele Tracking-Domains, darunter `googleadservices`, stabil & DSGVO-konform |
-| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🔴 Hoch | 🔴 Mäßig–Hoch | ❌ | Starke Filterung, datenschutzfreundlich, schnelle Anycast-Infrastruktur |
-| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ⚠️ Teilweise | Blockiert umfassend, gelegentliches Overblocking (z. B. Captchas, Third-Party-APIs) |
-| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🔴 Hoch | ❌ | Sehr aggressiv – blockiert Scripts, Werbung, Tracker – wirkt manchmal „zu viel des Guten“ |
-| [AdGuard DNS](https://adguard-dns.io/de/public-dns.html) | `94.140.14.14` / `dns.adguard-dns.com` | 🔵 Komfortnutzer | 🟠 Hoch | 🟠 Mäßig | ✅ Web-UI | Umfangreiche Funktionen: Malware, Werbung, Jugendschutz, blockiert Streaming-Dienste auf Wunsch – sehr schnell & DSGVO-konform |
-| [NextDNS](https://nextdns.io/) | – | 🔵 Komfortnutzer | 🧩 Konfigurierbar | 💡 Optional | ✅ Web-UI | Bis zu 300.000 Abfragen/Monat gratis, viele Listen (z. B. Länderfilter, Gaming, Smart-TVs) – einfache Einrichtung & leistungsfähige Logs |
-| [Control D](https://controld.com/) | – | 🔵 Fortgeschritten | 🧩 Konfigurierbar | 💡 Mittel | ✅ Web-UI | Umfangreiche Profilsteuerung, einfache Voreinstellungen, Testversion mit Limit – kostenpflichtig ab Tag 31, deutschsprachige Nutzeroberfläche fehlt |
-| [Rethink DNS](https://rethinkdns.com/) | – | 🔴 Bastler & Nerds | 🧩 Extrem flexibel | 🔴 Hoch | ✅ Web-UI & Android-App | Kostenlos, riesige Auswahl an Listen & Optionen (auch Selfhosting möglich) – aber: kein DoQ & läuft über Cloudflare |
-| Weitere Empfehlungen | – | 📚 Übersicht | – | – | – | [Kuketz Blog](https://www.kuketz-blog.de/empfehlungsecke/#dns), [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
+| [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 Anfänger | 🟢 Gering (Malware) | 🔓 Nein | ❌ | DSGVO-konform, blockiert nur bekannte Bedrohungen – keine Werbung |
+| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 Anfänger | ⚪ Keine Filter | 🔓 Nein | ❌ | Vollständig unzensiert – nützlich mit zusätzlichem lokalen Filter |
+| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 Anfänger | 🟡 Tracker + Malware | 🔓 Nein | ❌ | Datenschutzorientiert, keine Werbung, ideal als VPN-Ergänzung |
+| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 Fortgeschritten | 🟡 Mittel | 🔓 Gering | ❌ | Werbe- und Trackingblocker, quelloffen, betrieben von Community |
+| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🟠 Mäßig | ❌ | Solide Filter, blockiert Google-Werbedienste – kein Login nötig |
+| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🔴 Hoch | 🔴 Mäßig–Hoch | ❌ | Schnelle DNS-Infrastruktur, stark filternd – gelegentliche Störungen möglich |
+| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ⚠️ Teilweise | Stark filternd, Overblocking nicht ausgeschlossen |
+| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🔴 Hoch | ❌ | Sehr aggressiv – für maximale Ruhe, aber auch hoher Ausschluss |  
+
+
+
+### 🧰 Teil 2: Fremdserver mit Web-GUI & Konfigurationsoptionen  
+# Diese DNS-Anbieter bieten Online-Oberflächen zur Feinanpassung – ideal für technisch Interessierte ohne eigenes Hosting.  
+| Anbieter | Hostname | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
+|----------|----------|----------------|------------------|------------------|--------------------|--------------|
+| [AdGuard DNS](https://adguard-dns.io/de/public-dns.html) | `dns.adguard-dns.com` | 🔵 Komfortnutzer | 🟠 Hoch | 🟠 Mäßig | ✅ Web-UI | Blocklisten, Malware, Tracking, Zeitsteuerung für Kinder – sehr einsteigerfreundlich |
+| [NextDNS](https://nextdns.io/) | (Benutzerdefiniert) | 🔵 Komfortnutzer | 🧩 Konfigurierbar | 💡 Optional | ✅ Web-UI | Viele globale Blocklisten (auch China, Vietnam), Gerätetrennung & Logs |
+| [Control D](https://controld.com/) | (Benutzerdefiniert) | 🔵 Fortgeschritten | 🧩 Konfigurierbar | 💡 Mittel | ✅ Web-UI | Schnell, flexible Profile – aber kostenpflichtig nach 30 Tagen |
+| [Rethink DNS](https://rethinkdns.com/) | (Benutzerdefiniert) | 🔴 Nerds | 🧩 Extrem flexibel | 🔴 Hoch | ✅ Web-UI & App | Unzählige Listen & Optionen, kostenfrei – läuft über Cloudflare |  
+
+
+### 🏠 Teil 3: Selfhosting-Lösungen – maximale Kontrolle im Heimnetz  
+# Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.  
+| Lösung | Hosting | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
+|--------|---------|----------------|------------------|------------------|--------------------|--------------|
+| [Pi-hole](https://pi-hole.net/) | Selbsthosted | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ✅ Web-GUI & CLI | Lokaler DNS-Filter, sehr bekannt, aber kein DoQ – dafür hochflexibel |
+| [AdGuard Home](https://adguard.com/de/adguard-home/overview.html) | Selbsthosted | 🔵 Komfortnutzer | 🔴 Hoch | 🔴 Mittel | ✅ GUI & API | Benutzerfreundlich, unterstützt DoQ, gute Familienoption |
+| [Technitium DNS](https://technitium.com/dns/) | Selbsthosted | 🔴 Nerds | 🧩 Extrem konfigurierbar | 🔴 Hoch | ✅ GUI & Skripting | Leistungsfähiger DNS-Server für Nerds, auch als Resolver einsetzbar |
+| [eBlocker](https://www.eblocker.com/) *(EOL)* | Box (früher HW) | ⚫️ Veraltet | 🟡 Mittel | 🟡 Mäßig | ⚠️ Eingeschränkt | Eingestellt, aber nützlich zum Verständnis klassischer DNS-Blocker |
+| [Blocky](https://github.com/0xERR0R/blocky) | Selbsthosted | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ✅ YAML / Web-UI | Sehr schnell, mit DoH/DoT Support, konfigurierbar per YAML – wenig UI |
+
+
+
 
 
 
