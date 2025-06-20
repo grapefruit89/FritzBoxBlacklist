@@ -40,8 +40,8 @@ Alternativ oder ergänzend zur Fritz!Box-Blockliste kannst du einen DNS-Dienst m
 🧾 **Was ist ein DNS?**  
 Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP-Adressen. Wenn du einen DNS-Anbieter nutzt, der Werbung herausfiltert, wirst du zu weniger unerwünschtem Inhalt weitergeleitet.
 
-### 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand
-# Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.
+## 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand
+### Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.
 | Anbieter | IPv4 / Hostname | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
 |----------|------------------|----------------|------------------|------------------|--------------------|--------------|
 | [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 Anfänger | 🟢 Gering (Malware) | 🔓 Nein | ❌ | DSGVO-konform, blockiert nur bekannte Bedrohungen – keine Werbung |
@@ -55,8 +55,8 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 
 
 
-### 🧰 Teil 2: Fremdserver mit Web-GUI & Konfigurationsoptionen  
-# Diese DNS-Anbieter bieten Online-Oberflächen zur Feinanpassung – ideal für technisch Interessierte ohne eigenes Hosting.  
+## 🧰 Teil 2: Fremdserver mit Web-GUI & Konfigurationsoptionen  
+### Diese DNS-Anbieter bieten Online-Oberflächen zur Feinanpassung – ideal für technisch Interessierte ohne eigenes Hosting.  
 | Anbieter | Hostname | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
 |----------|----------|----------------|------------------|------------------|--------------------|--------------|
 | [AdGuard DNS](https://adguard-dns.io/de/public-dns.html) | `dns.adguard-dns.com` | 🔵 Komfortnutzer | 🟠 Hoch | 🟠 Mäßig | ✅ Web-UI | Blocklisten, Malware, Tracking, Zeitsteuerung für Kinder – sehr einsteigerfreundlich |
@@ -65,8 +65,8 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 | [Rethink DNS](https://rethinkdns.com/) | (Benutzerdefiniert) | 🔴 Nerds | 🧩 Extrem flexibel | 🔴 Hoch | ✅ Web-UI & App | Unzählige Listen & Optionen, kostenfrei – läuft über Cloudflare |  
 
 
-### 🏠 Teil 3: Selfhosting-Lösungen – maximale Kontrolle im Heimnetz  
-# Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.  
+## 🏠 Teil 3: Selfhosting-Lösungen – maximale Kontrolle im Heimnetz  
+### Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.  
 | Lösung | Hosting | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
 |--------|---------|----------------|------------------|------------------|--------------------|--------------|
 | [Pi-hole](https://pi-hole.net/) | Selbsthosted | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ✅ Web-GUI & CLI | Lokaler DNS-Filter, sehr bekannt, aber kein DoQ – dafür hochflexibel |
