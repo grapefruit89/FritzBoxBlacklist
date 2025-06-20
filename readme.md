@@ -43,8 +43,7 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 | Anbieter | IPv4 | Beschreibung |
 |---------|------|--------------|
 | Dismail (fdns2) | `159.69.114.157` | Solide Privatsphäre, blockt `googleadservices` |
-| [pi-dns.com](https://pi-dns.com/) | – | DNS mit integrierter Werbungserkennung |
-| [AH DNS](https://ahadns.com/) | – | Fokus auf Datenschutz |
+| [pi-dns.com / AH DNS](https://ahadns.com/) | – | Fokus auf Datenschutz |
 | [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | Werbefrei, von VPN-Anbieter Mullvad, mit DoH/DoT |
 | [Quad9](https://www.quad9.net/) | `9.9.9.9` | Non-Profit, blockt Malware, DSGVO-konform |
 | [NextDNS](https://nextdns.io/) | – | Hochgradig konfigurierbar, DoH/DoT, Logs optional |
