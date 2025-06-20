@@ -38,20 +38,21 @@ Alternativ oder ergänzend zur Fritz!Box-Blockliste kannst du einen DNS-Dienst m
 🧾 **Was ist ein DNS?**  
 Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP-Adressen. Wenn du einen DNS-Anbieter nutzt, der Werbung herausfiltert, wirst du zu weniger unerwünschtem Inhalt weitergeleitet.
 
-### 🔐 Empfehlenswerte DNS-Provider:
+### 🔐 Empfehlenswerte DNS-Provider (nach Filterstärke & Overblocking-Risiko)
 
-| Anbieter | IPv4 | Beschreibung |
-|---------|------|--------------|
-| Dismail (fdns2) | `159.69.114.157` | Solide Privatsphäre, blockt `googleadservices` |
-| [pi-dns.com / AH DNS](https://ahadns.com/) | – | Fokus auf Datenschutz |
-| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | Werbefrei, von VPN-Anbieter Mullvad, mit DoH/DoT |
-| [Quad9](https://www.quad9.net/) | `9.9.9.9` | Non-Profit, blockt Malware, DSGVO-konform |
-| [NextDNS](https://nextdns.io/) | – | Hochgradig konfigurierbar, DoH/DoT, Logs optional |
-| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | Werbefrei, DSGVO-konform, betrieben von arkenfox-nahem Projekt |
-| [DNS.SB](https://dns.sb/) | `185.222.222.222` | Datenschutzorientiert, werbefrei, schnelle Anycast-Infrastruktur |
-| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | Transparent, werbefrei, von IT-Security-Forscher betrieben |
+| Anbieter | IPv4 | Kategorie 🧠 | Filterstärke 🔥 | Overblocking 🚫 | Beschreibung |
+|----------|------|-------------------|------------------|--------------------|----------------|
+| [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 Anfänger | 🟢 Niedrig | 🔓 Kein Overblocking | Blockiert nur Malware, DSGVO-konform, hohe Zuverlässigkeit |
+| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 Anfänger | ⚪ Neutral | 🔓 Kein Filter | Zensurfrei, keinerlei Blockierung – ideal mit lokalem Pi-hole |
+| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 Anfänger | 🟡 Mittel | 🔓 Gering | Blockiert Tracker & Malware, keine Werbung, keine Logs |
+| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 Fortgeschritten | 🟡 Mittel | 🔓 Gering | Werbe-/Malwarefrei, von Privacy-Community betrieben |
+| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🟠 Mäßig | Blockt u. a. `googleadservices`, solide Privat-DNS |
+| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🔴 Hoch | 🔴 Mäßig–Hoch | Starke Blockliste, schnell, datenschutzorientiert |
+| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | Aggressive Blockierung – manche Webseiten oder Scripte brechen |
+| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🔴 Hoch | Blockiert massiv Werbung, Tracker & Telemetrie |
+| [NextDNS](https://nextdns.io/) | – | 🔵 Individuell | 🧩 Konfigurierbar | 💡 Optional | Feingranular konfigurierbar – von „sanft“ bis „radikal“ |
+| Weitere Empfehlungen | – | 📚 | – | – | [Kuketz](https://www.kuketz-blog.de/empfehlungsecke/#dns), [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
 
-| Weitere Empfehlungen | – | [Kuketz Blog](https://www.kuketz-blog.de/empfehlungsecke/#dns), [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
 
 
 ---
