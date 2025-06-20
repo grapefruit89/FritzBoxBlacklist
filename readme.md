@@ -27,7 +27,7 @@ Aufgrund der Fritz!Box-Beschränkung auf 500 Einträge wurde eine kompakte und e
 2. 📥 Kopiere den Inhalt der aktuellen Blockliste:  
    [🔗 Fritz 500 Blacklist (Stand: 23.11.2020)](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500%202020-11-23.txt)
 3. 📋 Füge die Domains unter **fritz.box › Internet › Filter › Listen › Gesperrte Webseiten** ein
-4. ✅ Fertig! Keine Werbung mehr beim Surfen 🚀
+4. ✅ Fertig!  🚀
 
 > 💡 Auch weitere Quellen aus dem Abschnitt [Weiterführende Links](#weiterführende-links) sind nutzbar.
 
