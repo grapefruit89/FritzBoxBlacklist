@@ -2,7 +2,8 @@
 
 > ✨ Ein minimalistischer Ansatz, um die Top 500 Werbe- und Tracking-Domains mit der Fritz!Box zu blockieren – ganz ohne Informatikstudium.
 
-[![Build Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/grapefruit89/FritzBoxBlacklist)
+[![Project Status: Semi-Active](https://img.shields.io/badge/status-semi--active-yellow)](#)
+
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#lizenz)
 [![PRs welcome](https://img.shields.io/badge/contributions-welcome-yellow.svg)](#mitwirken)
 
