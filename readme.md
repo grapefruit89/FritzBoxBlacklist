@@ -46,10 +46,10 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 | [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 Anfänger | ⚪ Neutral | 🔓 Kein Filter | Zensurfrei, keinerlei Blockierung – ideal mit lokalem Pi-hole |
 | [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 Anfänger | 🟡 Mittel | 🔓 Gering | Blockiert Tracker & Malware, keine Werbung, keine Logs |
 | [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 Fortgeschritten | 🟡 Mittel | 🔓 Gering | Werbe-/Malwarefrei, von Privacy-Community betrieben |
-| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🟠 Mäßig | Blockt u. a. `googleadservices`, solide Privat-DNS |
-| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🔴 Hoch | 🔴 Mäßig–Hoch | Starke Blockliste, schnell, datenschutzorientiert |
-| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | Aggressive Blockierung – manche Webseiten oder Scripte brechen |
-| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🔴 Hoch | Blockiert massiv Werbung, Tracker & Telemetrie |
+| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🔒 Mäßig | Blockt u. a. `googleadservices`, solide Privat-DNS |
+| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🏰 Hoch | 🔐 Mäßig–Hoch | Starke Blockliste, schnell, datenschutzorientiert |
+| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🏰 Hoch | Aggressive Blockierung – manche Webseiten oder Scripte brechen |
+| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🏰 Hoch | Blockiert massiv Werbung, Tracker & Telemetrie |
 | [NextDNS](https://nextdns.io/) | – | 🔵 Individuell | 🧩 Konfigurierbar | 💡 Optional | Feingranular konfigurierbar – von „sanft“ bis „radikal“ |
 | Weitere Empfehlungen | – | 📚 | – | – | [Kuketz](https://www.kuketz-blog.de/empfehlungsecke/#dns), [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
 
