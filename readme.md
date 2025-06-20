@@ -100,7 +100,7 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 | **blockads.fivefilters.org** | Erkennt gängige Anzeigenanbieter | [🔗 fivefilters.org](https://blockads.fivefilters.org/?pihole) |
 | **browserleaks.com/adblock** | Analyse, ob Adblocker aktiv ist | [🔗 browserleaks.com/adblock](https://browserleaks.com/adblock) |
 | **whoisblocked.com** | Checkt, ob eine bestimmte Domain durch deinen DNS geblockt wird | [🔗 whoisblocked.com](https://whoisblocked.com/) |
-| **💣 www.bild.de** | Wenn *diese Seite* nicht lädt, ist dein DNS-Filter wahrscheinlich 👑 | [🔗 bild.de](https://www.bild.de/) |
+| **💣 www.bild.de** | Wenn *diese Seite* nicht lädt, ist dein DNS-Filter wahrscheinlich 😉 | [🔗 bild.de](https://www.bild.de/) |
 
 ---
 
