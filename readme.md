@@ -45,7 +45,15 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 | Dismail (fdns2) | `159.69.114.157` | Solide Privatsphäre, blockt `googleadservices` |
 | [pi-dns.com](https://pi-dns.com/) | – | DNS mit integrierter Werbungserkennung |
 | [AH DNS](https://ahadns.com/) | – | Fokus auf Datenschutz |
-| Weitere Empfehlungen: | – | [Kuketz Blog](https://www.kuketz-blog.de/empfehlungsecke/#dns) / [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
+| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | Werbefrei, von VPN-Anbieter Mullvad, mit DoH/DoT |
+| [Quad9](https://www.quad9.net/) | `9.9.9.9` | Non-Profit, blockt Malware, DSGVO-konform |
+| [NextDNS](https://nextdns.io/) | – | Hochgradig konfigurierbar, DoH/DoT, Logs optional |
+| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | Werbefrei, DSGVO-konform, betrieben von arkenfox-nahem Projekt |
+| [DNS.SB](https://dns.sb/) | `185.222.222.222` | Datenschutzorientiert, werbefrei, schnelle Anycast-Infrastruktur |
+| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | Transparent, werbefrei, von IT-Security-Forscher betrieben |
+
+| Weitere Empfehlungen | – | [Kuketz Blog](https://www.kuketz-blog.de/empfehlungsecke/#dns), [AvoidTheHack](https://avoidthehack.com/best-dns-privacy#ataglance) |
+
 
 ---
 
