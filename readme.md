@@ -41,17 +41,32 @@ Alternativ oder ergänzend zur Fritz!Box-Blockliste kannst du einen DNS-Dienst m
 Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP-Adressen. Wenn du einen DNS-Anbieter nutzt, der Werbung herausfiltert, wirst du zu weniger unerwünschtem Inhalt weitergeleitet.
 
 ## 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand
-### Diese Tools erfordern einen eigenen Mini-Server oder Raspberry Pi, bieten dafür aber maximale Kontrolle & Datenschutz.
-| Anbieter | IPv4 / Hostname | Nutzerlevel 🧠 | Filterstärke 🔥 | Overblocking 🚫 | 🛠️ Konfigurierbar | Beschreibung |
-|----------|------------------|----------------|------------------|------------------|--------------------|--------------|
-| [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 Anfänger | 🟢 Gering (Malware) | 🔓 Nein | ❌ | DSGVO-konform, blockiert nur bekannte Bedrohungen – keine Werbung |
-| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 Anfänger | ⚪ Keine Filter | 🔓 Nein | ❌ | Vollständig unzensiert – nützlich mit zusätzlichem lokalen Filter |
-| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 Anfänger | 🟡 Tracker + Malware | 🔓 Nein | ❌ | Datenschutzorientiert, keine Werbung, ideal als VPN-Ergänzung |
-| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 Fortgeschritten | 🟡 Mittel | 🔓 Gering | ❌ | Werbe- und Trackingblocker, quelloffen, betrieben von Community |
-| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 Fortgeschritten | 🟠 Mittel–Hoch | 🟠 Mäßig | ❌ | Solide Filter, blockiert Google-Werbedienste – kein Login nötig |
-| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 Fortgeschritten | 🔴 Hoch | 🔴 Mäßig–Hoch | ❌ | Schnelle DNS-Infrastruktur, stark filternd – gelegentliche Störungen möglich |
-| [pi-dns.com](https://pi-dns.com/) | – | 🔴 Power-User | 🔴 Hoch | 🔴 Hoch | ⚠️ Teilweise | Stark filternd, Overblocking nicht ausgeschlossen |
-| [AH DNS](https://ahadns.com/) | – | 🔴 Power-User | 🔴 Sehr hoch | 🔴 Hoch | ❌ | Sehr aggressiv – für maximale Ruhe, aber auch hoher Ausschluss |  
+
+| Anbieter | Host | 🧠 | 🔥 | 🚫 | ⚙️ |
+|----------|------|----|----|----|----|
+| [Quad9](https://www.quad9.net/) | `9.9.9.9` | 🟢 | 🟢 | 🔓 | ❌ |
+| [UncensoredDNS](https://blog.uncensoreddns.org/) | `91.239.100.100` | 🟢 | ⚪ | 🔓 | ❌ |
+| [Mullvad DNS](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls/) | `193.138.218.74` | 🟢 | 🟡 | 🔓 | ❌ |
+| [LibreDNS](https://libredns.gr/) | `116.202.176.26` | 🟡 | 🟡 | 🔓 | ❌ |
+| [Dismail (fdns2)](https://dismail.de/) | `159.69.114.157` | 🟡 | 🟠 | 🟠 | ❌ |
+| [DNS.SB](https://dns.sb/) | `185.222.222.222` | 🟡 | 🔴 | 🔴 | ❌ |
+| [pi-dns.com](https://pi-dns.com/) | – | 🔴 | 🔴 | 🔴 | ⚠️ |
+| [AH DNS](https://ahadns.com/) | – | 🔴 | 🔴 | 🔴 | ❌ |
+
+<details>
+<summary>📖 Details zu den Diensten</summary>
+
+- **Quad9**: DSGVO-konformer Malwareblocker, blockiert keine Werbung. Ideal für Einsteiger.  
+- **UncensoredDNS**: Keine Filterung, zensurfrei – perfekt als Grundlage für lokale Blocklisten.  
+- **Mullvad DNS**: Solide Filter gegen Tracker & Malware, keine Werbung, läuft über Mullvad-Infrastruktur.  
+- **LibreDNS**: Community-Projekt, mittlere Filterstärke, quelloffen, stabil.  
+- **Dismail**: Blockiert viele Werbedienste, auch Google. Mäßige Filterung, zuverlässig.  
+- **DNS.SB**: Sehr schnell, aber gelegentlich Overblocking.  
+- **pi-dns.com**: Effektiv, kann aber aggressiv sein – manche Seiten könnten streiken.  
+- **AH DNS**: Sehr aggressiv, blockiert Tracking, Werbung und viele Skripte. Für absolute Werberuhe.  
+
+</details>
+ 
 
 
 
