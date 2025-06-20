@@ -88,19 +88,42 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 
 ---
 
-## 🧪 Tests & Tools
+## 🧪 Tests & Tools – funktioniert dein DNS-Blocker?
 
-| Funktion | Tool | Link |
-|---------|------|------|
-| Funktion der Liste prüfen | Adblock-Test | [ads-blocker.com](https://ads-blocker.com/testing/) |
-| DNS richtig konfiguriert? | DNS Leak Test | [dnsleaktest.com](https://www.dnsleaktest.com/) |
-| DNS Geschwindigkeit | Benchmark | [GRC DNS Benchmark](https://www.grc.com/dns/benchmark.htm) |
+> Hier findest du praktische Seiten, um zu prüfen, ob Werbung und Tracking wirklich blockiert werden – inklusive eines humorvollen Klassikers.
 
-🔄 Nutze die erweiterte `DNS Liste.ini`:  
-[🔗 DNS Liste.ini](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/DNS%20Liste.ini)
+### 🔍 Adblock-Funktion testen
 
-![DNS Einstellungen](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/rect875.jpg)  
-![DNS Benchmark Ergebnis](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/servertest.png)
+| Tool | Beschreibung | Link |
+|------|--------------|------|
+| **ads-blocker.com** | Klassiker zum Erkennen blockierter Werbeelemente | [🔗 ads-blocker.com/testing](https://ads-blocker.com/testing/) |
+| **blockads.fivefilters.org** | Erkennt gängige Anzeigenanbieter | [🔗 fivefilters.org](https://blockads.fivefilters.org/?pihole) |
+| **browserleaks.com/adblock** | Analyse, ob Adblocker aktiv ist | [🔗 browserleaks.com/adblock](https://browserleaks.com/adblock) |
+| **whoisblocked.com** | Checkt, ob eine bestimmte Domain durch deinen DNS geblockt wird | [🔗 whoisblocked.com](https://whoisblocked.com/) |
+| **💣 www.bild.de** | Wenn *diese Seite* nicht lädt, ist dein DNS-Filter wahrscheinlich 👑 | [🔗 bild.de](https://www.bild.de/) |
+
+---
+
+### 🌐 DNS-Konfiguration testen
+
+| Tool | Funktion | Link |
+|------|----------|------|
+| **DNS Leak Test** | Prüft, ob dein DNS-Anbieter korrekt verwendet wird | [🔗 dnsleaktest.com](https://www.dnsleaktest.com/) |
+| **GRC DNS Benchmark** *(nur Windows)* | Geschwindigkeitsvergleich lokaler & externer Resolver | [🔗 grc.com](https://www.grc.com/dns/benchmark.htm) |
+| **1.1.1.1/help** *(Cloudflare)* | Check für DoH, DoT, IPv6 etc. | [🔗 1.1.1.1/help](https://1.1.1.1/help) |
+| **TestDoH** | Testet DNS-over-HTTPS | [🔗 test.doh.watch](https://test.doh.watch/) |
+| **Quad9 DNS Check** | Spezieller Diagnosetest für `9.9.9.9` | [🔗 quad9.net/test](https://www.quad9.net/test) |
+
+---
+
+### 🧪 Spezial: Blockiert dein DNS-Filter Tracking?
+
+| Tool | Beschreibung | Link |
+|------|--------------|------|
+| **coveryourtracks.eff.org** | Erkennung von Tracking über Fingerprinting, Cookies etc. | [🔗 EFF Tool](https://coveryourtracks.eff.org/) |
+| **amiunique.org** | Sieht dein Browser eindeutig aus? | [🔗 amiunique.org](https://amiunique.org/fp) |
+| **privacytests.org** | Datenschutz-Browser-Vergleich | [🔗 privacytests.org](https://privacytests.org/) |
+
 
 ---
 
