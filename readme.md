@@ -30,7 +30,6 @@ Die Anwendung ist weiterhin bewusst unkompliziert: Jeder kann seine Fritz!Box mi
 3. 📋 Die Domains unter **fritz.box › Internet › Filter › Listen › Gesperrte Webseiten** einfügen
 4. ✅ Fertig – dein Heimnetz ist deutlich sauberer unterwegs!
 
-> 💡 Auch andere Listen aus dem Bereich [Weiterführende Links](#weiterführende-links) lassen sich problemlos ergänzen oder testen.
 
 ---
 
