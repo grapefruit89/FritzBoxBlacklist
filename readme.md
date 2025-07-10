@@ -44,22 +44,22 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 **⚠️ _Wichtig:_ Immer _DNS over HTTPS (DoH)_ nutzen, sofern möglich!**  
 
 
-| Anbieter                   | IPv4                              | DoH-URL                                               | Nutzerlevel 🧠 | Filterstärke 🔥  | Overblocking 🚫 | Beschreibung                       |
-|----------------------------|-----------------------------------|-------------------------------------------------------|---------------|-----------------|----------------|--------------------------------------|
-| 1. DNS.SB (Any EU-Server)  | 185.222.222.222 / 45.11.45.11     | https://de-dus.doh.sb/dns-query (u. a.)               | Fortgeschr.   | Keine           | Keine          | Viele EU-Standorte, keine Filter     |
-| 2. LibreDNS (Standard)     | 116.202.176.26                    | https://doh.libredns.gr/dns-query                     | Fortgeschr.   | Keine           | Keine          | GR/EU, no logs, OpenNIC, neutral     |
-| 3. LibreDNS NoAds          | 116.202.176.26                    | https://doh.libredns.gr/noads                         | Fortgeschr.   | Werbung/Tracker | Mittel         | GR/EU, Crowdsourced Blocklisten      |
-| 4. Mullvad (ohne Filter)   | 194.242.2.2                       | https://dns.mullvad.net/dns-query                     | Fortgeschr.   | Keine           | Keine          | SE/DE/UK, hohe Privatsphäre          |
-| 5. Mullvad Adblock         | 194.242.2.3                       | https://adblock.dns.mullvad.net/dns-query             | Fortgeschr.   | Werbung/Tracker | Mittel         | + Adblock (nur Werbung/Tracker)      |
-| 6. Mullvad Base            | 194.242.2.4                       | https://base.dns.mullvad.net/dns-query                | Fortgeschr.   | Werbung/Tracker/Malware | Mittel    | + Basis-Blocker                     |
-| 7. Mullvad Extended        | 194.242.2.5                       | https://extended.dns.mullvad.net/dns-query            | Fortgeschr.   | Werbung/Tracker/Malware/SocialMedia | Hoch | + Erweiterte Filter                |
-| 8. UncensoredDNS Anycast   | 91.239.100.100                    | https://anycast.uncensoreddns.org/dns-query           | Fortgeschr.   | Keine           | Keine          | Dänemark/EU, neutral, no logs        |
-| 9. UncensoredDNS Kopenhagen| 89.233.43.71                      | https://unicast.uncensoreddns.org/dns-query           | Fortgeschr.   | Keine           | Keine          | Kopenhagen, neutral                  |
-|10. Quad9                   | 9.9.9.9 / 149.112.112.112         | https://dns.quad9.net/dns-query                       | Einsteiger    | Malware         | Mittel         | Anycast, Malwareblock, DNSSEC        |
-|11. Cloudflare Malware      | 1.1.1.2 / 1.0.0.2                 | https://security.cloudflare-dns.com/dns-query         | Einsteiger    | Malware         | Gering         | Anycast, nur Malware-Block           |
-|12. DNS0.eu Zero            | 193.110.81.9 / 185.253.5.9        | https://zero.dns0.eu/                                 | Einsteiger    | Malware         | Gering         | EU, Fokus Early-Stage-Malware        |
-|13. DNS4EU Protect          | 86.54.11.1 / 86.54.11.201         | https://protective.joindns4.eu/dns-query              | Einsteiger    | Malware         | Gering         | EU, Blockiert Fraud/Malware          |
-|14. DNS4EU NoAds            | 86.54.11.13 / 86.54.11.213        | https://noads.joindns4.eu/dns-query                   | Einsteiger    | Werbung/Tracker | Mittel         | EU, Adblocker (ohne Kinderschutz)    |
+| Anbieter                   | IPv4                              | DoH-URL                                               | Nutzerlevel 🧠 | Filterstärke 🔥  | Overblocking 🚫 |
+|----------------------------|-----------------------------------|-------------------------------------------------------|---------------|-----------------|----------------|
+| 1. DNS.SB (Any EU-Server)  | 185.222.222.222 / 45.11.45.11     | https://de-dus.doh.sb/dns-query (u. a.)               | Fortgeschr.   | Keine           | Keine          |
+| 2. LibreDNS (Standard)     | 116.202.176.26                    | https://doh.libredns.gr/dns-query                     | Fortgeschr.   | Keine           | Keine          |
+| 3. LibreDNS NoAds          | 116.202.176.26                    | https://doh.libredns.gr/noads                         | Fortgeschr.   | Werbung/Tracker | Mittel         |
+| 4. Mullvad (ohne Filter)   | 194.242.2.2                       | https://dns.mullvad.net/dns-query                     | Fortgeschr.   | Keine           | Keine          |
+| 5. Mullvad Adblock         | 194.242.2.3                       | https://adblock.dns.mullvad.net/dns-query             | Fortgeschr.   | Werbung/Tracker | Mittel         |
+| 6. Mullvad Base            | 194.242.2.4                       | https://base.dns.mullvad.net/dns-query                | Fortgeschr.   | Werbung/Tracker/Malware | Mittel    |
+| 7. Mullvad Extended        | 194.242.2.5                       | https://extended.dns.mullvad.net/dns-query            | Fortgeschr.   | Werbung/Tracker/Malware/SocialMedia |
+| 8. UncensoredDNS Anycast   | 91.239.100.100                    | https://anycast.uncensoreddns.org/dns-query           | Fortgeschr.   | Keine           | Keine          |
+| 9. UncensoredDNS Kopenhagen| 89.233.43.71                      | https://unicast.uncensoreddns.org/dns-query           | Fortgeschr.   | Keine           | Keine          |
+|10. Quad9                   | 9.9.9.9 / 149.112.112.112         | https://dns.quad9.net/dns-query                       | Einsteiger    | Malware         | Mittel         |
+|11. Cloudflare Malware      | 1.1.1.2 / 1.0.0.2                 | https://security.cloudflare-dns.com/dns-query         | Einsteiger    | Malware         | Gering         |
+|12. DNS0.eu Zero            | 193.110.81.9 / 185.253.5.9        | https://zero.dns0.eu/                                 | Einsteiger    | Malware         | Gering         |
+|13. DNS4EU Protect          | 86.54.11.1 / 86.54.11.201         | https://protective.joindns4.eu/dns-query              | Einsteiger    | Malware         | Gering         |
+|14. DNS4EU NoAds            | 86.54.11.13 / 86.54.11.213        | https://noads.joindns4.eu/dns-query                   | Einsteiger    | Werbung/Tracker | Mittel         |
 
 
 
