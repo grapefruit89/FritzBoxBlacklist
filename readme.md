@@ -40,7 +40,7 @@ Alternativ oder ergänzend zur Fritz!Box-Blockliste kannst du einen DNS-Dienst m
 🧾 **Was ist ein DNS?**  
 Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP-Adressen. Wenn du einen DNS-Anbieter nutzt, der Werbung herausfiltert, wirst du zu weniger unerwünschtem Inhalt weitergeleitet.
 
-## 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand unbedingt DoH nehmen 
+## 🧩 Teil 1: Set & Forget – DNS-Resolver ohne Konfigurationsaufwand
 **⚠️ _Wichtig:_ Immer _DNS over HTTPS (DoH)_ nutzen, sofern möglich!**  
 
 
