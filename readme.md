@@ -44,24 +44,23 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 **⚠️ _Wichtig:_ Immer _DNS over HTTPS (DoH)_ nutzen, sofern möglich!**  
 
 
-| #  | Anbieter           | IPv4                           | DoH-URL                                      | Filterstärke  | Overblocking 🚫  |
-|----|--------------------|--------------------------------|----------------------------------------------|-----|----|
-| 1  | [DNS.SB (EU)](https://dns.sb/doh/)        | 185.222.222.222 / 45.11.45.11  |  https://dns.sb/dns-query
+| #   | Anbieter                                                                                         | IPv4                              | DoH-URL                                            | Filterstärke | Overblocking 🚫 |
+|-----|--------------------------------------------------------------------------------------------------|-----------------------------------|----------------------------------------------------|--------------|----------------|
+| 1   | [DNS.SB (EU)](https://dns.sb/doh/)                                                               | 185.222.222.222 / 45.11.45.11     | https://dns.sb/dns-query                           | ❌           | 🟢             |
+| 2   | [LibreDNS](https://libredns.gr/)                                                                 | 116.202.176.26                    | https://doh.libredns.gr/dns-query                  | ❌           | 🟢             |
+| 3   | [LibreDNS NoAds](https://libredns.gr/)                                                           | 116.202.176.26                    | https://doh.libredns.gr/noads                      | 🔒           | 🟠             |
+| 4   | [Mullvad](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)                           | 194.242.2.2                       | https://dns.mullvad.net/dns-query                  | ❌           | 🟢             |
+| 5   | [Mullvad Adblock](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)                   | 194.242.2.3                       | https://adblock.dns.mullvad.net/dns-query          | 🔒           | 🟠             |
+| 6   | [Mullvad Base](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)                      | 194.242.2.4                       | https://base.dns.mullvad.net/dns-query             | 🔒           | 🟠             |
+| 7   | [Mullvad Extended](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)                  | 194.242.2.5                       | https://extended.dns.mullvad.net/dns-query         | 🔒           | 🟠             |
+| 8   | [UncDNS Anycast](https://uncensoreddns.org/)                                                     | 91.239.100.100                    | https://anycast.uncensoreddns.org/dns-query        | ❌           | 🟢             |
+| 9   | [UncDNS Kopenhagen](https://uncensoreddns.org/)                                                  | 89.233.43.71                      | https://unicast.uncensoreddns.org/dns-query        | ❌           | 🟢             |
+| 10  | [Quad9](https://quad9.net/service/service-addresses-and-features/#rec)                           | 9.9.9.9 / 149.112.112.112         | https://dns.quad9.net/dns-query                    | 🔒           | 🟠             |
+| 11  | [Cloudflare Malw.](https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families)           | 1.1.1.2 / 1.0.0.2                 | https://security.cloudflare-dns.com/dns-query      | 🔒           | 🟢             |
+| 12  | [DNS0.eu Zero](https://www.dns0.eu/de/zero)                                                      | 193.110.81.9 / 185.253.5.9        | https://zero.dns0.eu/                              | 🔒           | 🟢             |
+| 13  | [DNS4EU Protect](https://www.joindns4.eu/dns-guidelines)                                         | 86.54.11.1 / 86.54.11.201         | https://protective.joindns4.eu/dns-query           | 🔒           | 🟢             |
+| 14  | [DNS4EU NoAds](https://www.joindns4.eu/dns-guidelines)                                           | 86.54.11.13 / 86.54.11.213        | https://noads.joindns4.eu/dns-query                | 🔒           | 🟠             |
 
-             | ❌  | 🟢 |
-| 2  | [LibreDNS](https://libredns.gr/)           | 116.202.176.26                 | https://doh.libredns.gr/dns-query            | ❌  | 🟢 |
-| 3  | [LibreDNS NoAds](https://libredns.gr/)     | 116.202.176.26                 | https://doh.libredns.gr/noads                | 🔒  | 🟠 |
-| 4  | [Mullvad](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)             | 194.242.2.2                    | https://dns.mullvad.net/dns-query            | ❌  | 🟢 |
-| 5  | [Mullvad Adblock](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)     | 194.242.2.3                    | https://adblock.dns.mullvad.net/dns-query    | 🔒  | 🟠 |
-| 6  | [Mullvad Base](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)        | 194.242.2.4                    | https://base.dns.mullvad.net/dns-query       | 🔒  | 🟠 |
-| 7  | [Mullvad Extended](https://mullvad.net/de/help/dns-over-https-and-dns-over-tls)    | 194.242.2.5                    | https://extended.dns.mullvad.net/dns-query   | 🔒  | 🟠 |
-| 8  | [UncDNS Anycast]()      | 91.239.100.100                 | https://anycast.uncensoreddns.org/dns-query  | ❌  | 🟢 |
-| 9  | [UncDNS Kopenhagen]()   | 89.233.43.71                   | https://unicast.uncensoreddns.org/dns-query  | ❌  | 🟢 |
-| 10 | [Quad9](https://quad9.net/service/service-addresses-and-features/#rec)               | 9.9.9.9 / 149.112.112.112      | https://dns.quad9.net/dns-query              | 🔒  | 🟠 |
-| 11 | [Cloudflare Malw.](https://developers.cloudflare.com/1.1.1.1/setup/#1111-for-families)    | 1.1.1.2 / 1.0.0.2              | https://security.cloudflare-dns.com/dns-query| 🔒  | 🟢 |
-| 12 | [DNS0.eu Zero](https://www.dns0.eu/de/zero)        | 193.110.81.9 / 185.253.5.9     | https://zero.dns0.eu/                        | 🔒  | 🟢 |
-| 13 | [DNS4EU Protect](https://www.joindns4.eu/dns-guidelines)      | 86.54.11.1 / 86.54.11.201      | https://protective.joindns4.eu/dns-query     | 🔒  | 🟢 |
-| 14 | [DNS4EU NoAds](https://www.joindns4.eu/dns-guidelines)        | 86.54.11.13 / 86.54.11.213     | https://noads.joindns4.eu/dns-query          | 🔒  | 🟠 |
 
 
 
