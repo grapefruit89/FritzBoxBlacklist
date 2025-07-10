@@ -150,13 +150,15 @@ Ein DNS-Server funktioniert wie ein Telefonbuch: Er übersetzt Domainnamen in IP
 - [fboes/fritzbox-blacklist](https://github.com/fboes/fritzbox-blacklist)
 - [xobit.de Blacklist](https://www.xobit.de/fritzbox-blacklist)
 
-### 📓 Eigene Liste erstellen – Tools
+### 📓 Eigene Liste erstellen & Tools
 
 - [Notepad++](https://notepad-plus-plus.org/)
 - [Doppelte Zeilen entfernen](https://www.textfixer.de/tools/doppelte-zeilen-entfernen.php)
 - [Domain Extractor](https://de.rakko.tools/tools/62/)
 - [Top 10 TLDs mit Missbrauch](https://www.spamhaus.org/statistics/tlds/)
 - [AM-Deadlink – Linkcheck-Tool](https://www.aignes.com/deadlink.htm)
+- [DNS Bench](https://www.grc.com/dns/benchmark.htm)
+
 
 ---
 
@@ -176,7 +178,6 @@ Pull Requests, Verbesserungsvorschläge und neue Quellen sind herzlich willkomme
 Bitte beachte dabei:
 
 - Die Liste darf **max. 500 Einträge** enthalten
-- Domains sollten regelmäßig überprüft werden (z. B. mit AM-Deadlink)
 - Nutze **Pull Requests mit kurzer Erklärung**
 
 ---
@@ -188,8 +189,4 @@ Bitte beachte dabei:
 > Originalkonzept: [Frank Boës](http://3960.org) und weitere
 
 ---
-
-## 🎯 Unterstütze dieses Projekt
-
-Du findest die Blockliste nützlich? Dann gib dem Projekt ein ⭐️ oder teile es mit anderen Fritz!Box-Nutzer:innen!
 
