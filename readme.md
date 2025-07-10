@@ -1,6 +1,6 @@
 # 🚫 Fritz!Box Blockliste – Werbefrei im Heimnetz
 
-> ✨ Ein minimalistischer Ansatz, um die Top 500 Werbe- und Tracking-Domains mit der Fritz!Box zu blockieren – ganz ohne Informatikstudium.
+> ✨ Minimalistische Blockliste für die Fritz!Box: Die Top 500 Werbe- und Tracking-Domains einfach und effektiv blocken – kein unnötiger Aufwand, kein IT-Studium nötig.
 
 [![Project Status: Semi-Active](https://img.shields.io/badge/status-semi--active-yellow)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#lizenz)
@@ -10,26 +10,27 @@
 
 ## 🔍 Projektübersicht
 
-Diese Blockliste ermöglicht es dir, mit deiner Fritz!Box einen effektiven AdBlocker zu betreiben – ohne zusätzliche Hardware oder komplizierte Setups.
+Das Projekt startete als einfache Sammlung der meistgenutzten Werbe- und Tracking-Domains, um die Fritz!Box als Adblocker zu nutzen – ohne zusätzliche Hardware und ohne komplizierte Konfiguration.  
+Der ursprüngliche Fokus lag darauf, die Fritz!Box-Beschränkung von 500 Einträgen bestmöglich auszureizen und die wichtigsten Domains mit möglichst großer Wirkung zu blockieren.
 
-Aufgrund der Fritz!Box-Beschränkung auf 500 Einträge wurde eine kompakte und effiziente Liste der meistgeblockten Webseiten erstellt, um maximale Wirkung bei minimalem Aufwand zu erzielen.
+Inzwischen wurde die Blockliste regelmäßig aktualisiert und erweitert. Sie ist schlank gehalten, aber auf Basis aktueller Datenquellen optimiert und bietet so eine solide Adblocker-Basis für das ganze Heimnetz.  
+Die Anwendung ist weiterhin bewusst unkompliziert: Jeder kann seine Fritz!Box mit wenigen Klicks aufrüsten und so die größte Werbeflut und gängige Trackingversuche effektiv ausbremsen – ohne Technik-Frust.
 
 > 🧠 _Inspiriert von [fboes/fritzbox-blacklist](https://github.com/fboes/fritzbox-blacklist)_  
 > 📚 _Lesetipp: [Fritz!Box als AdBlocker – Blogbeitrag](http://service.avm.de/help/de/FRITZ-Box-Fon-WLAN-7490/014/hilfe_internet_filter_blacklist)_  
 > 📚 _Lesetipp: [tarnkappe.info – Blogbeitrag](https://tarnkappe.info/artikel/it-sicherheit/datenschutz/dns-resolver-adguard-dns-control-d-nextdns-und-rethink-dns-im-vergleichstest-312812.html)_
 
-
 ---
 
-## 🚀 Schnellstart: Filterliste in der Fritz!Box einrichten
+## 🚀 Schnellstart: Blockliste in der Fritz!Box aktivieren
 
-1. 📖 Lies die Anleitung: [FritzBox-Kindersicherung einrichten (heise.de)](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)
-2. 📥 Kopiere den Inhalt der aktuellen Blockliste:  
+1. 📖 Anleitung lesen: [FritzBox-Kindersicherung einrichten (heise.de)](https://www.heise.de/tipps-tricks/FritzBox-Kindersicherung-so-funktioniert-die-Einrichtung-4048867.html)
+2. 📥 Die aktuelle Blockliste hier abrufen:  
    [🔗 Fritz 500 Blacklist (Stand: 23.11.2020)](https://github.com/grapefruit89/FritzBoxBlacklist/blob/master/Fritz%20500%202020-11-23.txt)
-3. 📋 Füge die Domains unter **fritz.box › Internet › Filter › Listen › Gesperrte Webseiten** ein
-4. ✅ Fertig!  🚀
+3. 📋 Die Domains unter **fritz.box › Internet › Filter › Listen › Gesperrte Webseiten** einfügen
+4. ✅ Fertig – dein Heimnetz ist deutlich sauberer unterwegs!
 
-> 💡 Auch weitere Quellen aus dem Abschnitt [Weiterführende Links](#weiterführende-links) sind nutzbar.
+> 💡 Auch andere Listen aus dem Bereich [Weiterführende Links](#weiterführende-links) lassen sich problemlos ergänzen oder testen.
 
 ---
 
