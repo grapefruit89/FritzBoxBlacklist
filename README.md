@@ -35,12 +35,12 @@ Keine Anmeldung nötig. Einfach IPs oder DoT-Hostnamen im Router/Handy eintragen
 
 | Anbieter | Standort | Filterung | Overblocking | DoT / DoH Hostname |
 | :--- | :--- | :--- | :--- | :--- |
-| **Mullvad (Ads)** | 🇸🇪 SE / Global | Werbung, Tracker | 🟡 Mittel | `adblock.dns.mullvad.net` |
-| **dnsforge.de** | 🇩🇪 DE | Werbung, Tracker | 🟡 Mittel | `dnsforge.de` |
-| **HaGeZi DNS** | 🇪🇺 EU | Multi-Pro Filter | 🟡 Mittel | `dns.hagezi.com` |
-| **Quad9 (Threat)**| 🇨🇭 CH / Global | Malware (Keine Ads) | 🟢 Gering | `dns.quad9.net` |
-| **DNS4EU** | 🇪🇺 EU | Malware, Phishing | 🟢 Gering | `protective.joindns4.eu` |
-| **DigiGes** | 🇨🇭 CH | Ungefiltert | 🟢 Keine | `dns.digitale-gesellschaft.ch` |
+| **Mullvad (Ads)** | <img src="https://flagcdn.com/w20/se.png" width="20"> SE / Global | Werbung, Tracker | 🟡 Mittel | `adblock.dns.mullvad.net` |
+| **dnsforge.de** | <img src="https://flagcdn.com/w20/de.png" width="20"> DE | Werbung, Tracker | 🟡 Mittel | `dnsforge.de` |
+| **HaGeZi DNS** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU | Multi-Pro Filter | 🟡 Mittel | `dns.hagezi.com` |
+| **Quad9 (Threat)**| <img src="https://flagcdn.com/w20/ch.png" width="20"> CH / Global | Malware (Keine Ads) | 🟢 Gering | `dns.quad9.net` |
+| **DNS4EU** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU | Malware, Phishing | 🟢 Gering | `protective.joindns4.eu` |
+| **DigiGes** | <img src="https://flagcdn.com/w20/ch.png" width="20"> CH | Ungefiltert | 🟢 Keine | `dns.digitale-gesellschaft.ch` |
 
 ---
 
@@ -49,10 +49,10 @@ Für Nutzer, die sehen wollen, was blockiert wird und eigene Ausnahmen pflegen m
 
 | Anbieter | Datenschutz | Schwierigkeit | Besonderheiten |
 | :--- | :--- | :--- | :--- |
-| **[NextDNS](https://nextdns.io/)** | 🇪🇺 EU Server | 🔵 Leicht | Perfekte UI, extrem viele fertige Listen. |
-| **[AdGuard DNS](https://adguard-dns.io/de/public-dns.html)**| 🇨🇾 CY / Global | 🔵 Leicht | Sehr familienfreundlich, gute Kindersicherung. |
+| **[NextDNS](https://nextdns.io/)** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU Server | 🔵 Leicht | Perfekte UI, extrem viele fertige Listen. |
+| **[AdGuard DNS](https://adguard-dns.io/de/public-dns.html)**| <img src="https://flagcdn.com/w20/cy.png" width="20"> CY / Global | 🔵 Leicht | Sehr familienfreundlich, gute Kindersicherung. |
 | **[Control D](https://controld.com/)** | 🇨🇦 CA | 🟠 Mittel | Fokus auf Produktivität und Geo-Steuerung. |
-| **[Rethink DNS](https://rethinkdns.com/)** | 🇺🇸 US / Global | 🔴 Nerd | Unzählige Listen kombinierbar, Open-Source. |
+| **[Rethink DNS](https://rethinkdns.com/)** | <img src="https://flagcdn.com/w20/us.png" width="20"> US / Global | 🔴 Nerd | Unzählige Listen kombinierbar, Open-Source. |
 
 ---
 
