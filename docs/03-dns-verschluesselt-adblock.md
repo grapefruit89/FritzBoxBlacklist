@@ -1,4 +1,4 @@
-# 🛡️ Stage 3: Quick Start – Werbefrei in 2 Minuten
+# 🛡️ Stufe 3: Quick Start (Adblock)
 
 [⬅️ Zurück zur Übersicht](../README.md)
 
@@ -34,7 +34,7 @@ Hier sind die besten "Rundum-Sorglos"-Pakete für die Fritz!Box.
 ---
 
 <p align="center">
-  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | 🛡️ Stufe 3 | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
+  <a href="00-vanilla-dns.md">🍦 Stufe 0</a> | <a href="01-alternative-dns.md">⚡ Stufe 1</a> | <a href="02-dns-verschluesselt.md">💊 Stufe 2</a> | 🛡️ Stufe 3 | <a href="04-cloud-adblocker.md">☁️ Stufe 4</a> | <a href="05-selfhosting.md">🏠 Stufe 5</a> | <a href="06-testing.md">🧪 Stufe 6</a> | <a href="07-sources.md">📚 Stufe 7</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>

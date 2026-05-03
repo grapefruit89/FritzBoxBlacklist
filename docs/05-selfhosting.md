@@ -1,4 +1,4 @@
-# 🏠 Stufe 5: Self-Hosting (DNS-Server selbst betreiben)
+# 🏠 Stufe 5: Self-Hosting
 
 [⬅️ Zurück zur Übersicht](../README.md)
 
@@ -47,7 +47,7 @@ Die Fritz!Box sagt jedem Gerät im Netz: "Frag direkt meinen Pförtner unter der
 
 ---
 <p align="center">
-  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | 🏠 Stufe 5 | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
+  <a href="00-vanilla-dns.md">🍦 Stufe 0</a> | <a href="01-alternative-dns.md">⚡ Stufe 1</a> | <a href="02-dns-verschluesselt.md">💊 Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">🛡️ Stufe 3</a> | <a href="04-cloud-adblocker.md">☁️ Stufe 4</a> | 🏠 Stufe 5 | <a href="06-testing.md">🧪 Stufe 6</a> | <a href="07-sources.md">📚 Stufe 7</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>

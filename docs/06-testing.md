@@ -1,4 +1,4 @@
-# 🧪 Stufe 6: Setup testen & validieren (Der Heimnetz-TÜV)
+# 🧪 Stufe 6: Setup testen
 
 [⬅️ Zurück zur Übersicht](../README.md)
 
@@ -49,7 +49,7 @@ dig google.de
 
 ---
 <p align="center">
-  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | 🧪 Stufe 6 | <a href="07-sources.md">Stufe 7</a>
+  <a href="00-vanilla-dns.md">🍦 Stufe 0</a> | <a href="01-alternative-dns.md">⚡ Stufe 1</a> | <a href="02-dns-verschluesselt.md">💊 Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">🛡️ Stufe 3</a> | <a href="04-cloud-adblocker.md">☁️ Stufe 4</a> | <a href="05-selfhosting.md">🏠 Stufe 5</a> | 🧪 Stufe 6 | <a href="07-sources.md">📚 Stufe 7</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>
