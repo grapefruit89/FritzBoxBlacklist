@@ -31,4 +31,8 @@ Das ist das "Sorglos-Paket". Wir nutzen verschlüsseltes DNS (DoT) kombiniert mi
 Besuche die Seite [d3ward.github.io/toolz/adblock.html](https://d3ward.github.io/toolz/adblock.html). Wenn dort über 90% geblockt werden, ist dein Setup perfekt!
 
 ---
+<p align="center">
+  <a href="02-dns-verschluesselt.md">⬅️ Stufe 2</a> | <a href="04-cloud-adblocker.md">Stufe 4 ➡️</a>
+</p>
+
 [⬅️ Zurück zur Übersicht](../README.md)
