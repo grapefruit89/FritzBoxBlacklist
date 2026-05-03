@@ -28,5 +28,8 @@ Du kannst auch direkt prüfen, ob eine bekannte Werbedomain blockiert wird. Öff
 
 ---
 <p align="center">
-  <a href="05-selfhosting.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="07-sources.md">Weiter ➡️</a>
+  <a href="00-vanilla-dns.md">0</a> | <a href="01-alternative-dns.md">1</a> | <a href="02-dns-verschluesselt.md">2</a> | <a href="03-dns-verschluesselt-adblock.md">3</a> | <a href="04-cloud-adblocker.md">4</a> | <a href="05-selfhosting.md">5</a> | **6** | <a href="07-sources.md">7</a>
+</p>
+<p align="center">
+  <a href="../README.md">🏠 Zurück zur Übersicht</a>
 </p>

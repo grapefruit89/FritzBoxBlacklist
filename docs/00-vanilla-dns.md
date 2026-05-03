@@ -78,7 +78,10 @@ Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürb
 ---
 
 <p align="center">
-  <a href="../README.md">⬅️ Zurück zur Übersicht</a> | <a href="01-alternative-dns.md">Stufe 1 ➡️</a>
+  **0** | <a href="01-alternative-dns.md">1</a> | <a href="02-dns-verschluesselt.md">2</a> | <a href="03-dns-verschluesselt-adblock.md">3</a> | <a href="04-cloud-adblocker.md">4</a> | <a href="05-selfhosting.md">5</a> | <a href="06-testing.md">6</a> | <a href="07-sources.md">7</a>
+</p>
+<p align="center">
+  <a href="../README.md">🏠 Zurück zur Übersicht</a>
 </p>
 
 

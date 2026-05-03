@@ -53,8 +53,10 @@ Fokus wählen, DNS eintragen.
 ---
 
 <p align="center">
-  <a href="00-vanilla-dns.md">⬅️ Stufe 0</a> | <a href="02-dns-verschluesselt.md">Stufe 2 ➡️</a>
+  <a href="00-vanilla-dns.md">0</a> | **1** | <a href="02-dns-verschluesselt.md">2</a> | <a href="03-dns-verschluesselt-adblock.md">3</a> | <a href="04-cloud-adblocker.md">4</a> | <a href="05-selfhosting.md">5</a> | <a href="06-testing.md">6</a> | <a href="07-sources.md">7</a>
+</p>
+<p align="center">
+  <a href="../README.md">🏠 Zurück zur Übersicht</a>
 </p>
 
-[⬅️ Zurück zur Übersicht](../README.md)
 
