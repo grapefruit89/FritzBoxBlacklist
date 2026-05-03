@@ -1,34 +1,70 @@
-# Manuelles Client-Setup (Windows, Android, iOS)
+# Manuelles Client-Setup (Sicheres DNS & Adblocking)
 
-Manchmal möchtest du DNS-Filter nur auf einem bestimmten Gerät nutzen (z.B. auf dem Arbeitslaptops) oder auch unterwegs im mobilen Datennetz geschützt sein. Hier erfährst du, wie du "Privates DNS" (DoH/DoT) direkt am Endgerät einrichtest.
+Nutze DNS-Filter unterwegs (Mobilfunk/öffentliches WLAN) oder gezielt für einzelne Geräte.
 
-## 📱 Android (ab Version 9)
-Android unterstützt natives DNS-over-TLS (DoT).
-1.  Gehe zu **Einstellungen** -> **Netzwerk & Internet** (oder Verbindungen).
-2.  Wähle **Privates DNS**.
-3.  Wähle **Hostname des privaten DNS-Anbieters**.
-4.  Gib den Hostnamen ein (z.B. `dnsforge.de` oder `adblock.dns.mullvad.net`).
-5.  Speichern.
+[⬅️ Zurück zur Übersicht](../README.md)
 
-## 🍎 iOS (iPhone / iPad)
-iOS unterstützt verschlüsseltes DNS nativ, bietet aber keine direkte Eingabemaske in den Einstellungen an. Du benötigst ein "Konfigurationsprofil".
-1.  Nutze Dienste wie **[dns.notjakob.com](https://dns.notjakob.com/)** oder das Tool von **NextDNS**, um ein Profil zu erstellen.
-2.  Lade das Profil herunter.
-3.  Gehe zu **Einstellungen** -> **Profil geladen** -> **Installieren**.
-4.  Unter **Einstellungen** -> **Allgemein** -> **VPN, DNS und Geräteverwaltung** kannst du es später verwalten.
-
-## 💻 Windows 11
-Windows 11 unterstützt DNS-over-HTTPS (DoH) direkt in den Einstellungen.
-1.  Gehe zu **Einstellungen** -> **Netzwerk und Internet** -> **Ethernet** (oder WLAN).
-2.  Klicke auf **DNS-Serverzuweisung bearbeiten**.
-3.  Stelle auf **Manuell** um und aktiviere IPv4 (und IPv6).
-4.  Gib die IP des DNS-Servers ein (z.B. `176.9.93.198` für dnsforge).
-5.  Wähle unter "DNS über HTTPS" die Option **Ein (automatischer Vorlagentest)**.
-
-## 🌐 Browser-spezifisch (DoH)
-Du kannst DNS-over-HTTPS auch nur im Browser aktivieren (unabhängig vom Betriebssystem):
-*   **Chrome/Edge:** Einstellungen -> Datenschutz & Sicherheit -> Sicherheit -> "Sicheres DNS verwenden".
-*   **Firefox:** Einstellungen -> Datenschutz & Sicherheit -> "DNS über HTTPS" (ganz unten).
+> [!TIP]
+> Client-seitiges Setup ist ideal für Schutz außerhalb des Heimnetzes (z.B. unterwegs).
 
 ---
-[← Zurück zur Übersicht](../README.md)
+
+## 📱 Android (ab Version 9)
+Natives DNS-over-TLS (DoT).
+1. **Einstellungen** → **Netzwerk & Internet** → **Privates DNS**.
+2. **Hostname des privaten DNS-Anbieters** wählen.
+3. Hostname eingeben (z.B. `dnsforge.de` oder `adblock.dns.mullvad.net`).
+4. **Speichern**.
+
+## 🍎 iOS & iPadOS
+Natives DoH/DoT via Konfigurationsprofil.
+1. Profil erstellen: **[dns.notjakob.com](https://dns.notjakob.com/)** oder NextDNS.
+2. Profil laden, dann **Einstellungen** → **Profil geladen** → **Installieren**.
+3. Verwaltung: **Einstellungen** → **Allgemein** → **VPN, DNS und Geräteverwaltung**.
+
+## 💻 macOS
+1. **Systemeinstellungen** → **Netzwerk**.
+2. Verbindung wählen → **Details...** → **DNS**.
+3. Über `+` DNS-Server-IPs hinzufügen.
+
+> [!NOTE]
+> macOS unterstützt DoH/DoT nativ am besten via Konfigurationsprofil (analog zu iOS).
+
+---
+
+## 🪟 Windows 11 & 10
+
+### Windows 11 (Natives DoH)
+1. **Einstellungen** → **Netzwerk & Internet** → **WLAN/Ethernet**.
+2. **DNS-Serverzuweisung** → **Bearbeiten**.
+3. **Manuell**, IPv4/IPv6 aktivieren.
+4. IPs eintragen. **DNS über HTTPS** auf **Ein (automatischer Vorlagentest)**.
+
+### Windows 10
+1. **Systemsteuerung** → **Netzwerkcenter** → **Adaptereinstellungen**.
+2. Rechtsklick Adapter → **Eigenschaften** → **IPv4** → **Eigenschaften**.
+3. DNS-IPs eintragen.
+
+> [!NOTE]
+> Windows 10 unterstützt natives DoH nur eingeschränkt (Insider-Builds). Nutze Browser-Einstellungen oder Tools wie YogaDNS.
+
+---
+
+## 🐧 Linux (systemd-resolved)
+1. `/etc/systemd/resolved.conf` editieren:
+   ```ini
+   DNS=9.9.9.9
+   DNSOverTLS=yes
+   ```
+2. `systemctl restart systemd-resolved`.
+
+---
+
+## 🌐 Browser (Secure DNS)
+Unabhängig vom Betriebssystem (DoH).
+- **Firefox:** Einstellungen → Datenschutz & Sicherheit → **DNS über HTTPS**.
+- **Chrome/Edge:** Einstellungen → Datenschutz & Sicherheit → Sicherheit → **Sicheres DNS**.
+
+---
+
+[⬅️ Zurück zur Übersicht](../README.md)
