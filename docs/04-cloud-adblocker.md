@@ -1,7 +1,5 @@
 # ☁️ Stufe 4: Cloud-DNS mit Profil – Maximale Kontrolle
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Wenn dir die festen Filterlisten aus Stufe 3 nicht ausreichen und du volle Kontrolle über dein Netzwerk haben möchtest, ohne eigene Hardware zu betreiben, sind Cloud-Adblocker die perfekte Wahl.
 
 > [!TIP]
