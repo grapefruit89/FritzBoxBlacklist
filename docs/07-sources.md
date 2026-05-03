@@ -1,7 +1,5 @@
 # 📚 Stufe 7: Quellen
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Du hast den Bildungsweg abgeschlossen. Aber Privatsphäre ist ein Prozess, kein Zustand. Hier findest du die besten Anlaufstellen, um dein Wissen zu vertiefen, aktuelle Bedrohungen zu verstehen und dein Setup zu perfektionieren.
 
 > [!TIP]

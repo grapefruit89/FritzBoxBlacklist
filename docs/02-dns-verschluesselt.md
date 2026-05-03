@@ -1,7 +1,5 @@
 # 💊 Stufe 2: DNS verschlüsseln
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Standard-DNS-Anfragen sind wie eine Postkarte: Jeder auf dem Weg kann mitlesen, wen du besuchst. Jetzt schicken wir stattdessen einen **versiegelten Brief**.
 
 > [!TIP]

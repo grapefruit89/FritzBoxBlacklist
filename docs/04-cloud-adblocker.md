@@ -1,7 +1,5 @@
 # ☁️ Stufe 4: Cloud-Adblocker
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Du willst die Kontrolle eines eigenen Servers, hast aber keine Lust auf Hardware-Gebastel? Cloud-Adblocker bieten dir ein personalisiertes Dashboard, eigene Filterlisten und detaillierte Statistiken.
 
 > [!TIP]

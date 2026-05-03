@@ -1,7 +1,5 @@
 # 🍦 Stufe 0: Standard-DNS (Vanilla)
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Willkommen! Ohne Änderungen nutzt du das **Standard-DNS deines Providers** (Telekom, Vodafone, o2). Setup: „Vanilla“ – Standard-Geschmack. Funktioniert, aber wenig Privatsphäre.
 
 > [!TIP]

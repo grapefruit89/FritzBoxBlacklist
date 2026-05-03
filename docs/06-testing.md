@@ -1,7 +1,5 @@
 # 🧪 Stufe 6: Setup testen
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Dein Setup steht? Hervorragend. Jetzt müssen wir sicherstellen, dass dein neuer „Pförtner“ auch wirklich seine Arbeit macht. Ein Werbeblocker, der nichts blockt, ist nur Ballast.
 
 > [!TIP]

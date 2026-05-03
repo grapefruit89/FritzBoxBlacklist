@@ -1,7 +1,5 @@
 # ⚡ Stufe 1: Alternative DNS
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Standard-DNS deines Providers hat oft Lücken – durch technische Fehler oder bewusste Sperren.
 
 > [!IMPORTANT]

@@ -1,7 +1,5 @@
 # 📂 Legacy & Historie: Fritz!Box Blacklists (Kindersicherung)
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 > [!WARNING]
 > **Diese Anleitung und die Listen in diesem Ordner sind veraltet.**  
 > Sie stammen aus einer Zeit, in der das 500-Einträge-Limit der Fritz!Box die einzige Möglichkeit war. Heute empfehlen wir dringend den **[modernen DNS-Bildungsweg](../README.md)** (Stages 0-7), der verschlüsseltes DNS mit Millionen von Filter-Einträgen ermöglicht, ohne die Fritz!Box zu überlasten.

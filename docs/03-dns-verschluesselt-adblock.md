@@ -1,7 +1,5 @@
 # 🛡️ Stufe 3: Quick Start (Adblock)
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Du willst keine Theorie, sondern **Ergebnisse**? Dann ist Stufe 3 dein Ziel. Wir nutzen einen kostenlosen, bewährten Cloud-Filter, den du direkt in deine Fritz!Box einträgst.
 
 > [!TIP]
