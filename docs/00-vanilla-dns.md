@@ -6,16 +6,18 @@ Willkommen! Ohne Änderungen nutzt du das **Standard-DNS deines Providers** (Tel
 
 ---
 
-## 📖 Was passiert hier?
+## 📖 Wie findet dein Computer eine Webseite? – Die Anfänger-Erklärung
 
-Internet = Telefonbuch. `google.de` → DNS-Anfrage → IP-Adresse (`142.250.185.163`).
+Stell dir vor, du willst deine Oma besuchen, kennst aber ihre Hausnummer nicht. Du gehst zu einem Kiosk, der ein dickes Telefonbuch hat, und fragst: *„In welcher Hausnummer wohnt Oma Müller?“* Der Kioskbesitzer schaut nach und sagt: *„Blumenstraße 42“*. Jetzt kannst du hinfahren.
 
-1. Gerät fragt **FritzBox**: „Wo wohnt `google.de`?“
-2. FritzBox fragt **Provider-DNS**: „IP von `google.de` bitte.“
-3. Provider antwortet → Browser lädt Seite.
+So ähnlich funktioniert das Internet:
+
+- Du tippst **google.de** in dein Handy oder deinen Browser.
+- Dein Router (die Fritz!Box) fragt einen **DNS-Server** (den „Kiosk“): *„Welche Nummer gehört zu google.de?“*
+- Der DNS-Server antwortet mit einer Nummer (z. B. `142.250.185.163`), und dein Gerät holt die Seite ab.
 
 > [!IMPORTANT]
-> Problem: Wer das Telefonbuch kontrolliert, sieht **wen du wann angerufen hast**.
+> **Das Problem:** Wenn du nichts änderst, gehört der „Kiosk“ deinem Internet-Anbieter (z. B. Telekom oder Vodafone). Der Anbieter schreibt sich genau auf, wen du wann „besuchen“ wolltest. So weiß er sehr viel über dein Privatleben.
 
 ---
 
