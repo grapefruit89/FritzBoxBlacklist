@@ -20,13 +20,13 @@ DNS ist das Telefonbuch des Internets. Standardmäßig nutzt du das Telefonbuch 
 Hier findest du eine Auswahl der besten DNS-Resolver, unterteilt nach ihrem Fokus.
 
 | Anbieter | Herkunft | DoT-Hostname oder IP-Adresse | Besonderheit |
-| :--- | :--- | :--- | :--- |
-| <img src="https://flagcdn.com/w20/us.png" width="20"> **Cloudflare** | USA | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
-| <img src="https://flagcdn.com/w20/us.png" width="20"> **Google** | USA | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech-Hintergrund |
-| <img src="https://flagcdn.com/w20/ch.png" width="20"> **Quad9** | Schweiz | `9.9.9.9` / `dns.quad9.net` | Fokus auf Security (Malware-Block), Non-Profit |
-| <img src="https://flagcdn.com/w20/de.png" width="20"> **Digitalcourage** | Deutschland | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, zensurfrei, keine Logs |
-| <img src="https://flagcdn.com/w20/ch.png" width="20"> **Digitale Gesellschaft** | Schweiz | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechtsverein, keine EU-Vorratshaltung |
-| <img src="https://flagcdn.com/w20/eu.png" width="20"> **DNS4EU** | EU | `protective.joindns4.eu` | EU-Souveränität, DSGVO-konform, Security-Filter |
+| :--- | :---: | :--- | :--- |
+| [**Cloudflare**](https://1.1.1.1/) | <img src="https://flagcdn.com/w20/us.png" width="20"> | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
+| [**Google**](https://developers.google.com/speed/public-dns) | <img src="https://flagcdn.com/w20/us.png" width="20"> | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech-Hintergrund |
+| [**Quad9**](https://www.quad9.net/) | <img src="https://flagcdn.com/w20/ch.png" width="20"> | `9.9.9.9` / `dns.quad9.net` | Fokus auf Security (Malware-Block), Non-Profit |
+| [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | <img src="https://flagcdn.com/w20/de.png" width="20"> | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, zensurfrei, keine Logs |
+| [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | <img src="https://flagcdn.com/w20/ch.png" width="20"> | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechtsverein, keine EU-Vorratshaltung |
+| [**DNS4EU**](https://joindns4.eu/) | <img src="https://flagcdn.com/w20/eu.png" width="20"> | `protective.joindns4.eu` | EU-Souveränität, DSGVO-konform, Security-Filter |
 
 ---
 
