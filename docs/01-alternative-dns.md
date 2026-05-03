@@ -23,12 +23,14 @@ Fokus wählen, DNS eintragen.
 
 | Anbieter | Herkunft | DoT-Hostname oder IP-Adresse | Besonderheit |
 | :--- | :---: | :--- | :--- |
-| [**Cloudflare**](https://1.1.1.1/) | <img src="https://flagcdn.com/w20/us.png" width="20"> | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
-| [**Google**](https://developers.google.com/speed/public-dns) | <img src="https://flagcdn.com/w20/us.png" width="20"> | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech |
-| [**Quad9**](https://www.quad9.net/) | <img src="https://flagcdn.com/w20/ch.png" width="20"> | `9.9.9.9` / `dns.quad9.net` | Security (Malware-Block), Non-Profit |
-| [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | <img src="https://flagcdn.com/w20/de.png" width="20"> | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, keine Logs |
-| [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | <img src="https://flagcdn.com/w20/ch.png" width="20"> | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechte, keine Vorratsdaten |
-| [**DNS4EU**](https://joindns4.eu/) | <img src="https://flagcdn.com/w20/eu.png" width="20"> | `protective.joindns4.eu` | EU-Souveränität, DSGVO, Security-Filter |
+| [**Cloudflare**](https://1.1.1.1/) | ![US](https://flagcdn.com/w20/us.png) | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
+| [**Google**](https://developers.google.com/speed/public-dns) | ![US](https://flagcdn.com/w20/us.png) | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech |
+| [**Quad9**](https://www.quad9.net/) | ![CH](https://flagcdn.com/w20/ch.png) | `9.9.9.9` / `dns.quad9.net` | Security (Malware-Block), Non-Profit |
+| [**dnsforge.de**](https://dnsforge.de/) | ![DE](https://flagcdn.com/w20/de.png) | `176.9.93.198` / `dnsforge.de` | **Kuketz-Empfehlung**, werbefrei, keine Logs |
+| [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | ![SE](https://flagcdn.com/w20/se.png) | `194.242.2.2` / `base.dns.mullvad.net` | Fokus Privacy, schwedischer Anbieter |
+| [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | ![DE](https://flagcdn.com/w20/de.png) | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, keine Logs |
+| [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | ![CH](https://flagcdn.com/w20/ch.png) | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechte, keine Vorratsdaten |
+| [**DNS4EU**](https://joindns4.eu/) | ![EU](https://flagcdn.com/w20/eu.png) | `protective.joindns4.eu` | EU-Souveränität, DSGVO, Security-Filter |
 
 ---
 
@@ -38,7 +40,7 @@ Fokus wählen, DNS eintragen.
 *   **Community (Digitalcourage/Quad9):** Fokus Datenschutz & Bürgerrechte. Geschwindigkeit meist exzellent.
 
 > [!TIP]
-> **Empfehlung:** Wert auf Privatsphäre + Werbefilter? Check [dnsforge.de](https://dnsforge.de) (Mike Kuketz Empfehlung).
+> **Empfehlung:** Wert auf Privatsphäre + Werbefilter? [**dnsforge.de**](https://dnsforge.de) ist der Favorit vieler Experten (u.a. Mike Kuketz) für den Betrieb in Deutschland.
 
 ---
 
