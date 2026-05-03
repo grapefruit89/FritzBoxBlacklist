@@ -1,7 +1,5 @@
 # 🏠 Stufe 5: Self-Hosting (AdGuard Home & Pi-hole)
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Die Königsdisziplin. Hier holst du dir die volle Souveränität zurück. Deine DNS-Anfragen verlassen dein Haus nicht mehr unkontrolliert, und du bist nicht mehr auf das Wohlwollen von Cloud-Anbietern angewiesen.
 
 > [!TIP]
