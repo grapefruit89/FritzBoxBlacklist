@@ -1,71 +1,62 @@
 # 🍦 Stufe 0: Standard-DNS vom Anbieter (Vanilla)
 
-Willkommen am Anfang deiner Reise! Wenn du bisher nichts an deinem Router oder deinen Geräten geändert hast, nutzt du mit an Sicherheit grenzender Wahrscheinlichkeit das **Standard-DNS deines Internetproviders** (z. B. Deutsche Telekom, Vodafone, o2).
+[⬅️ Zurück zur Übersicht](../README.md)
 
-Man nennt dieses Setup auch „Vanilla“, weil es der Standard-Geschmack ist: Es funktioniert einfach, aber es ist weder besonders sicher noch privat.
+Willkommen! Ohne Änderungen nutzt du das **Standard-DNS deines Providers** (Telekom, Vodafone, o2). Setup: „Vanilla“ – Standard-Geschmack. Funktioniert, aber wenig Privatsphäre.
 
 ---
 
-## 📖 Was passiert hier eigentlich?
+## 📖 Was passiert hier?
 
-Stell dir vor, das Internet ist ein riesiges Telefonbuch. Wenn du `google.de` eingibst, muss dein Computer wissen, unter welcher IP-Adresse (z. B. `142.250.185.163`) der Server erreichbar ist.
+Internet = Telefonbuch. `google.de` → DNS-Anfrage → IP-Adresse (`142.250.185.163`).
 
-1. Dein Gerät fragt die **FritzBox**: „Wo wohnt `google.de`?“
-2. Die FritzBox fragt den **Provider-DNS**: „Sag mir die IP von `google.de`.“
-3. Der Provider antwortet – und dein Browser lädt die Seite.
+1. Gerät fragt **FritzBox**: „Wo wohnt `google.de`?“
+2. FritzBox fragt **Provider-DNS**: „IP von `google.de` bitte.“
+3. Provider antwortet → Browser lädt Seite.
 
 > [!IMPORTANT]
-> Das Problem: Wer das Telefonbuch kontrolliert, bestimmt nicht nur, wo du landest, sondern weiß auch ganz genau, **wen du wann angerufen hast**.
+> Problem: Wer das Telefonbuch kontrolliert, sieht **wen du wann angerufen hast**.
 
 ---
 
-## 🚩 Die 5 größten Nachteile von Vanilla-DNS
+## 🚩 5 Nachteile von Vanilla-DNS
 
-### 1. Dein Provider sieht ALLES (Tracking)
-Jede Domain, die du aufrufst – egal ob per Browser, App oder Smart-TV – wird über den DNS-Server deines Providers aufgelöst. 
-- Dein Provider weiß, wann du Online-Banking machst.
-- Dein Provider weiß, welche Gesundheits-Apps du nutzt.
-- Dein Provider weiß, wann du Pornos schaust oder politische Foren besuchst.
+### 1. Tracking (Provider sieht ALLES)
+Jede aufgerufene Domain geht über Provider-DNS.
+- Banking, Gesundheit, Vorlieben: Provider weiß Bescheid.
+- Datenprofile sind wertvoll für Tracking.
 
 > [!WARNING]
-> Diese Daten sind Gold wert. Auch wenn Provider behaupten, sie nur für den Betrieb zu nutzen, bilden sie ein extrem präzises Profil deines digitalen Lebens.
+> Profilbildung deines digitalen Lebens – oft ohne dein Wissen.
 
-### 2. Zensur „von oben“ (CUII-Sperren)
-In Deutschland gibt es die **CUII** (Clearingstelle Urheberrecht im Internet). Große Provider haben sich verpflichtet, bestimmte Webseiten auf DNS-Ebene zu sperren.
-
-Wenn du eine gesperrte Seite aufrufst, sagt dein Provider einfach: „Diese Adresse gibt es nicht“ oder leitet dich auf eine Warnseite um.
-- **Beispiele für Sperren:** Streaming-Seiten (kinox.to), E-Book-Archive (Sci-Hub, Annas Archive) oder Gaming-Seiten.
-
-Weitere Hintergründe zu Zensur und Netzsperren findest du in [Stufe 7: Quellen](07-sources.md).
+### 2. Zensur (CUII-Sperren)
+Provider sperren Webseiten via DNS (z. B. Streaming, E-Book-Archive).
+- Ergebnis: „Adresse existiert nicht“ oder Warnseite.
+- Hintergründe in [Stufe 7: Quellen](07-sources.md).
 
 ### 3. DNS-Hijacking & Manipulation
-Kennst du das, wenn du dich vertippst (z. B. `google.dee`) und statt einer Fehlermeldung auf einer Suchseite deines Providers mit viel Werbung landest? Das ist **DNS-Hijacking**.
+Tippfehler (`google.dee`) → Provider leitet auf eigene Suchseite mit Werbung um.
+- Telekom nennt es „Navigationshilfe“.
+- Realität: DNS-Antwort gefälscht für Werbung/Tracking.
 
-> [!CAUTION]
-> Die Telekom nennt das „Navigationshilfe“. In Wahrheit fälscht der Provider die DNS-Antwort, um dir Werbung anzuzeigen und dein Suchverhalten zu tracken. Das hebelt technische Standards aus und stört Programme, die eine echte Fehlermeldung erwarten.
+### 4. Keine Verschlüsselung
+Standard: **Port 53 (UDP)**. Komplett unverschlüsselt.
+- Mitlesbar im lokalen Netz oder durch den Provider.
 
-### 4. Fehlende Verschlüsselung
-Standard-DNS nutzt meist den Port **53 (UDP)**. Dieser Verkehr ist **komplett unverschlüsselt**. Jeder in deinem lokalen Netzwerk (oder dein Chef im Firmen-WLAN) kann theoretisch mitlesen, welche Seiten du anfragst.
-
-### 5. Performance-Löcher
-Provider-DNS-Server sind oft „gut genug“, aber selten die schnellsten. Bei großen Lastspitzen oder Störungen im Netz deines Anbieters kann es zu Verzögerungen kommen – das Internet fühlt sich „zäh“ an, obwohl die Leitung eigentlich schnell ist.
+### 5. Performance
+Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürbar.
 
 ---
 
-## 🛠️ Selbsttest: Was nutzt du gerade?
-
-Möchtest du wissen, wer aktuell dein „Telefonbuch“ verwaltet?
+## 🛠️ Selbsttest: Was nutzt du?
 
 <details>
-<summary>👉 Klick hier für den Schnelltest (Windows/Mac/Linux)</summary>
+<summary>👉 Schnelltest (Windows/Mac/Linux)</summary>
 
-1. Öffne dein Terminal (CMD oder PowerShell bei Windows).
-2. Gib folgenden Befehl ein:
-   ```bash
-   nslookup google.com
-   ```
-3. Schau dir die Zeile **„Server“** an. Wenn dort etwas wie `fritz.box` oder die IP deines Routers steht, nutzt du das, was der Router vom Provider bekommen hat.
-4. Besuche **[DNSLeakTest.com](https://www.dnsleaktest.com)** und mache einen „Standard Test“. Erscheint dort der Name deines Internetanbieters (z. B. AS3320 Deutsche Telekom)? Dann bist du auf Stufe 0.
+1. Terminal öffnen.
+2. Befehl: `nslookup google.com`
+3. Zeile **„Server“**: `fritz.box` oder Router-IP = Provider-DNS aktiv.
+4. Check auf **[DNSLeakTest.com](https://www.dnsleaktest.com)**. Erscheint dein Provider? Dann Stufe 0.
 
 </details>
 
@@ -83,8 +74,10 @@ Möchtest du wissen, wer aktuell dein „Telefonbuch“ verwaltet?
 ---
 
 > [!TIP]
-> **Bereit für den nächsten Schritt?**  
-> In [Stufe 1: Alternative DNS-Anbieter](01-alternative-dns.md) zeige ich dir, wie du mit nur zwei Klicks die Kontrolle über deine Anfragen zurückgewinnst.
+> **Nächster Schritt:**  
+> In [Stufe 1: Alternative DNS-Anbieter](01-alternative-dns.md) Kontrolle zurückgewinnen.
 
 ---
-[Zurück zur Übersicht](../README.md)
+
+[⬅️ Zurück zur Übersicht](../README.md) | [Weiter zu Stufe 1 ➡️](01-alternative-dns.md)
+
