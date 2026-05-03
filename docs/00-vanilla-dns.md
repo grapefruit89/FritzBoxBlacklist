@@ -48,22 +48,23 @@ Beispiel: `google.de` → `142.250.185.163`
 
 ---
 
-## 🚩 5 Nachteile von Vanilla-DNS
+## 🚩 Die 5 Nachteile des Standard-DNS deines Providers
 
-> [!WARNING]
-> **1. Tracking (Provider sieht ALLES):** Jede aufgerufene Domain geht über Provider-DNS. Banking, Gesundheit, Vorlieben: Der Provider weiß Bescheid.
+Wenn du nichts änderst, läuft dein gesamter Internetverkehr über den DNS-Server deines Anbieters – und das bringt fünf handfeste Probleme mit, die du kennen solltest.
+
+| # | Nachteil | Was das für dich bedeutet |
+| :---: | :--- | :--- |
+| 1 | **Komplette Einsicht deines Providers** | Jede Webseite, jeder App-Abruf – dein Provider sieht alles und kann daraus ein detailliertes Profil erstellen. |
+| 2 | **Zensur (CUII-Sperren)** | Dein Provider sperrt auf Zuruf bestimmte Seiten. Die Meldung „Seite nicht gefunden“ ist oft eine Lüge – die Seite wäre erreichbar, der DNS löst sie nur nicht auf. |
+| 3 | **Manipulation (DNS-Hijacking)** | Tippfehler oder nicht existierende Domains leiten dich auf Werbeseiten oder „Navigationshilfen“ des Providers um, statt eine saubere Fehlermeldung zu zeigen. |
+| 4 | **Ungeschützte Kommunikation** | DNS-Anfragen werden im Klartext (wie eine Postkarte) über das Netz geschickt. Jeder im Netzwerk – vom Hotspot-Betreiber bis zum Arbeitgeber – kann mitlesen. |
+| 5 | **Schwankende Geschwindigkeit** | Provider-eigene DNS-Server sind oft langsamer und schlechter gewartet als moderne, weltweit verteilte DNS-Netzwerke – das bremst deinen Seitenaufbau. |
 
 > [!CAUTION]
-> **2. Zensur (CUII-Sperren):** Provider sperren Webseiten via DNS (z. B. Streaming, E-Book-Archive). Ergebnis: „Adresse existiert nicht“.
+> **Zensur ist kein Randphänomen.** Die Clearingstelle Urheberrecht im Internet (CUII) veranlasst regelmäßig Netzsperren. Was heute Piraten trifft, kann morgen politische Inhalte betreffen.
 
-> [!WARNING]
-> **3. DNS-Hijacking & Manipulation:** Tippfehler werden oft für Werbung oder Tracking-Umleitungen („Navigationshilfe“) missbraucht.
-
-> [!CAUTION]
-> **4. Keine Verschlüsselung:** Standard-DNS ist wie eine Postkarte: Jeder auf dem Weg kann mitlesen, was du anfragst.
-
-> [!WARNING]
-> **5. Performance:** Provider-Server sind oft langsamer als moderne, globale DNS-Netzwerke, was den Seitenaufbau verzögert.
+> [!TIP]
+> **Zum Glück gibt es Alternativen.** In den nächsten Stufen zeige ich dir, wie du all diese Probleme mit wenigen Klicks beseitigst – und deine Privatsphäre zurückgewinnst.
 
 ---
 
