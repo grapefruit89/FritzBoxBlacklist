@@ -80,7 +80,7 @@ Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürb
 ---
 
 <p align="center">
-  [Stufe 1 ➡️](01-alternative-dns.md)
+  <a href="01-alternative-dns.md">Stufe 1 ➡️</a>
 </p>
 
 [⬅️ Zurück zur Übersicht](../README.md)
