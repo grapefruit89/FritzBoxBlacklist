@@ -37,13 +37,13 @@ Stell dir vor, du willst deine Oma besuchen, kennst aber ihre Hausnummer nicht. 
 > [!IMPORTANT]
 > **Das Problem:** Wenn du nichts änderst, gehört der „Kiosk“ deinem Internet-Anbieter (z. B. Telekom oder Vodafone). Der Anbieter schreibt sich genau auf, wen du wann „besuchen“ wolltest. So weiß er sehr viel über dein Privatleben.
 
-<details>
-<summary>💡 Für Neugierige: Warum heißen die Nummern IP-Adressen?</summary>
+---
+
+### 💡 Warum heißen die Nummern IP-Adressen?
 
 Jedes Gerät im Internet bekommt eine eigene Nummer, die sogenannte **IP-Adresse** (Internet Protocol).  
 Webseiten liegen auf Computern, die eine **feste IP** haben. Damit du nicht die kryptischen Nummern auswendig lernen musst, gibt es die **DNS-Server** – sie übersetzen Namen in Nummern.  
 Beispiel: `google.de` → `142.250.185.163`
-</details>
 
 ---
 
