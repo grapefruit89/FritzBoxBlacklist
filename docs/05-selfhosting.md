@@ -1,16 +1,20 @@
-# 🏠 Stufe 5: Self-Hosting (AdGuard Home & Pi-hole)
+# 🏠 Stufe 5: Self-Hosting (DNS-Server selbst betreiben)
 
 Die Königsdisziplin. Hier holst du dir die volle Souveränität zurück. Deine DNS-Anfragen verlassen dein Haus nicht mehr unkontrolliert, und du bist nicht mehr auf das Wohlwollen von Cloud-Anbietern angewiesen.
 
 > [!TIP]
 > **Die Metapher:** Das ist der **eigene Pförtner an deiner Grundstücksgrenze**. Er gehört dir, er wohnt bei dir, und er fragt niemanden um Erlaubnis. Er kennt jeden im Haus und weiß genau, wer rein darf und wer draußen bleiben muss.
 
-## Die Platzhirsche im Vergleich
+## Die Systeme im Vergleich
 
-| System | Metapher | Stärken | DoT/DoH nativ | Zielgruppe |
-| :--- | :--- | :--- | :---: | :--- |
-| [**AdGuard Home**](https://adguard.com/adguard-home.html) | Der moderne Allrounder | All-in-One, schickes UI | ✅ Ja | Einsteiger & Komfort-Suchende |
-| [**Pi-hole**](https://pi-hole.net/) | Der robuste Veteran | Riesige Community, sparsam | ❌ (via Plugin) | Bastler & Puristen |
+| System | Sprache | Stärken | Metapher | DoT/DoH nativ | Zielgruppe |
+| :--- | :--- | :--- | :--- | :---: | :--- |
+| [**AdGuard Home**](https://adguard.com/adguard-home.html) | Go | All-in-One, schickes UI | Der moderne Allrounder | ✅ Ja | Einsteiger |
+| [**Pi-hole**](https://pi-hole.net/) | PHP/C | Riesige Community, sparsam | Der robuste Veteran | ❌ (via dnsproxy) | Bastler |
+| [**Technitium**](https://technitium.com/dns/) | C#/.NET | Rekursiv & Autoritativ, Enterprise | Das Schweizer Taschenmesser | ✅ Ja | Profis & Sysadmins |
+| [**Blocky**](https://github.com/0xERR0R/blocky) | Go | Schlank, extrem schnell, Single-Binary | Der flinke Flitzer | ✅ Ja | Minimalisten & IaC-Fans |
+| [**Gravity**](https://github.com/BeryJu/gravity) | Go | Voll replizierbar (etcd), DNS+DHCP+TFTP | Die Kommandozentrale | ⚠️ (via Blocky) | Homelabber |
+| [**CoreDNS**](https://coredns.io/) | Go | Plugin-basiert, Kubernetes-native | Der modulare Baukasten | ⚠️ (via Plugin) | DevOps-Experten |
 
 ---
 
