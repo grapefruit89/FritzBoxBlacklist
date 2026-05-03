@@ -71,10 +71,10 @@ Möchtest du wissen, wer aktuell dein „Telefonbuch“ verwaltet?
 
 ## 📊 Vergleich: Vanilla vs. Custom DNS
 
-| Feature | Vanilla (Stufe 0) | Custom (ab Stufe 1) |
+| Feature | Vanilla (Stufe 0) | Custom [(ab Stufe 1)](01-alternative-dns.md) |
 | :--- | :---: | :---: |
 | **Privatsphäre** | ❌ Niedrig | ✅ Hoch |
-| **Werbefrei** | ❌ Nein | ✅ Ja (ab Stufe 3) |
+| **Werbefrei** | ❌ Nein | ✅ Ja [(ab Stufe 3)](03-dns-verschluesselt-adblock.md) |
 | **Zensurfrei** | ❌ Nein | ✅ Ja |
 | **Verschlüsselung** | ❌ Keine | ✅ Ja (DoT/DoH) |
 
