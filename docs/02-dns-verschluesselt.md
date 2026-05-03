@@ -27,17 +27,6 @@ Diese Anbieter unterstützen den DoT-Standard der Fritz!Box perfekt.
 | ![SE](https://flagcdn.com/w20/se.png) [**Mullvad**](https://mullvad.net/) | `base.dns.mullvad.net` | Maximale Anonymität aus Schweden. | ![SE](https://flagcdn.com/w20/se.png) SE |
 | ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `one.one.one.one` | Schnellster globaler Resolver. | ![US](https://flagcdn.com/w20/us.png) US |
 
----
-
-## 🛠️ Einrichtung in der Fritz!Box (ab OS 7.20)
-
-1.  **Internet -> Zugangsdaten -> DNS-Server**.
-2.  Scrolle runter zu **DNS-over-TLS (DoT)**.
-3.  Haken setzen bei: **Verschlüsselte Abfrage im Internet (DNS over TLS)**.
-4.  Trage den **DoT-Hostnamen** (z. B. `dnsforge.de`) in die Liste ein.
-
-> [!CAUTION]
-> **Wichtig:** Trage dort **keine IP-Adressen** ein! Die Fritz!Box benötigt zwingend den Hostnamen, um das Sicherheitszertifikat des Servers zu prüfen.
 
 ---
 
