@@ -1,26 +1,43 @@
-# Stufe 5: Self-Hosting (AdGuard Home & Pi-hole)
+# 🏠 Stufe 5: Self-Hosting (AdGuard Home & Pi-hole)
 
-Für maximale Privatsphäre und absolute Kontrolle kannst du deinen eigenen DNS-Server in deinem Heimnetz betreiben. Hier verlassen deine DNS-Anfragen (sofern gewünscht) nie wirklich deine Kontrolle, und du bist nicht von Drittanbietern abhängig.
+[⬅️ Zurück zur Übersicht](../README.md)
 
-## Die Klassiker im Vergleich
+Die Königsdisziplin. Hier holst du dir die volle Souveränität zurück. Deine DNS-Anfragen verlassen dein Haus nicht mehr unkontrolliert, und du bist nicht mehr auf das Wohlwollen von Cloud-Anbietern angewiesen.
 
-### [AdGuard Home](https://adguard.com/adguard-home.html)
-AdGuard Home ist die modernere Lösung. Es ist eine All-in-One-Binärdatei, die extrem einfach zu installieren ist und DoT/DoH nativ unterstützt.
-*   **Vorteile:** Modernes Web-Interface, integrierte Unterstützung für verschlüsseltes DNS, einfache Handhabung von Client-spezifischen Regeln.
-*   **Empfehlung:** Ideal für Einsteiger und Nutzer, die eine schicke Oberfläche suchen.
+> [!TIP]
+> **Die Metapher:** Das ist der **eigene Pförtner an deiner Grundstücksgrenze**. Er gehört dir, er wohnt bei dir, und er fragt niemanden um Erlaubnis. Er kennt jeden im Haus und weiß genau, wer rein darf und wer draußen bleiben muss.
 
-### [Pi-hole](https://pi-hole.net/)
-Der Urvater der DNS-Adblocker. Pi-hole hat eine riesige Community und läuft auf fast jeder Hardware (besonders beliebt auf dem Raspberry Pi).
-*   **Vorteile:** Extrem ressourcensparend, riesiges Ökosystem an Add-ons und Skripten.
-*   **Hinweis:** Benötigt für verschlüsseltes DNS (DoT/DoH) oft Zusatzsoftware wie `unbound` oder `cloudflared`.
+## Die Platzhirsche im Vergleich
+
+| System | Metapher | Stärken | DoT/DoH nativ | Zielgruppe |
+| :--- | :--- | :--- | :---: | :--- |
+| [**AdGuard Home**](https://adguard.com/adguard-home.html) | Der moderne Allrounder | All-in-One, schickes UI | ✅ Ja | Einsteiger & Komfort-Suchende |
+| [**Pi-hole**](https://pi-hole.net/) | Der robuste Veteran | Riesige Community, sparsam | ❌ (via Plugin) | Bastler & Puristen |
+
+---
 
 ## Hardware-Optionen
-1.  **Raspberry Pi:** Der Standardweg. Ein kleiner Pi Zero oder Pi 3/4/5 reicht völlig aus.
-2.  **Docker:** Wenn du bereits ein NAS (Synology, QNAP) oder einen Heimserver hast, ist die Installation als Docker-Container am einfachsten.
-3.  **Alte Hardware:** Auch ein alter Laptop oder Thin Client kann problemlos als DNS-Server dienen.
 
-## Wie wird es in die Fritz!Box integriert?
-Statt die Upstream-DNS-Server der Fritz!Box zu ändern, trägst du die IP deines Self-Hosted-Servers unter **Heimnetz -> Netzwerk -> Netzwerkeinstellungen -> IPv4-Konfiguration** als lokalen DNS-Server ein. So verteilt die Fritz!Box per DHCP direkt die IP deines Adblockers an alle Geräte im Netzwerk.
+*   **Der Klassiker:** Ein **Raspberry Pi** (schon ein alter Pi 3 oder ein günstiger Pi Zero reichen völlig aus).
+*   **Der Server-Weg:** Als **Docker-Container** auf einem NAS (Synology, QNAP, Unraid).
+*   **Upcycling:** Ein alter Laptop oder ein ausrangierter Thin Client (z. B. Futro, Wyse).
+
+---
+
+## Integration in die Fritz!Box (Der wichtigste Schritt)
+
+Es gibt zwei Wege, deinen eigenen Pförtner einzubinden. **Weg B ist der empfohlene Weg.**
+
+### Weg A: Als Upstream-Server (Global)
+Die Fritz!Box fragt bei jeder externen Anfrage deinen Server.
+*   **Nachteil:** In den Statistiken deines Servers siehst du nur die IP der Fritz!Box, nicht das einzelne Endgerät.
+
+### Weg B: Per DHCP-Option (Empfohlen)
+Die Fritz!Box sagt jedem Gerät im Netz: "Frag direkt meinen Pförtner unter der IP `192.168.178.X`".
+1. Gehe zu **Heimnetz -> Netzwerk -> Netzwerkeinstellungen**.
+2. Klicke auf **IPv4-Einstellungen** (oder IPv6).
+3. Trage die lokale IP deines Servers bei **Lokaler DNS-Server** ein.
+*   **Vorteil:** Du siehst in deinem Dashboard exakt, welches Gerät (Handy, TV, Laptop) gerade welche Anfragen stellt.
 
 ---
 <p align="center">
