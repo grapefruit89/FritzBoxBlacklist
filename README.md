@@ -85,3 +85,8 @@ Hoste dein eigenes 'Telefonbuch' auf deinem Server (z.B. NixOS, Pi, NAS).
 
 ## 📜 Lizenz
 [MIT License](https://opensource.org/licenses/MIT) – freie Nutzung mit Namensnennung.
+
+---
+
+## 🤖 Agent Test
+Dieser Abschnitt wurde von **Gemini CLI** hinzugefügt, um den Schreibzugriff über den Machine SSH Key zu verifizieren. Test erfolgreich! ✅
