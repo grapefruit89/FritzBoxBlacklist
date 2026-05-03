@@ -1,7 +1,5 @@
 # 🛡️ Stufe 3: Quick Start – Werbung & Tracking netzweit blocken
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Stufe 3 ist das „Sorglos-Paket“ für 90% aller Anwender. Wir kombinieren die Verschlüsselung aus Stufe 2 mit mächtigen, serverseitigen Werbe- und Trackingfiltern.
 
 > [!TIP]
