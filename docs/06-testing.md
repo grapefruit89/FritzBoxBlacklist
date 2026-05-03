@@ -1,30 +1,30 @@
-# Stufe 6: Setup testen & validieren
+# 🧪 Stufe 6: Setup testen & validieren
 
-Nachdem du dein neues DNS-Setup eingerichtet hast, solltest du prüfen, ob alles wie gewünscht funktioniert. Werden die Werbeserver blockiert? Ist die Verbindung verschlüsselt?
+> **Der TÜV für dein Heimnetz**
+> Nachdem du dein DNS-Setup optimiert hast, muss es sich im Praxistest beweisen. Werden Tracker blockiert? Bleiben deine DNS-Abfragen privat?
 
 ## Die besten Test-Tools
 
-### 1. [d3ward Adblock Test](https://d3ward.github.io/toolz/adblock.html)
-Dieser Test lädt eine Vielzahl bekannter Tracker und Werbedomains direkt in deinem Browser.
-*   **Ziel:** Ein Wert über 80% ist sehr gut. Über 90% ist exzellent (kann aber zu Overblocking führen).
+| Tool | Fokus / Ziel | Link |
+| :--- | :--- | :--- |
+| **d3ward Adblock Test** | **Quick-Check:** Lädt hunderte Tracker. Ziel: **> 90%** | [Zum Test](https://d3ward.github.io/toolz/adblock.html) |
+| **Can You Block It?** | **Extreme Test:** Prüft auch kosmetische Filter & Popups. | [Zum Test](https://canyoublockit.com/) |
+| **AdBlock Tester** | **Detail-Analyse:** Analyse verschiedener Werbeformate. | [Zum Test](https://adblock-tester.com/) |
+| **Cover Your Tracks (EFF)** | **Privacy Fokus:** Tracking & Fingerprinting Schutz. | [Zum Test](https://coveryourtracks.eff.org/) |
+| **DNS Leak Test** | **Leak-Check:** Prüfe, ob dein ISP-Name erscheint. | [Zum Test](https://www.dnsleaktest.com/) |
 
-### 2. [DNS Leak Test](https://www.dnsleaktest.com/)
-Prüfe, welcher DNS-Anbieter tatsächlich antwortet.
-*   **Erwartung:** Es sollte nur der von dir gewählte Anbieter (z.B. Mullvad, NextDNS, dnsforge) erscheinen. Wenn der Name deines Internetanbieters (ISP) auftaucht, hast du ein "DNS-Leak".
+## Manueller Check via Kommandozeile
 
-### 3. [1.1.1.1 Help Tool](https://1.1.1.1/help)
-Cloudflare bietet ein detailliertes Diagnose-Tool an, das auch für andere Anbieter funktioniert.
-*   **Wichtig:** Prüfe die Zeilen "Using DNS over TLS (DoT)" oder "Using DNS over HTTPS (DoH)". Hier sollte "Yes" stehen, wenn du Verschlüsselung aktiviert hast.
+Um sicherzugehen, dass dein DNS-Server Werbedomains tatsächlich ins Leere laufen lässt, kannst du einen manuellen Abgleich machen. Öffne ein Terminal (PowerShell oder CMD) und frage eine bekannte Werbedomain ab:
 
-### 4. [Check My DNS (Mullvad)](https://mullvad.net/check)
-Ein einfacher Check von Mullvad, der dir sofort sagt, ob du deren DNS nutzt und ob Leaks vorhanden sind.
+```bash
+nslookup doubleclick.net
+```
 
-## Manueller Test (Kommandozeile)
-Du kannst auch direkt prüfen, ob eine bekannte Werbedomain blockiert wird. Öffne ein Terminal (CMD/PowerShell) und tippe:
-`nslookup doubleclick.net`
+### So interpretierst du das Ergebnis:
 
-*   **Blockiert:** Antwortet meist mit `0.0.0.0` oder `127.0.0.1`.
-*   **Nicht blockiert:** Zeigt eine echte IP-Adresse an.
+*   **✅ Erfolg (Blockiert):** Das Ergebnis zeigt als Adresse `0.0.0.0` oder `127.0.0.1` (oder die IP deines lokalen Blockers). Das bedeutet, die Anfrage wurde abgefangen.
+*   **❌ Fehlgeschlagen (Aktiv):** Du siehst eine oder mehrere "echte" IP-Adressen von Google/Doubleclick. Dein Filter greift für diesen Client aktuell nicht.
 
 ---
 <p align="center">
