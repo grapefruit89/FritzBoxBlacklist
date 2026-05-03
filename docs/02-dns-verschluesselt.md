@@ -28,7 +28,6 @@ Diese Anbieter unterstützen den DoT-Standard der Fritz!Box perfekt.
 | ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `one.one.one.one` | Schnellster globaler Resolver. | ![US](https://flagcdn.com/w20/us.png) US |
 
 
----
 
 <p align="center">
   <a href="00-vanilla-dns.md">🍦 Stufe 0</a> | <a href="01-alternative-dns.md">⚡ Stufe 1</a> | 💊 Stufe 2 | <a href="03-dns-verschluesselt-adblock.md">🛡️ Stufe 3</a> | <a href="04-cloud-adblocker.md">☁️ Stufe 4</a> | <a href="05-selfhosting.md">🏠 Stufe 5</a> | <a href="06-testing.md">🧪 Stufe 6</a> | <a href="07-sources.md">📚 Stufe 7</a>
