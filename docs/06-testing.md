@@ -5,13 +5,13 @@
 
 ## Die besten Test-Tools
 
-| Tool | Fokus / Ziel | Link |
-| :--- | :--- | :--- |
-| **d3ward Adblock Test** | **Quick-Check:** Lädt hunderte Tracker. Ziel: **> 90%** | [Zum Test](https://d3ward.github.io/toolz/adblock.html) |
-| **Can You Block It?** | **Extreme Test:** Prüft auch kosmetische Filter & Popups. | [Zum Test](https://canyoublockit.com/) |
-| **AdBlock Tester** | **Detail-Analyse:** Analyse verschiedener Werbeformate. | [Zum Test](https://adblock-tester.com/) |
-| **Cover Your Tracks (EFF)** | **Privacy Fokus:** Tracking & Fingerprinting Schutz. | [Zum Test](https://coveryourtracks.eff.org/) |
-| **DNS Leak Test** | **Leak-Check:** Prüfe, ob dein ISP-Name erscheint. | [Zum Test](https://www.dnsleaktest.com/) |
+| Tool | Beschreibung |
+| :--- | :--- |
+| [d3ward Adblock Test](https://d3ward.github.io/toolz/adblock.html) | **Quick-Check:** Lädt hunderte Tracker. Ziel: **> 90%** |
+| [Can You Block It?](https://canyoublockit.com/) | **Extreme Test:** Prüft auch kosmetische Filter & Popups. |
+| [AdBlock Tester](https://adblock-tester.com/) | **Detail-Analyse:** Analyse verschiedener Werbeformate. |
+| [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) | **Privacy Fokus:** Tracking & Fingerprinting Schutz. |
+| [DNS Leak Test](https://www.dnsleaktest.com/) | **Leak-Check:** Prüfe, ob dein ISP-Name erscheint. |
 
 ## Manueller Check via Kommandozeile
 
