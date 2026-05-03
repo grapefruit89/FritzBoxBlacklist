@@ -45,7 +45,7 @@ Lerne nicht nur, *was* du konfigurieren musst, sondern verstehe endlich auch das
 ## ⚡ Quick Start (TL;DR)
 
 > [!TIP]
-> Du hast keine Lust auf lange Theorie und willst **sofort** ein saubereres Internet?
+> Du hast keine Lust auf lange Theorie und willst **sofort** ein saubereres Internet?  
 >
 > ➡️ [**Gehe direkt zu Stufe 3: Quick Start – Werbung & Tracking netzweit blocken**](./docs/03-dns-verschluesselt-adblock.md)
 >
