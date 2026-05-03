@@ -9,60 +9,76 @@ Du hast den Bildungsweg abgeschlossen. Aber Privatsphäre ist ein Prozess, kein 
 
 ---
 
-## Vertrauenswürdige Quellen (DE)
+## 🏛️ Die dicken Wälzer (Vertrauenswürdige Quellen DE)
 
-| Name | Fokus | Besonderheit | Empfehlung |
+Diese Seiten bilden das Fundament für digitales Selbstverteidigungswissen.
+
+| Quelle | Fokus | Besonderheit | Empfehlung |
 | :--- | :--- | :--- | :--- |
-| [**Kuketz IT-Security**](https://www.kuketz-blog.de/) | Tiefgreifende Analysen | Der Goldstandard für Privacy & Security | Absolute Pflichtlektüre |
-| [**Privacy-Handbuch**](https://www.privacy-handbuch.de/) | Anleitungen & Konzepte | Sehr detailliert, Fokus Browser & OS | Perfekt für das Feintuning |
-| [**DNSforge.de**](https://dnsforge.de/) | DNS-Infrastruktur | Werbefrei, Log-frei, Community-getrieben | Vorbild für eigene Instanzen |
-| [**Tarnkappe.info**](https://tarnkappe.info/) | IT-News & Recht | Fokus auf Urheberrecht & Netzpolitik | Gute News-Ergänzung |
+| [**Kuketz IT-Security**](https://www.kuketz-blog.de/) | Analysen | Goldstandard für Privacy & Security | Pflichtlektüre |
+| [**Privacy-Handbuch**](https://www.privacy-handbuch.de/) | Konzepte | Extrem detailliertes Nachschlagewerk | Für das Feintuning |
+| [**DNSforge.de**](https://dnsforge.de/) | DNS-Infra | Werbefrei, Log-frei, Community-getrieben | Vorbild-Projekt |
+| [**Tarnkappe.info**](https://tarnkappe.info/) | Recht | Fokus auf Urheberrecht & Netzpolitik | Gute News-Ergänzung |
 
 ---
 
-## Praxis-Tutorials & Anleitungen
+## 🛠️ Die Werkstatt-Hefte (Praxis-Tutorials)
 
-| Thema | Quelle | Link |
-| :--- | :--- | :--- |
-| **Fritz!Box DoT Einrichtung** | FFMUC | [Anleitung lesen](https://ffmuc.net/wiki/doku.php?id=knb:dot) |
-| **DoH in Windows & Browser** | Tarnkappe | [Tutorial ansehen](https://tarnkappe.info/artikel/it-security/anleitungen/dns-over-https-doh-einrichten-browser-windows-android-249561.html) |
-| **DNS-Grundlagen verstehen** | Heise / iX | [DNS Basics](https://www.heise.de/ratgeber/DNS-Grundlagen-Die-Wegweiser-im-Internet-4717141.html) |
+Konkrete Anleitungen für die Umsetzung an deinen Geräten.
 
----
-
-## Netzpolitik & Zensur
-
-| Organisation / Medium | Fokus | Aktuelles Thema |
-| :--- | :--- | :--- |
-| [**Netzpolitik.org**](https://netzpolitik.org/) | Digitale Freiheitsrechte | Überwachung & Transparenz |
-| [**Heise Online**](https://www.heise.de/thema/CUII) | CUII Analysen | Netzsperren in Deutschland |
-| [**Chaos Computer Club**](https://www.ccc.de/) | Hackerethik & Technik | 39C3 - Hacker-Konferenzen |
+| Thema | Quelle | Fokus | Nutzen |
+| :--- | :--- | :--- | :--- |
+| **Fritz!Box DoT Setup** | FFMUC | Schritt-für-Schritt | Klare Konfig-Hilfe |
+| **DoH in Windows** | Tarnkappe | Systemweite Absicherung | Desktop-Schutz |
+| **DNS-Grundlagen** | Heise / iX | Technischer Hintergrund | Verstehen statt nur Tun |
+| **Browser-Härtung** | Privacy-HB | Firefox & Chrome Tuning | Tracker-Blockade |
 
 ---
 
-## Tools & Blocklisten
+## 📢 Die Tageszeitungen (Netzpolitik & Zensur)
 
-| Tool / Liste | Zweck | Link |
+Verstehe die gesellschaftlichen Hintergründe von Netzsperren und Überwachung.
+
+| Organisation | Fokus | Warum folgen? |
 | :--- | :--- | :--- |
-| **Kuketz Blocklists** | Hochwertige Filterlisten | [GitHub Repo](https://github.com/Kuketz-Blog/blocklists) |
-| **OISD.nl** | "Set and forget" Liste | [Website](https://oisd.nl/) |
-| **Firebog** | Pi-hole Listen-Sammlung | [The Big Blocklist](https://firebog.net/) |
-| **CaptainDNS** | DNS Performance Benchmarks | [Zum Tool](https://github.com/pforemski/captdns) |
+| [**Netzpolitik.org**](https://netzpolitik.org/) | Freiheitsrechte | Wächter der digitalen Welt |
+| [**Heise Online**](https://www.heise.de/thema/CUII) | CUII Analysen | Alles über DNS-Sperren in DE |
+| [**CCC**](https://www.ccc.de/) | Hackerethik | Die technische Gewissensinstanz |
+
+---
+
+## ⚙️ Tools & Blocklisten (Das Ersatzteillager)
+
+<details>
+<summary>📋 Blocklisten-Ressourcen (Klick zum Ausklappen)</summary>
+
+| Ressource | Zweck | Besonderheit |
+| :--- | :--- | :--- |
+| [**Kuketz Blocklists**](https://github.com/Kuketz-Blog/blocklists) | DNS-Filterung | Sehr hohe Qualität (DE) |
+| [**OISD.nl**](https://oisd.nl/) | Adblocking | "Set and forget" (Wenig Overblocking) |
+| [**Firebog**](https://firebog.net/) | Pi-hole Listen | Die ultimative Sammlung |
+
+</details>
+
+<details>
+<summary>📊 Technische Werkzeuge (Klick zum Ausklappen)</summary>
+
+| Tool | Zweck | Link |
+| :--- | :--- | :--- |
+| **CaptainDNS** | Benchmarks | [GitHub](https://github.com/pforemski/captdns) |
+| **DNS Privacy Project** | Resolver-Liste | [Website](https://dnsprivacy.org/) |
+
+</details>
 
 ---
 
 ## Warum diese Quellen?
 
-In der Welt der IT-Sicherheit und des Datenschutzes ist Vertrauen die wichtigste Währung. Die hier gelisteten Quellen zeichnen sich durch folgende Merkmale aus:
-
-1.  **Unabhängigkeit:** Keine Finanzierung durch Werbenetzwerke oder Tracking-Konzerne.
-2.  **Transparenz:** Technische Behauptungen werden belegt und sind nachprüfbar.
-3.  **Tiefe:** Es geht nicht um "Klick-Bait", sondern um echtes technisches Verständnis.
-4.  **Aktualität:** Regelmäßige Updates zu neuen Zero-Day-Lücken oder Gesetzesänderungen.
+In der Welt der IT-Sicherheit ist Vertrauen die wichtigste Währung. Die hier gelisteten Quellen zeichnen sich durch **Unabhängigkeit**, **technische Tiefe** und **Transparenz** aus. Sie verkaufen keine Nutzerdaten und werden von der Community getragen.
 
 ---
 <p align="center">
-  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | Stufe 7
+  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | 📚 Stufe 7
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>

@@ -1,7 +1,11 @@
 # 🍦 Stufe 0: Standard-DNS vom Anbieter (Vanilla)
 
+[⬅️ Zurück zur Übersicht](../README.md)
 
 Willkommen! Ohne Änderungen nutzt du das **Standard-DNS deines Providers** (Telekom, Vodafone, o2). Setup: „Vanilla“ – Standard-Geschmack. Funktioniert, aber wenig Privatsphäre.
+
+> [!TIP]
+> **Die Metapher:** Das ist der **Standard-Kiosk** deines Internet-Anbieters. Er kennt dich, er weiß genau, wen du besuchen willst, und er führt Buch über jede deiner Anfragen.
 
 ---
 
@@ -34,7 +38,7 @@ Stell dir vor, du willst deine Oma besuchen, kennst aber ihre Hausnummer nicht. 
 5. Dein Browser holt sich jetzt von dieser Nummer die Webseite – und zeigt sie an.
 
 > [!IMPORTANT]
-> **Das Problem:** Wenn du nichts änderst, gehört der „Kiosk“ deinem Internet-Anbieter (z. B. Telekom oder Vodafone). Der Anbieter schreibt sich genau auf, wen du wann „besuchen“ wolltest. So weiß er sehr viel über dein Privatleben.
+> **Das Problem:** Wenn du nichts änderst, gehört der „Kiosk“ deinem Internet-Anbieter. Der Anbieter schreibt sich genau auf, wen du wann „besuchen“ wolltest. So weiß er sehr viel über dein Privatleben.
 
 ---
 
@@ -48,42 +52,20 @@ Beispiel: `google.de` → `142.250.185.163`
 
 ## 🚩 5 Nachteile von Vanilla-DNS
 
-### 1. Tracking (Provider sieht ALLES)
-Jede aufgerufene Domain geht über Provider-DNS.
-- Banking, Gesundheit, Vorlieben: Provider weiß Bescheid.
-- Datenprofile sind wertvoll für Tracking.
+> [!WARNING]
+> **1. Tracking (Provider sieht ALLES):** Jede aufgerufene Domain geht über Provider-DNS. Banking, Gesundheit, Vorlieben: Der Provider weiß Bescheid.
+
+> [!CAUTION]
+> **2. Zensur (CUII-Sperren):** Provider sperren Webseiten via DNS (z. B. Streaming, E-Book-Archive). Ergebnis: „Adresse existiert nicht“.
 
 > [!WARNING]
-> Profilbildung deines digitalen Lebens – oft ohne dein Wissen.
+> **3. DNS-Hijacking & Manipulation:** Tippfehler werden oft für Werbung oder Tracking-Umleitungen („Navigationshilfe“) missbraucht.
 
-### 2. Zensur (CUII-Sperren)
-Provider sperren Webseiten via DNS (z. B. Streaming, E-Book-Archive).
-- Ergebnis: „Adresse existiert nicht“ oder Warnseite.
-- Hintergründe in [Stufe 7: Quellen](07-sources.md).
+> [!CAUTION]
+> **4. Keine Verschlüsselung:** Standard-DNS ist wie eine Postkarte: Jeder auf dem Weg kann mitlesen, was du anfragst.
 
-### 3. DNS-Hijacking & Manipulation
-Tippfehler (`google.dee`) → Provider leitet auf eigene Suchseite mit Werbung um.
-- Telekom nennt es „Navigationshilfe“.
-- Realität: DNS-Antwort gefälscht für Werbung/Tracking.
-
-### 4. Keine Verschlüsselung
-Standard: **Port 53 (UDP)**. Komplett unverschlüsselt.
-- Mitlesbar im lokalen Netz oder durch den Provider.
-
-### 5. Performance
-Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürbar.
-
----
-
-## 🛠️ Selbsttest: Was nutzt du?
-
-### 👉 Schnelltest (Windows/Mac/Linux)
-
-1. Terminal öffnen.
-2. Befehl: `nslookup google.com`
-3. Zeile **„Server“**: `fritz.box` oder Router-IP = Provider-DNS aktiv.
-4. Check auf **[DNSLeakTest.com](https://www.dnsleaktest.com)**. Erscheint dein Provider? Dann Stufe 0.
-
+> [!WARNING]
+> **5. Performance:** Provider-Server sind oft langsamer als moderne, globale DNS-Netzwerke, was den Seitenaufbau verzögert.
 
 ---
 
@@ -98,17 +80,9 @@ Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürb
 
 ---
 
-> [!TIP]
-> **Nächster Schritt:**  
-> In [Stufe 1: Alternative DNS-Anbieter](01-alternative-dns.md) Kontrolle zurückgewinnen.
-
----
-
 <p align="center">
-  Stufe 0 | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
+  🌱 Stufe 0 | <a href="01-alternative-dns.md">Stufe 1</a> | <a href="02-dns-verschluesselt.md">Stufe 2</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>
 </p>
-
-

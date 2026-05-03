@@ -1,6 +1,6 @@
-<div align="center">
-
 # 🛡️ FritzBoxBlacklist: DNS-Sicherheit & Adblocking
+
+<div align="center">
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![PRs welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](#mitwirken)
@@ -31,14 +31,14 @@ Lerne nicht nur, *was* du konfigurieren musst, sondern verstehe endlich auch das
 
 | Titel & Link | Das erwartet dich |
 | :--- | :--- |
-| [**🍦 Stufe 0: Standard‑DNS**](./docs/00-vanilla-dns.md) | Warum der voreingestellte DNS deines Providers ein Sicherheitsrisiko ist – und warum du dringend wechseln solltest. |
-| [**⚡ Stufe 1: Öffentliche DNS**](./docs/01-alternative-dns.md) | Erste Schritte zu mehr Geschwindigkeit und verbessertem Datenschutz mit unabhängigen Anbietern. |
-| [**💊 Stufe 2: DNS verschlüsseln**](./docs/02-dns-verschluesselt.md) | Schluss mit dem „offenen Buch“ für Dritte – so aktivierst du die Verschlüsselung in deiner Fritz!Box. |
-| [**🛡️ Stufe 3: Quick Start**](./docs/03-dns-verschluesselt-adblock.md) | ⭐ **Empfohlen!** Maximale Privatsphäre plus Werbefilter – in unter 2 Minuten eingerichtet. |
-| [**☁️ Stufe 4: Cloud‑DNS**](./docs/04-cloud-adblocker.md) | Volle Kontrolle, eigene Filterlisten und Statistiken – ganz ohne eigene Hardware (NextDNS & Co.). |
-| [**🏠 Stufe 5: Self‑Hosting**](./docs/05-selfhosting.md) | Die Königsdisziplin: Pi‑hole oder AdGuard Home im eigenen Netzwerk – maximale Souveränität. |
-| [**🧪 Stufe 6: Setup testen & validieren**](./docs/06-testing.md) | So prüfst du systematisch, ob dein neues Setup wirklich dicht hält. |
-| [**📚 Stufe 7: Quellen & Weiterführendes**](./docs/07-sources.md) | Unsere vertrauenswürdigsten deutschsprachigen Quellen, Diskussionen und Werkzeuge auf einen Blick. |
+| [**🌱 Stufe 0: Standard‑DNS**](./docs/00-vanilla-dns.md) | Warum der voreingestellte DNS deines Providers ein Sicherheitsrisiko ist. |
+| [**⚡ Stufe 1: Öffentliche DNS**](./docs/01-alternative-dns.md) | Erste Schritte zu mehr Geschwindigkeit mit unabhängigen Anbietern. |
+| [**💊 Stufe 2: DNS verschlüsseln**](./docs/02-dns-verschluesselt.md) | Schluss mit dem „offenen Buch“ – Verschlüsselung in der Fritz!Box aktivieren. |
+| [**🛡️ Stufe 3: Quick Start**](./docs/03-dns-verschluesselt-adblock.md) | ⭐ **Empfohlen!** Maximale Privatsphäre + Werbefilter in 2 Minuten. |
+| [**☁️ Stufe 4: Cloud‑DNS**](./docs/04-cloud-adblocker.md) | Volle Kontrolle und eigene Statistiken – ganz ohne Hardware. |
+| [**🏠 Stufe 5: Self‑Hosting**](./docs/05-selfhosting.md) | Die Königsdisziplin: Pi‑hole oder AdGuard Home im eigenen Netz. |
+| [**🧪 Stufe 6: Setup testen**](./docs/06-testing.md) | So prüfst du systematisch, ob dein neues Setup wirklich funktioniert. |
+| [**📚 Stufe 7: Quellen**](./docs/07-sources.md) | Vertrauenswürdige Quellen und Werkzeuge auf einen Blick. |
 
 ---
 
@@ -64,10 +64,15 @@ Suchst du die ursprünglichen **Top‑500‑Listen** für die klassische Fritz!B
 
 ## 📜 Lizenz
 
-Dieses Projekt ist unter der [MIT License](https://opensource.org/licenses/MIT) lizenziert – freie Nutzung und Weitergabe sind ausdrücklich erwünscht.
+Dieses Projekt ist unter der [MIT License](https://opensource.org/licenses/MIT) lizenziert.
 
 ---
 
 ## 🤝 Mitwirken
 
 Pull Requests und Issues sind jederzeit willkommen!
+
+---
+<p align="center">
+  🏠 Home | <a href="./docs/00-vanilla-dns.md">Stufe 0</a> | <a href="./docs/01-alternative-dns.md">Stufe 1</a> | <a href="./docs/02-dns-verschluesselt.md">Stufe 2</a> | <a href="./docs/03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="./docs/04-cloud-adblocker.md">Stufe 4</a> | <a href="./docs/05-selfhosting.md">Stufe 5</a> | <a href="./docs/06-testing.md">Stufe 6</a> | <a href="./docs/07-sources.md">Stufe 7</a>
+</p>

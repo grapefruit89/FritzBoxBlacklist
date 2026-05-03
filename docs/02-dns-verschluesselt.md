@@ -1,62 +1,51 @@
-# 💊 Stufe 2: DNS verschlüsseln
+# 💊 Stufe 2: DNS verschlüsseln (DoT & DoH)
 
-DNS-Verschlüsselung ist dein Ticket aus der Matrix der Provider-Überwachung. Während Stufe 1 dir ein besseres Telefonbuch gegeben hat, sorgt Stufe 2 dafür, dass niemand mehr heimlich mitliest.
+[⬅️ Zurück zur Übersicht](../README.md)
+
+Standard-DNS-Anfragen sind wie eine Postkarte: Jeder auf dem Weg kann mitlesen, wen du besuchst. Jetzt schicken wir stattdessen einen **versiegelten Brief**.
 
 > [!TIP]
-> **Die Wahl:** Du kannst die blaue Pille schlucken (Standard-DNS deines Providers) und in der gewohnten Überwachung bleiben – oder die rote Pille (verschlüsseltes DNS) und sehen, wie tief der Kaninchenbau der digitalen Freiheit reicht.
+> **Die Metapher:** Das ist die **rote Pille**. Du entscheidest dich dafür, den Tunnel der Überwachung zu verlassen. Deine Anfragen werden in einen unknackbaren Safe gelegt, bevor sie dein Haus verlassen.
 
 ---
 
-## 🕶️ DoT vs. DoH
-Normale DNS-Anfragen sind wie Postkarten: Jeder kann sie mitlesen. Verschlüsselung schützt deine Privatsphäre.
+## 🔒 Warum Verschlüsselung?
 
-1. **DoT (DNS over TLS):** Verschlüsselter Tunnel (Port 853). Ideal für Router wie die **Fritz!Box**.
-2. **DoH (DNS over HTTPS):** Versteckt Anfragen im Web-Traffic (Port 443). Nutzen vor allem Browser und Smartphones.
+Ohne Verschlüsselung (Port 53) kann dein Internetanbieter, der WLAN-Betreiber im Café oder ein Angreifer im Netzwerk genau sehen, welche Domains du aufrufst.
 
----
-
-## 🏛️ Die Anbieter (DoT Fokus)
-Diese Anbieter bieten Sicherheit ohne aggressive Filter. Ideal zum Testen.
-
-| Anbieter | DoT-Hostname | Besonderheiten & Modell |
-| :--- | :--- | :--- |
-| ![CH](https://flagcdn.com/w20/ch.png) [**Quad9**](https://www.quad9.net/) | `dns.quad9.net` | **Security.** Malware-Block, Non-Profit. (Spenden) |
-| ![DE](https://flagcdn.com/w20/de.png) [**dnsforge.de**](https://dnsforge.de/) | `dnsforge.de` | **Kuketz-Empfehlung.** Keine Logs, werbefrei. (Spenden) |
-| ![SE](https://flagcdn.com/w20/se.png) [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | `base.dns.mullvad.net` | **Privacy-Fokus.** Schlank und anonym. (Free) |
-| ![DE](https://flagcdn.com/w20/de.png) [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | `dns3.digitalcourage.de` | **Datenschutz-Verein.** Keine Logs. (Spenden) |
-| ![CH](https://flagcdn.com/w20/ch.png) [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | `dns.digitale-gesellschaft.ch` | **Bürgerrechte.** Keine Vorratsdaten. (Spenden) |
-| ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `one.one.one.one` | **Performance.** Weltweit am schnellsten. (Free) |
-| ![US](https://flagcdn.com/w20/us.png) [**Google**](https://developers.google.com/speed/public-dns) | `dns.google` | **Verfügbarkeit.** Big-Tech Standard. (Free) |
-| ![EU](https://flagcdn.com/w20/eu.png) [**DNS4EU**](https://joindns4.eu/) | `unfiltered.joindns4.eu` | **EU-Standard.** DSGVO-konform. (Free) |
+1.  **DoT (DNS over TLS):** Der Standard für Router wie die Fritz!Box. Nutzt Port 853.
+2.  **DoH (DNS over HTTPS):** Der Standard für Browser. Versteckt DNS-Anfragen im normalen Web-Traffic.
 
 ---
 
-## ⚙️ Fritz!Box Setup
-1. `Internet` -> `Zugangsdaten` -> `DNS-Server`.
-2. Bereich **DNS über TLS (DoT)** suchen.
-3. **DNS über TLS (DoT) aktiv** anhaken.
-4. Hostnamen (einer pro Zeile) eintragen (z.B. `dns.quad9.net`).
+## 📊 Anbieter mit nativer Verschlüsselung
 
-> [!IMPORTANT]
-> Nur den **Hostnamen** eintragen! Keine IPs, keine Schrägstriche, kein Port. IPs gehören in die Felder darüber (Stufe 1).
+Diese Anbieter unterstützen den DoT-Standard der Fritz!Box perfekt.
+
+| Anbieter | DoT-Hostname | Besonderheiten | Herkunft |
+| :--- | :--- | :--- | :---: |
+| ![CH](https://flagcdn.com/w20/ch.png) [**Quad9**](https://www.quad9.net/) | `dns.quad9.net` | Fokus auf Malware-Schutz. | ![CH](https://flagcdn.com/w20/ch.png) CH |
+| ![DE](https://flagcdn.com/w20/de.png) [**dnsforge.de**](https://dnsforge.de/) | `dnsforge.de` | Werbefrei & keine Logs (Kuketz-Favorit). | ![DE](https://flagcdn.com/w20/de.png) DE |
+| ![SE](https://flagcdn.com/w20/se.png) [**Mullvad**](https://mullvad.net/) | `base.dns.mullvad.net` | Maximale Anonymität aus Schweden. | ![SE](https://flagcdn.com/w20/se.png) SE |
+| ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `one.one.one.one` | Schnellster globaler Resolver. | ![US](https://flagcdn.com/w20/us.png) US |
 
 ---
 
-## 🧪 Testen
-### Check-Tools
+## 🛠️ Einrichtung in der Fritz!Box (ab OS 7.20)
 
-- **[Quad9 Check](https://on.quad9.net/):** Bestätigt sofort, ob du Quad9 nutzt und ob die Verbindung gesichert ist.
-- **[DNS-Leak-Test](https://www.dnsleaktest.com/):** Zeigt an, welche DNS-Server dein System tatsächlich kontaktiert. Erscheint hier dein Internetprovider (z.B. Telekom, Vodafone), "leakt" dein DNS.
-- **[Cloudflare Check](https://www.cloudflare.com/ssl/cloudflarereader/):** Überprüft auf verschlüsseltes SNI und DoT/DoH.
-- **[Mullvad Check](https://mullvad.net/de/check):** Ein schneller Rundum-Check für DNS und Privacy.
+1.  **Internet -> Zugangsdaten -> DNS-Server**.
+2.  Scrolle runter zu **DNS-over-TLS (DoT)**.
+3.  Haken setzen bei: **Verschlüsselte Abfrage im Internet (DNS over TLS)**.
+4.  Trage den **DoT-Hostnamen** (z. B. `dnsforge.de`) in die Liste ein.
 
+> [!CAUTION]
+> **Wichtig:** Trage dort **keine IP-Adressen** ein! Die Fritz!Box benötigt zwingend den Hostnamen, um das Sicherheitszertifikat des Servers zu prüfen.
 
 ---
 
 <p align="center">
-  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | Stufe 2 | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
+  <a href="00-vanilla-dns.md">Stufe 0</a> | <a href="01-alternative-dns.md">Stufe 1</a> | 💊 Stufe 2 | <a href="03-dns-verschluesselt-adblock.md">Stufe 3</a> | <a href="04-cloud-adblocker.md">Stufe 4</a> | <a href="05-selfhosting.md">Stufe 5</a> | <a href="06-testing.md">Stufe 6</a> | <a href="07-sources.md">Stufe 7</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>
 </p>
-
