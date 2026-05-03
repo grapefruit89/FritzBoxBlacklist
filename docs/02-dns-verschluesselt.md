@@ -1,7 +1,5 @@
 # 💊 Stufe 2: DNS verschlüsseln
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 DNS-Verschlüsselung ist dein Ticket aus der Matrix der Provider-Überwachung. Während Stufe 1 dir ein besseres Telefonbuch gegeben hat, sorgt Stufe 2 dafür, dass niemand mehr heimlich mitliest.
 
 > [!TIP]
