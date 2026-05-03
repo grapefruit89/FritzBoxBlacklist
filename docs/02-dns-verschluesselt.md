@@ -51,7 +51,7 @@ Diese Anbieter bieten Sicherheit ohne aggressive Filter. Ideal zum Testen.
 ---
 
 <p align="center">
-  [⬅️ Stufe 1](01-alternative-dns.md) | [Stufe 3 ➡️](03-dns-verschluesselt-adblock.md)
+  <a href="01-alternative-dns.md">⬅️ Stufe 1</a> | <a href="03-dns-verschluesselt-adblock.md">Stufe 3 ➡️</a>
 </p>
 
 [⬅️ Zurück zur Übersicht](../README.md)
