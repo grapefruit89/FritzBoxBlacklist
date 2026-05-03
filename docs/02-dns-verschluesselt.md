@@ -1,8 +1,8 @@
-# 💊 Etappe 2: DNS verschlüsseln
+# 💊 Stufe 2: DNS verschlüsseln
 
 [⬅️ Zurück zur Übersicht](../README.md)
 
-DNS-Verschlüsselung ist dein Ticket aus der Matrix der Provider-Überwachung. Während Etappe 1 dir ein besseres Telefonbuch gegeben hat, sorgt Etappe 2 dafür, dass niemand mehr heimlich mitliest.
+DNS-Verschlüsselung ist dein Ticket aus der Matrix der Provider-Überwachung. Während Stufe 1 dir ein besseres Telefonbuch gegeben hat, sorgt Stufe 2 dafür, dass niemand mehr heimlich mitliest.
 
 ---
 
@@ -50,7 +50,8 @@ Diese Anbieter bieten Sicherheit ohne aggressive Filter. Ideal zum Testen.
 
 ---
 
-### 🚀 Nächste Schritte
-[⬅️ Etappe 1](./01-alternative-dns.md) | [Etappe 3 ➡️](./03-dns-verschluesselt-adblock.md)
+<p align="center">
+  [⬅️ Stufe 1](01-alternative-dns.md) | [Stufe 3 ➡️](03-dns-verschluesselt-adblock.md)
+</p>
 
 [⬅️ Zurück zur Übersicht](../README.md)

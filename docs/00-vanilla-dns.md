@@ -79,5 +79,9 @@ Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürb
 
 ---
 
-[⬅️ Zurück zur Übersicht](../README.md) | [Weiter zu Stufe 1 ➡️](01-alternative-dns.md)
+<p align="center">
+  [Stufe 1 ➡️](01-alternative-dns.md)
+</p>
+
+[⬅️ Zurück zur Übersicht](../README.md)
 
