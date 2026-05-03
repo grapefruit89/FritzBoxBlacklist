@@ -1,7 +1,5 @@
 # ⚡ Stufe 1: Öffentliche alternative DNS-Server
 
-[⬅️ Zurück zur Übersicht](../README.md)
-
 Standard-DNS deines Providers hat oft Lücken – durch Fehler oder bewusste Sperren.
 
 > [!IMPORTANT]
