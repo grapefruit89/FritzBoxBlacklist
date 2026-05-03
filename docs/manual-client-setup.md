@@ -1,8 +1,7 @@
 # Manuelles Client-Setup (Sicheres DNS & Adblocking)
+[⬅️ Zurück zur Übersicht](../README.md)
 
 Nutze DNS-Filter unterwegs (Mobilfunk/öffentliches WLAN) oder gezielt für einzelne Geräte.
-
-[⬅️ Zurück zur Übersicht](../README.md)
 
 > [!TIP]
 > Client-seitiges Setup ist ideal für Schutz außerhalb des Heimnetzes (z.B. unterwegs).
@@ -66,5 +65,7 @@ Unabhängig vom Betriebssystem (DoH).
 - **Chrome/Edge:** Einstellungen → Datenschutz & Sicherheit → Sicherheit → **Sicheres DNS**.
 
 ---
+
+<p align="center">[⬅️ Stufe 7 (Quellen)](07-sources.md)</p>
 
 [⬅️ Zurück zur Übersicht](../README.md)
