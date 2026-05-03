@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🛡️ DNS-Blocker & Heimnetz-Sicherheit</h1>
-  <p><b>Schluss mit Werbung, Tracking und Malware – für das ganze Netzwerk.</b></p>
+  <p><b>Schluss mit Werbung, Tracking und Malware – für dein ganze Netzwerk.</b></p>
   
   [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#lizenz)
   [![PRs welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](#mitwirken)
