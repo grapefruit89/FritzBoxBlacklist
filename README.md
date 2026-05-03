@@ -19,50 +19,42 @@ Lerne nicht nur, *was* du konfigurieren musst, sondern verstehe auch das *Warum*
 
 <br>
 
-**🌱 Stufe 0 – Vanilla DNS**  
-[➔ zum Kapitel](./docs/00-vanilla-dns.md)  
+[**🍦 Stufe 0: Standard-DNS vom Anbieter (Vanilla)**](./docs/00-vanilla-dns.md)  
 *Warum der Standard-DNS deines Providers ein Sicherheitsrisiko ist – und warum du dringend wechseln solltest.*
 
 <br>
 
-**🔎 Stufe 1 – Alternative DNS**  
-[➔ zum Kapitel](./docs/01-alternative-dns.md)  
+[**⚡ Stufe 1: Öffentliche alternative DNS-Server**](./docs/01-alternative-dns.md)  
 *Erste Schritte zu mehr Geschwindigkeit und verbessertem Datenschutz mit öffentlichen Anbietern.*
 
 <br>
 
-**🔒 Stufe 2 – DNS Verschlüsselt (DoT/DoH)**  
-[➔ zum Kapitel](./docs/02-dns-verschluesselt.md)  
+[**💊 Stufe 2: DNS verschlüsseln**](./docs/02-dns-verschluesselt.md)  
 *Schluss mit dem „offenen Buch“ für Dritte – so aktivierst du Verschlüsselung in deiner Fritz!Box.*
 
 <br>
 
-**🛡️ Stufe 3 – Verschlüsselt + Adblock**  
-[➔ zum Kapitel](./docs/03-dns-verschluesselt-adblock.md)  
+[**🛡️ Stufe 3: Quick Start – Werbung & Tracking netzweit blocken**](./docs/03-dns-verschluesselt-adblock.md)  
 *⭐ **Empfohlen!** Maximale Privatsphäre gepaart mit einem effektiven Werbefilter – in 2 Minuten eingerichtet.*
 
 <br>
 
-**☁️ Stufe 4 – Cloud-DNS mit Profil**  
-[➔ zum Kapitel](./docs/04-cloud-adblocker.md)  
+[**☁️ Stufe 4: Cloud-DNS mit Profil – Maximale Kontrolle**](./docs/04-cloud-adblocker.md)  
 *Volle Kontrolle, Filterlisten und Statistiken – ganz ohne eigene Hardware (NextDNS & Co.).*
 
 <br>
 
-**🏠 Stufe 5 – Self-Hosting**  
-[➔ zum Kapitel](./docs/05-selfhosting.md)  
+[**🏠 Stufe 5: Self-Hosting (AdGuard Home & Pi-hole)**](./docs/05-selfhosting.md)  
 *Die Königsdisziplin: Pi-hole oder AdGuard Home im eigenen Netzwerk – maximale Souveränität.*
 
 <br>
 
-**🧪 Stufe 6 – Testing & Verifikation**  
-[➔ zum Kapitel](./docs/06-testing.md)  
+[**🧪 Stufe 6: Setup testen & validieren**](./docs/06-testing.md)  
 *So prüfst du systematisch, ob dein neues Setup wirklich wie gewünscht funktioniert.*
 
 <br>
 
-**📚 Stufe 7 – Quellen & Deep Dive**  
-[➔ zum Kapitel](./docs/07-sources.md)  
+[**📚 Stufe 7: Quellen & Weiterführendes**](./docs/07-sources.md)  
 *Weiterführende Informationen, Inspirationen und die vertrauenswürdigsten deutschsprachigen Quellen.*
 
 <br>
