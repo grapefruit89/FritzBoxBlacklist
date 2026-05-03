@@ -1,25 +1,50 @@
-# Etappe 1: Öffentliche alternative DNS-Server
+# ⚡ Stufe 1: Öffentliche alternative DNS-Server
 
-Wenn du dich entscheidest, den DNS deines Anbieters zu verlassen, sind große öffentliche Anbieter oft die erste Anlaufstelle. Sie sind meist sehr schnell und zuverlässig.
+DNS ist das Telefonbuch des Internets. Standardmäßig nutzt du das Telefonbuch deines Internetanbieters (Telekom, Vodafone, etc.). Doch dieses Buch hat oft Lücken – entweder aus Versehen oder durch bewusste Sperren.
 
-## Bekannte Anbieter
-
-| Anbieter | IP-Adressen | Fokus |
-| :--- | :--- | :--- |
-| **Cloudflare** | `1.1.1.1`, `1.0.0.1` | Maximale Geschwindigkeit & grundlegender Datenschutz. |
-| **Google** | `8.8.8.8`, `8.8.4.4` | Hohe Verfügbarkeit, aber Teil des Google-Ökosystems. |
-
-## Geschwindigkeit vs. Privatsphäre
-
-*   **Vorteil Geschwindigkeit:** Dienste wie Cloudflare (1.1.1.1) sind oft die schnellsten DNS-Resolver weltweit. Das macht das Surfen gefühlt flüssiger.
-*   **Privatsphäre-Check:** Diese Anbieter versprechen zwar, keine Logs dauerhaft zu speichern, aber es bleiben US-Unternehmen. Für viele Nutzer ist das dennoch ein riesiger Sprung nach vorne im Vergleich zum lokalen Internetanbieter.
-
-## Wie trägt man das ein? (Klassisch)
-
-In der FritzBox unter:
-`Internet` -> `Zugangsdaten` -> `DNS-Server`
-
-Hier kannst du die oben genannten IPs unter "Andere DNSv4-Server verwenden" eintragen. Das ist die "klassische" Methode ohne Verschlüsselung.
+> [!IMPORTANT]
+> **Zensurfreiheit als Grundrecht:** Die Nutzung alternativer DNS-Server ist einer der effektivsten Wege, um Netzsperren (wie die der CUII) zu umgehen und den uneingeschränkten Zugang zu Informationen zu sichern.
 
 ---
-[⬅️ Zurück zur Übersicht](../README.md)
+
+## Warum wechseln? (Speed & Freedom)
+
+1.  **Geschwindigkeit:** Große Anbieter wie Cloudflare betreiben globale Netzwerke, die DNS-Anfragen oft in Millisekunden beantworten. Das macht das Surfen spürbar flüssiger.
+2.  **Freiheit von Netzsperren:** In Deutschland setzen Provider oft DNS-Sperren für bestimmte Webseiten um (z. B. durch die Clearingstelle Urheberrecht im Internet - CUII). Alternative DNS-Resolver ignorieren diese Sperrlisten meist komplett.
+3.  **Privatsphäre:** Viele alternative Anbieter protokollieren keine IP-Adressen oder löschen diese nach kurzer Zeit, was dein Surfverhalten vor den neugierigen Blicken deines Providers schützt.
+
+---
+
+## Der Vergleich: Top DNS-Anbieter
+
+Hier findest du eine Auswahl der besten DNS-Resolver, unterteilt nach ihrem Fokus.
+
+| Anbieter | Herkunft | DoT-Hostname oder IP-Adresse | Besonderheit |
+| :--- | :--- | :--- | :--- |
+| <img src="https://flagcdn.com/w20/us.png" width="20"> **Cloudflare** | USA | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
+| <img src="https://flagcdn.com/w20/us.png" width="20"> **Google** | USA | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech-Hintergrund |
+| <img src="https://flagcdn.com/w20/ch.png" width="20"> **Quad9** | Schweiz | `9.9.9.9` / `dns.quad9.net` | Fokus auf Security (Malware-Block), Non-Profit |
+| <img src="https://flagcdn.com/w20/de.png" width="20"> **Digitalcourage** | Deutschland | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, zensurfrei, keine Logs |
+| <img src="https://flagcdn.com/w20/ch.png" width="20"> **Digitale Gesellschaft** | Schweiz | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechtsverein, keine EU-Vorratshaltung |
+| <img src="https://flagcdn.com/w20/eu.png" width="20"> **DNS4EU** | EU | `protective.joindns4.eu` | EU-Souveränität, DSGVO-konform, Security-Filter |
+
+---
+
+## "Big Tech" vs. Community – Wo ist der Haken?
+
+*   **Big Tech (Google/Cloudflare):** Du bekommst maximale Performance und Ausfallsicherheit. Der "Preis" ist jedoch, dass deine (anonymisierten) Daten zur Analyse von Internet-Trends genutzt werden könnten. Zudem unterliegen US-Anbieter dem CLOUD Act.
+*   **Community & Non-Profit (Digitalcourage/Quad9):** Hier steht der Datenschutz an erster Stelle. Diese Dienste werden oft von Vereinen oder Stiftungen betrieben, die sich für digitale Bürgerrechte einsetzen. Die Geschwindigkeit ist meist exzellent, erreicht aber in entlegenen Regionen nicht immer das Niveau der Hyperscaler.
+
+> [!TIP]
+> **Kuketz-Empfehlung:** Wenn du Wert auf maximale Privatsphäre und Werbefilter legst, schau dir auch Projekte wie [dnsforge.de](https://dnsforge.de) an, die oft in der Empfehlungsecke von Mike Kuketz auftauchen.
+
+---
+
+## Quellen & Weiterführende Links
+- [Kuketz IT-Security Blog – Empfehlungsecke DNS](https://www.kuketz-blog.de/empfehlungsecke/#dns)
+- [Tarnkappe.info – DNS-Sperren der CUII umgehen](https://tarnkappe.info)
+- [Digitalcourage DNS-Server](https://digitalcourage.de/support/zensurfreier-dns-server)
+- [DNS4EU Projektseite](https://joindns4.eu)
+
+---
+[Zurück zur Übersicht](../README.md)
