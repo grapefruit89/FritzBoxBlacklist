@@ -36,6 +36,8 @@ In Deutschland gibt es die **CUII** (Clearingstelle Urheberrecht im Internet). G
 Wenn du eine gesperrte Seite aufrufst, sagt dein Provider einfach: „Diese Adresse gibt es nicht“ oder leitet dich auf eine Warnseite um.
 - **Beispiele für Sperren:** Streaming-Seiten (kinox.to), E-Book-Archive (Sci-Hub, Annas Archive) oder Gaming-Seiten.
 
+Weitere Hintergründe zu Zensur und Netzsperren findest du in [Stufe 7: Quellen](07-sources.md).
+
 ### 3. DNS-Hijacking & Manipulation
 Kennst du das, wenn du dich vertippst (z. B. `google.dee`) und statt einer Fehlermeldung auf einer Suchseite deines Providers mit viel Werbung landest? Das ist **DNS-Hijacking**.
 

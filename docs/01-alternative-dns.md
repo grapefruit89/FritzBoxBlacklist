@@ -42,8 +42,9 @@ Hier findest du eine Auswahl der besten DNS-Resolver, unterteilt nach ihrem Foku
 
 ## Quellen & Weiterführende Links
 - [Kuketz IT-Security Blog – Empfehlungsecke DNS](https://www.kuketz-blog.de/empfehlungsecke/#dns)
-- [Tarnkappe.info – DNS-Sperren der CUII umgehen](https://tarnkappe.info)
-- [Digitalcourage DNS-Server](https://digitalcourage.de/support/zensurfreier-dns-server)
+- [Tarnkappe.info – DoH Einrichtung für Browser & Windows](https://tarnkappe.info/artikel/it-sicherheit/dns-sperren-der-cuii-umgehen-dns-over-https-fuer-windows-firefox-und-chrome-einrichten-252197.html)
+- [Privacy-Handbuch – Die Suche nach dem passenden DNS-Server](https://www.privacy-handbuch.de/handbuch_93d.htm)
+- [Netzpolitik.org – CUII und die Privatisierung der Rechtsdurchsetzung](https://netzpolitik.org/2021/cuii-kritik-an-netzsperren-ohne-richterbeschluss/)
 - [DNS4EU Projektseite](https://joindns4.eu)
 
 ---
