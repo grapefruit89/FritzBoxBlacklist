@@ -73,7 +73,7 @@ Hoste dein eigenes 'Telefonbuch' auf deinem Server (z.B. NixOS, Pi, NAS).
 1.  **[d3ward Adblock Test](https://d3ward.github.io/toolz/adblock.html):** Wie viel % Werbung wird wirklich geblockt?
 2.  **[DNS Leak Test](https://www.dnsleaktest.com/):** Tauchen nur noch deine gewählten Anbieter auf (z.B. Mullvad)?
 3.  **[1.1.1.1/help](https://1.1.1.1/help):** Prüfe, ob Verschlüsselung (DoH/DoT) aktiv ist.
-4.  **💣 [bild.de](https://www.bild.de):** Der 'Endgegner'. Wenn die Seite meckert, ist dein Filter scharf! 😉
+4.  **💣 [bild.de](https://www.bild.de):** Der 'Endgegner'. Wenn die Seite nicht läd, ist dein Filter scharf! 😉
 
 ---
 
