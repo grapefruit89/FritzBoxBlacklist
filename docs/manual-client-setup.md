@@ -66,6 +66,8 @@ Unabhängig vom Betriebssystem (DoH).
 
 ---
 
-<p align="center">[⬅️ Stufe 7 (Quellen)](07-sources.md)</p>
+<p align="center">
+  <a href="fritzbox-basics.md">⬅️ Fritz!Box Basics</a>
+</p>
 
 [⬅️ Zurück zur Übersicht](../README.md)

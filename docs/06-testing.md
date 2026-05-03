@@ -27,4 +27,8 @@ Du kannst auch direkt prüfen, ob eine bekannte Werbedomain blockiert wird. Öff
 *   **Nicht blockiert:** Zeigt eine echte IP-Adresse an.
 
 ---
-[← Zurück zur Übersicht](../README.md)
+<p align="center">
+  <a href="05-selfhosting.md">⬅️ Stufe 5</a> | <a href="07-sources.md">Stufe 7 ➡️</a>
+</p>
+
+[⬅️ Zurück zur Übersicht](../README.md)

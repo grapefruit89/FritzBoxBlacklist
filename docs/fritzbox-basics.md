@@ -25,6 +25,8 @@ Dies ist die alte Methode mit dem 500-Einträge-Limit.
 
 ---
 
-<p align="center">[⬅️ Stufe 7 (Quellen)](07-sources.md) | [Manuelles Setup ➡️](manual-client-setup.md)</p>
+<p align="center">
+  <a href="07-sources.md">⬅️ Stufe 7</a> | <a href="manual-client-setup.md">Manuelles Setup ➡️</a>
+</p>
 
 [⬅️ Zurück zur Übersicht](../README.md)

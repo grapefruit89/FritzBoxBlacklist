@@ -35,4 +35,8 @@ Hast du einen neuen Geheimtipp oder eine wichtige Quelle entdeckt?
 *   Diskutiere mit uns über die besten Strategien für ein freies Internet.
 
 ---
-[← Zurück zur Übersicht](../README.md)
+<p align="center">
+  <a href="06-testing.md">⬅️ Stufe 6</a> | <a href="fritzbox-basics.md">Fritz!Box Basics ➡️</a>
+</p>
+
+[⬅️ Zurück zur Übersicht](../README.md)
