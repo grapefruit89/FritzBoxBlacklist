@@ -15,15 +15,6 @@ Ein strukturierter Leitfaden, der dich **Schritt für Schritt** zu einem private
 
 Lerne nicht nur, *was* du konfigurieren musst, sondern verstehe endlich auch das *Warum*.
 
----
-
-## 🧭 Inhaltsverzeichnis
-
-- [Der Bildungsweg (die 8 Stufen)](#-der-bildungsweg-die-8-stufen)
-- [Quick Start für Ungeduldige](#-quick-start-tldr)
-- [Legacy & Historie](#-legacy--historie)
-- [Lizenz](#-lizenz)
-- [Mitwirken](#-mitwirken)
 
 ---
 
