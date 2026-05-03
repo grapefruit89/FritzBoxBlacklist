@@ -19,16 +19,16 @@ Standard-DNS deines Providers hat oft Lücken – durch Fehler oder bewusste Spe
 
 Fokus wählen, DNS eintragen.
 
-| Anbieter | Herkunft | DoT-Hostname oder IP-Adresse | Besonderheit |
-| :--- | :---: | :--- | :--- |
-| [**Cloudflare**](https://1.1.1.1/) | ![US](https://flagcdn.com/w20/us.png) | `1.1.1.1` / `one.one.one.one` | Extrem schnell, globaler Standard |
-| [**Google**](https://developers.google.com/speed/public-dns) | ![US](https://flagcdn.com/w20/us.png) | `8.8.8.8` / `dns.google` | Höchste Verfügbarkeit, Big-Tech |
-| [**Quad9**](https://www.quad9.net/) | ![CH](https://flagcdn.com/w20/ch.png) | `9.9.9.9` / `dns.quad9.net` | Security (Malware-Block), Non-Profit |
-| [**dnsforge.de**](https://dnsforge.de/) | ![DE](https://flagcdn.com/w20/de.png) | `176.9.93.198` / `dnsforge.de` | **Kuketz-Empfehlung**, werbefrei, keine Logs |
-| [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | ![SE](https://flagcdn.com/w20/se.png) | `194.242.2.2` / `base.dns.mullvad.net` | Fokus Privacy, schwedischer Anbieter |
-| [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | ![DE](https://flagcdn.com/w20/de.png) | `5.9.164.112` / `dns3.digitalcourage.de` | Datenschutz-Verein, keine Logs |
-| [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | ![CH](https://flagcdn.com/w20/ch.png) | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | Schweizer Bürgerrechte, keine Vorratsdaten |
-| [**DNS4EU**](https://joindns4.eu/) | ![EU](https://flagcdn.com/w20/eu.png) | `protective.joindns4.eu` | EU-Souveränität, DSGVO, Security-Filter |
+| Anbieter | DoT-Hostname / IP | Besonderheiten & Modell |
+| :--- | :--- | :--- |
+| ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `1.1.1.1` / `one.one.one.one` | **High-Speed.** Extrem schnell, globaler Standard. (Free) |
+| ![US](https://flagcdn.com/w20/us.png) [**Google**](https://developers.google.com/speed/public-dns) | `8.8.8.8` / `dns.google` | **Dominant.** Höchste Verfügbarkeit. (Free) |
+| ![CH](https://flagcdn.com/w20/ch.png) [**Quad9**](https://www.quad9.net/) | `9.9.9.9` / `dns.quad9.net` | **Security.** Automatischer Malware-Block. (Non-Profit) |
+| ![DE](https://flagcdn.com/w20/de.png) [**dnsforge.de**](https://dnsforge.de/) | `176.9.93.198` / `dnsforge.de` | **Kuketz-Empfehlung.** Werbefrei, keine Logs. (Spenden) |
+| ![SE](https://flagcdn.com/w20/se.png) [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | `194.242.2.2` / `base.dns.mullvad.net` | **Radikal anonym.** Fokus Privacy aus Schweden. (Free) |
+| ![DE](https://flagcdn.com/w20/de.png) [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | `5.9.164.112` / `dns3.digitalcourage.de` | **Bürgerrechte.** Datenschutz-Verein, keine Logs. (Spenden) |
+| ![CH](https://flagcdn.com/w20/ch.png) [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | `185.95.218.42` / `dns.digitale-gesellschaft.ch` | **Neutralität.** Keine Vorratsdaten aus der Schweiz. (Spenden) |
+| ![EU](https://flagcdn.com/w20/eu.png) [**DNS4EU**](https://joindns4.eu/) | `protective.joindns4.eu` | **EU-Souveränität.** DSGVO-konform, Security-Filter. (Free) |
 
 ---
 

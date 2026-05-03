@@ -9,12 +9,12 @@ Stufe 3 ist das „Sorglos-Paket“ für 90% aller Anwender. Wir kombinieren die
 
 ## Die besten Anbieter für die FritzBox
 
-| Anbieter | Herkunft | DoT-Hostname | Besonderheit | Finanzierung & Quellcode |
-| :--- | :---: | :--- | :--- | :--- |
-| **Mullvad (Ads)** | ![SE](https://flagcdn.com/w20/se.png) | `adblock.dns.mullvad.net` | Extrem schnell, Fokus Privacy | Abo-Modell (VPN), Open Source |
-| **dnsforge.de** | ![DE](https://flagcdn.com/w20/de.png) | `dnsforge.de` | Non-Profit, keine Logs | Spenden, Open Source |
-| **AdGuard DNS** | ![CY](https://flagcdn.com/w20/cy.png) | `dns.adguard-dns.com` | Sehr aggressive Filter | Freemium, Teilweise OS |
-| **CleanBrowsing** | ![US](https://flagcdn.com/w20/us.png) | `family-filter-dns.cleanbrowsing.org` | Fokus Jugendschutz | Paid (Business), Closed Source |
+| Anbieter | DoT-Hostname | Besonderheiten & Modell |
+| :--- | :--- | :--- |
+| ![SE](https://flagcdn.com/w20/se.png) [**Mullvad (Ads)**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | `adblock.dns.mullvad.net` | **Radikal anonym.** Extrem schnell, Fokus Privacy. (OS) |
+| ![DE](https://flagcdn.com/w20/de.png) [**dnsforge.de**](https://dnsforge.de/) | `dnsforge.de` | **Community-Tipp.** Non-Profit, keine Logs. (OS / Spenden) |
+| ![CY](https://flagcdn.com/w20/cy.png) [**AdGuard DNS**](https://adguard-dns.io/) | `dns.adguard-dns.com` | **Aggressiv.** Starke Filterwirkung. (Freemium / Teilweise OS) |
+| ![US](https://flagcdn.com/w20/us.png) [**CleanBrowsing**](https://family-filter-dns.cleanbrowsing.org) | `family-filter-dns.cleanbrowsing.org` | **Jugendschutz.** Fokus auf Familien-Sicherheit. (Paid / Closed) |
 
 ---
 

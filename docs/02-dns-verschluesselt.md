@@ -18,16 +18,16 @@ Normale DNS-Anfragen sind wie Postkarten: Jeder kann sie mitlesen. Verschlüssel
 ## 🏛️ Die Anbieter (DoT Fokus)
 Diese Anbieter bieten Sicherheit ohne aggressive Filter. Ideal zum Testen.
 
-| Anbieter | Herkunft | DoT-Hostname | Besonderheit |
-| :--- | :---: | :--- | :--- |
-| [**Quad9**](https://www.quad9.net/) | ![CH](https://flagcdn.com/w20/ch.png) | `dns.quad9.net` | Fokus Security, Non-Profit |
-| [**dnsforge.de**](https://dnsforge.de/) | ![DE](https://flagcdn.com/w20/de.png) | `dnsforge.de` | **Kuketz-Empfehlung**, werbefrei |
-| [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | ![SE](https://flagcdn.com/w20/se.png) | `base.dns.mullvad.net` | Fokus Privacy, schwedisch |
-| [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | ![DE](https://flagcdn.com/w20/de.png) | `dns3.digitalcourage.de` | Datenschutz-Verein, keine Logs |
-| [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | ![CH](https://flagcdn.com/w20/ch.png) | `dns.digitale-gesellschaft.ch` | CH-Bürgerrechtsverein |
-| [**Cloudflare**](https://1.1.1.1/) | ![US](https://flagcdn.com/w20/us.png) | `one.one.one.one` | Extrem schnell |
-| [**Google**](https://developers.google.com/speed/public-dns) | ![US](https://flagcdn.com/w20/us.png) | `dns.google` | Höchste Verfügbarkeit |
-| [**DNS4EU**](https://joindns4.eu/) | ![EU](https://flagcdn.com/w20/eu.png) | `unfiltered.joindns4.eu` | EU-Souveränität, DSGVO |
+| Anbieter | DoT-Hostname | Besonderheiten & Modell |
+| :--- | :--- | :--- |
+| ![CH](https://flagcdn.com/w20/ch.png) [**Quad9**](https://www.quad9.net/) | `dns.quad9.net` | **Security.** Malware-Block, Non-Profit. (Spenden) |
+| ![DE](https://flagcdn.com/w20/de.png) [**dnsforge.de**](https://dnsforge.de/) | `dnsforge.de` | **Kuketz-Empfehlung.** Keine Logs, werbefrei. (Spenden) |
+| ![SE](https://flagcdn.com/w20/se.png) [**Mullvad**](https://mullvad.net/de/help/dns-over-tls-and-dns-over-https) | `base.dns.mullvad.net` | **Privacy-Fokus.** Schlank und anonym. (Free) |
+| ![DE](https://flagcdn.com/w20/de.png) [**Digitalcourage**](https://digitalcourage.de/support/zensurfreier-dns-server) | `dns3.digitalcourage.de` | **Datenschutz-Verein.** Keine Logs. (Spenden) |
+| ![CH](https://flagcdn.com/w20/ch.png) [**Digitale Gesellschaft**](https://www.digitale-gesellschaft.ch/dns/) | `dns.digitale-gesellschaft.ch` | **Bürgerrechte.** Keine Vorratsdaten. (Spenden) |
+| ![US](https://flagcdn.com/w20/us.png) [**Cloudflare**](https://1.1.1.1/) | `one.one.one.one` | **Performance.** Weltweit am schnellsten. (Free) |
+| ![US](https://flagcdn.com/w20/us.png) [**Google**](https://developers.google.com/speed/public-dns) | `dns.google` | **Verfügbarkeit.** Big-Tech Standard. (Free) |
+| ![EU](https://flagcdn.com/w20/eu.png) [**DNS4EU**](https://joindns4.eu/) | `unfiltered.joindns4.eu` | **EU-Standard.** DSGVO-konform. (Free) |
 
 ---
 

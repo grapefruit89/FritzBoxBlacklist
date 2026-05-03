@@ -14,11 +14,11 @@ Wenn dir die festen Filterlisten aus Stufe 3 nicht ausreichen und du volle Kontr
 
 Diese Dienste bieten dir ein Web-Interface, in dem du genau sehen kannst, welche Anfragen blockiert wurden, und eigene Regeln erstellen kannst.
 
-| Anbieter | Herkunft | DoT-Hostname | Besonderheit | Finanzierung & Quellcode |
-| :--- | :---: | :--- | :--- | :--- |
-| [**NextDNS**](https://nextdns.io/) | ![US](https://flagcdn.com/w20/us.png) | `[ID].dns.nextdns.io` | Goldstandard, App-Blocking | Freemium, Closed Source |
-| [**AdGuard DNS**](https://adguard-dns.io/) | ![CY](https://flagcdn.com/w20/cy.png) | `[ID].adguard-dns.com` | Sehr familienfreundlich | Freemium, Teilweise OS |
-| [**ControlD**](https://controld.com/) | ![CA](https://flagcdn.com/w20/ca.png) | `[ID].controld.com` | Mächtige Geo-Optionen | Paid, Closed Source |
+| Anbieter | DoT-Hostname | Besonderheiten & Modell |
+| :--- | :--- | :--- |
+| ![US](https://flagcdn.com/w20/us.png) [**NextDNS**](https://nextdns.io/) | `[ID].dns.nextdns.io` | **Goldstandard.** Mächtiges App-Blocking & Dashboards. (Freemium / Closed) |
+| ![CY](https://flagcdn.com/w20/cy.png) [**AdGuard DNS**](https://adguard-dns.io/) | `[ID].adguard-dns.com` | **Familienfreundlich.** Sehr einfache Bedienung. (Freemium / Teilweise OS) |
+| ![CA](https://flagcdn.com/w20/ca.png) [**ControlD**](https://controld.com/) | `[ID].controld.com` | **Profi-Tool.** Extrem starke Geo-Optionen. (Paid / Closed) |
 
 ---
 
