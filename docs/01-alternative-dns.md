@@ -51,7 +51,7 @@ Fokus wählen, DNS eintragen.
 ---
 
 <p align="center">
-  [⬅️ Stufe 0](00-vanilla-dns.md) | [Stufe 2 ➡️](02-dns-verschluesselt.md)
+  <a href="00-vanilla-dns.md">⬅️ Stufe 0</a> | <a href="02-dns-verschluesselt.md">Stufe 2 ➡️</a>
 </p>
 
 [⬅️ Zurück zur Übersicht](../README.md)
