@@ -23,4 +23,8 @@ Der Urvater der DNS-Adblocker. Pi-hole hat eine riesige Community und läuft auf
 Statt die Upstream-DNS-Server der Fritz!Box zu ändern, trägst du die IP deines Self-Hosted-Servers unter **Heimnetz -> Netzwerk -> Netzwerkeinstellungen -> IPv4-Konfiguration** als lokalen DNS-Server ein. So verteilt die Fritz!Box per DHCP direkt die IP deines Adblockers an alle Geräte im Netzwerk.
 
 ---
-[← Zurück zur Übersicht](../README.md)
+<p align="center">
+  <a href="04-cloud-adblocker.md">⬅️ Stufe 4</a> | <a href="06-testing.md">Stufe 6 ➡️</a>
+</p>
+
+[⬅️ Zurück zur Übersicht](../README.md)
