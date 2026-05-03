@@ -1,5 +1,4 @@
 # Manuelles Client-Setup (Sicheres DNS & Adblocking)
-[⬅️ Zurück zur Übersicht](../README.md)
 
 Nutze DNS-Filter unterwegs (Mobilfunk/öffentliches WLAN) oder gezielt für einzelne Geräte.
 
@@ -65,9 +64,6 @@ Unabhängig vom Betriebssystem (DoH).
 - **Chrome/Edge:** Einstellungen → Datenschutz & Sicherheit → Sicherheit → **Sicheres DNS**.
 
 ---
-
 <p align="center">
-  <a href="fritzbox-basics.md">⬅️ Fritz!Box Basics</a>
+  <a href="fritzbox-basics.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

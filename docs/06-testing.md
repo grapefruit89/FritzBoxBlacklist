@@ -28,7 +28,5 @@ Du kannst auch direkt prüfen, ob eine bekannte Werbedomain blockiert wird. Öff
 
 ---
 <p align="center">
-  <a href="05-selfhosting.md">⬅️ Stufe 5</a> | <a href="07-sources.md">Stufe 7 ➡️</a>
+  <a href="05-selfhosting.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="07-sources.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

@@ -36,7 +36,5 @@ Hast du einen neuen Geheimtipp oder eine wichtige Quelle entdeckt?
 
 ---
 <p align="center">
-  <a href="06-testing.md">⬅️ Stufe 6</a> | <a href="fritzbox-basics.md">Fritz!Box Basics ➡️</a>
+  <a href="06-testing.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="fritzbox-basics.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

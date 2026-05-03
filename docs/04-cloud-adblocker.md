@@ -28,7 +28,5 @@ AdGuard ist bekannt für seine starken Werbeblocker-Apps und bietet mit seinem C
 
 ---
 <p align="center">
-  <a href="03-dns-verschluesselt-adblock.md">⬅️ Stufe 3</a> | <a href="05-selfhosting.md">Stufe 5 ➡️</a>
+  <a href="03-dns-verschluesselt-adblock.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="05-selfhosting.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

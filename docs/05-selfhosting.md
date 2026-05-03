@@ -24,7 +24,5 @@ Statt die Upstream-DNS-Server der Fritz!Box zu ändern, trägst du die IP deines
 
 ---
 <p align="center">
-  <a href="04-cloud-adblocker.md">⬅️ Stufe 4</a> | <a href="06-testing.md">Stufe 6 ➡️</a>
+  <a href="04-cloud-adblocker.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="06-testing.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

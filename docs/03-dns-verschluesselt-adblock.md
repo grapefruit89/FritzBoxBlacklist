@@ -32,7 +32,5 @@ Besuche die Seite [d3ward.github.io/toolz/adblock.html](https://d3ward.github.io
 
 ---
 <p align="center">
-  <a href="02-dns-verschluesselt.md">⬅️ Stufe 2</a> | <a href="04-cloud-adblocker.md">Stufe 4 ➡️</a>
+  <a href="02-dns-verschluesselt.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="04-cloud-adblocker.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)

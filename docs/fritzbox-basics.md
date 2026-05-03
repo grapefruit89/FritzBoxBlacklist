@@ -1,5 +1,4 @@
 # Fritz!Box: DNS-Grundlagen
-[⬅️ Zurück zur Übersicht](../README.md)
 
 Die Fritz!Box ist das Herzstück deines Heimnetzes. Um die DNS-Einstellungen zu ändern, musst du wissen, wo sich die entsprechenden Menüs befinden.
 
@@ -24,9 +23,6 @@ Dies ist die alte Methode mit dem 500-Einträge-Limit.
 *   **IPv6 nicht vergessen:** Wenn dein Anschluss IPv6 nutzt (was fast immer der Fall ist), musst du auch dort einen DNS-Server eintragen, sonst erfolgt die Abfrage einfach über den Provider-Standardweg.
 
 ---
-
 <p align="center">
-  <a href="07-sources.md">⬅️ Stufe 7</a> | <a href="manual-client-setup.md">Manuelles Setup ➡️</a>
+  <a href="07-sources.md">⬅️ Zurück</a> | <a href="../README.md">🏠 Übersicht</a> | <a href="manual-client-setup.md">Weiter ➡️</a>
 </p>
-
-[⬅️ Zurück zur Übersicht](../README.md)
