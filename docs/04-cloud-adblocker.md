@@ -27,4 +27,8 @@ AdGuard ist bekannt für seine starken Werbeblocker-Apps und bietet mit seinem C
 4.  Verknüpfe ggf. deine IP-Adresse im Dashboard (nur bei IPv4 ohne DoT nötig).
 
 ---
-[← Zurück zur Übersicht](../README.md)
+<p align="center">
+  <a href="03-dns-verschluesselt-adblock.md">⬅️ Stufe 3</a> | <a href="05-selfhosting.md">Stufe 5 ➡️</a>
+</p>
+
+[⬅️ Zurück zur Übersicht](../README.md)
