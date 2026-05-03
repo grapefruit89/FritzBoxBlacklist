@@ -40,13 +40,12 @@ Diese Anbieter bieten Sicherheit ohne aggressive Filter. Ideal zum Testen.
 ---
 
 ## 🧪 Testen
-<details>
-<summary>Check-Tools</summary>
+### Check-Tools
 
 - [Quad9 Check](https://on.quad9.net/)
 - [Cloudflare Check](https://www.cloudflare.com/ssl/cloudflarereader/)
 - [Mullvad Check](https://mullvad.net/de/check)
-</details>
+
 
 ---
 

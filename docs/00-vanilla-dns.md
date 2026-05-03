@@ -50,15 +50,13 @@ Provider-Server oft langsam oder überlastet. Verzögert den Seitenaufbau spürb
 
 ## 🛠️ Selbsttest: Was nutzt du?
 
-<details>
-<summary>👉 Schnelltest (Windows/Mac/Linux)</summary>
+### 👉 Schnelltest (Windows/Mac/Linux)
 
 1. Terminal öffnen.
 2. Befehl: `nslookup google.com`
 3. Zeile **„Server“**: `fritz.box` oder Router-IP = Provider-DNS aktiv.
 4. Check auf **[DNSLeakTest.com](https://www.dnsleaktest.com)**. Erscheint dein Provider? Dann Stufe 0.
 
-</details>
 
 ---
 
