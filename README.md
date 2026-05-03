@@ -1,92 +1,41 @@
 <div align="center">
-  <h1>🛡️ DNS-Blocker & Heimnetz-Sicherheit</h1>
-  <p><b>Schluss mit Werbung, Tracking und Malware – für dein ganze Netzwerk.</b></p>
+  <h1>🛡️ FritzBoxBlacklist: DNS-Sicherheit & Adblocking</h1>
+  <p><b>Ein strukturierter Leitfaden für ein privateres und werbefreies Heimnetz.</b></p>
   
-  [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#lizenz)
+  [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![PRs welcome](https://img.shields.io/badge/contributions-welcome-green.svg)](#mitwirken)
 </div>
 
 ---
 
-## 📖 Wie funktioniert ein DNS-Adblocker?
+## 🎓 Der Bildungsweg: Dein Pfad zur DNS-Souveränität
+Dieses Projekt ist weit mehr als nur ein Listen-Download. Es ist ein **Education Path**, der dich schrittweise von den unsicheren Standardeinstellungen deines Providers bis hin zur professionellen Self-Hosting-Lösung führt. Lerne nicht nur, *was* du konfigurieren musst, sondern verstehe auch das *Warum*.
 
-Stell dir vor, das Internet ist eine riesige Stadt und der **DNS-Server ist das Telefonbuch**. 
-Wenn du eine Adresse wie 'bild.de' suchst, schaut dein Browser im DNS-Telefonbuch nach der Hausnummer (IP).
-
-**Der Adblocker-Trick:**  
-Ein DNS-Server, der Werbung filtert, ist wie ein Telefonbuch, aus dem jemand die **Seiten von Werbefirmen und Trackern einfach herausgerissen hat**. Wenn dein Handy nach der Nummer von 'werbung-nervt.com' fragt, sagt das Telefonbuch: 'Gibt es nicht!'. Die Werbung wird gar nicht erst geladen – dein Internet wird schneller und privater.
-
----
-
-## 🚦 Das Overblocking-Ampelsystem
-
-Manchmal reißt ein DNS-Filter aus Versehen eine 'gute' Seite raus. Das nennt man **Overblocking**. 
-
-*   🟢 **Gering:** Blockt nur Malware/Phishing. Keine Störungen im Alltag. (WAF: Hoch)
-*   🟡 **Mittel:** Der beste Kompromiss. Blockt fast alle Werbung. Affiliate-Links könnten streiken.
-*   🔴 **Hoch:** Sehr aggressiv. Blockt auch Telemetrie (Smart-TV). Nur für Profis mit Whitelist!
+### 🧭 Die 8 Stationen (Roadmap)
+1.  **[Stage 0: Vanilla DNS](./docs/00-vanilla-dns.md)** – Warum der Standard-DNS deines Providers ein Sicherheitsrisiko sein kann.
+2.  **[Stage 1: Alternative DNS](./docs/01-alternative-dns.md)** – Erste Schritte zu mehr Geschwindigkeit und verbessertem Datenschutz.
+3.  **[Stage 2: DNS Verschlüsselt (DoT/DoH)](./docs/02-dns-verschluesselt.md)** – Schluss mit dem "offenen Buch" für Dritte durch Verschlüsselung.
+4.  **[Stage 3: Verschlüsselt + Adblock](./docs/03-dns-verschluesselt-adblock.md)** – **Empfohlen!** Maximale Privatsphäre gepaart mit einem effektiven Werbefilter.
+5.  **[Stage 4: Cloud Adblocker Dashboards](./docs/04-cloud-adblocker.md)** – Volle Kontrolle und Statistiken ohne eigene Hardware (NextDNS & Co).
+6.  **[Stage 5: Self-Hosting](./docs/05-selfhosting.md)** – Die Königsdisziplin: Volle Souveränität mit Pi-hole oder AdGuard Home im eigenen Netz.
+7.  **[Stage 6: Testing & Verifikation](./docs/06-testing.md)** – So prüfst du, ob dein neues Setup wirklich wie gewünscht funktioniert.
+8.  **[Stage 7: Quellen & Deep Dive](./docs/07-sources.md)** – Weiterführende Informationen, Inspirationen und Community-Links.
 
 ---
 
-## 🛜 Die besten DNS-Server (Empfehlungen 2026)
-
-### 🧩 Teil 1: Set & Forget (Eintragen und vergessen)
-Keine Anmeldung nötig. Einfach IPs oder DoT-Hostnamen im Router/Handy eintragen.
-
-| Anbieter | Standort | Filterung | Overblocking | DoT / DoH Hostname |
-| :--- | :--- | :--- | :--- | :--- |
-| **Mullvad (Ads)** | <img src="https://flagcdn.com/w20/se.png" width="20"> SE / Global | Werbung, Tracker | 🟡 Mittel | `adblock.dns.mullvad.net` |
-| **dnsforge.de** | <img src="https://flagcdn.com/w20/de.png" width="20"> DE | Werbung, Tracker | 🟡 Mittel | `dnsforge.de` |
-| **HaGeZi DNS** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU | Multi-Pro Filter | 🟡 Mittel | `dns.hagezi.com` |
-| **Quad9 (Threat)**| <img src="https://flagcdn.com/w20/ch.png" width="20"> CH / Global | Malware (Keine Ads) | 🟢 Gering | `dns.quad9.net` |
-| **DNS4EU** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU | Malware, Phishing | 🟢 Gering | `protective.joindns4.eu` |
-| **DigiGes** | <img src="https://flagcdn.com/w20/ch.png" width="20"> CH | Ungefiltert | 🟢 Keine | `dns.digitale-gesellschaft.ch` |
+## ⚡ Quick Start (TL;DR)
+Du möchtest keine Theorie, sondern sofort ein saubereres Internet? 
+👉 **[Gehe direkt zu Stage 3: DNS Verschlüsselt + Adblock](./docs/03-dns-verschluesselt-adblock.md)** – Dies ist der ideale Kompromiss aus Sicherheit und Komfort für 90% aller Anwender.
 
 ---
 
-### 🧰 Teil 2: Cloud-Dashboards (Mit Web-Oberfläche)
-Für Nutzer, die sehen wollen, was blockiert wird und eigene Ausnahmen pflegen möchten.
+## 📂 Legacy & Historie
+Suchst du die ursprünglichen Top-500 Listen für die klassische Fritz!Box-Kindersicherung? 
+Diese befinden sich aus historischen Gründen weiterhin im Ordner **[legacy/](./legacy/)**.
 
-| Anbieter | Datenschutz | Schwierigkeit | Besonderheiten |
-| :--- | :--- | :--- | :--- |
-| **[NextDNS](https://nextdns.io/)** | <img src="https://flagcdn.com/w20/eu.png" width="20"> EU Server | 🔵 Leicht | Perfekte UI, extrem viele fertige Listen. |
-| **[AdGuard DNS](https://adguard-dns.io/de/public-dns.html)**| <img src="https://flagcdn.com/w20/cy.png" width="20"> CY / Global | 🔵 Leicht | Sehr familienfreundlich, gute Kindersicherung. |
-| **[Control D](https://controld.com/)** | 🇨🇦 CA | 🟠 Mittel | Fokus auf Produktivität und Geo-Steuerung. |
-| **[Rethink DNS](https://rethinkdns.com/)** | <img src="https://flagcdn.com/w20/us.png" width="20"> US / Global | 🔴 Nerd | Unzählige Listen kombinierbar, Open-Source. |
-
----
-
-### 🏠 Teil 3: Self-Hosting (Maximale Kontrolle)
-Hoste dein eigenes 'Telefonbuch' auf deinem Server (z.B. NixOS, Pi, NAS).
-
-| Lösung | UI | Ressourcen | Beschreibung |
-| :--- | :--- | :--- | :--- |
-| **[AdGuard Home](https://adguard.com/)** | 🟢 Top | Mittel | Modern, einfach, unterstützt DoT/DoH nativ. |
-| **[Pi-hole](https://pi-hole.net/)** | 🟡 Gut | Minimal | Der Klassiker. Riesige Community. |
-| **[Blocky](https://0xerr0r.github.io/blocky/)**| ❌ Keine| Minimal | Rein deklarativ (YAML). Perfekt für NixOS. |
-| **[Technitium](https://technitium.com/)**| 🟢 Gut | Hoch | Mächtiger DNS-Server für Netzwerk-Experten. |
-
----
-
-## 🧪 Tests & Tools: Kontrolliere dein Setup
-
-1.  **[d3ward Adblock Test](https://d3ward.github.io/toolz/adblock.html):** Wie viel % Werbung wird wirklich geblockt?
-2.  **[DNS Leak Test](https://www.dnsleaktest.com/):** Tauchen nur noch deine gewählten Anbieter auf (z.B. Mullvad)?
-3.  **[1.1.1.1/help](https://1.1.1.1/help):** Prüfe, ob Verschlüsselung (DoH/DoT) aktiv ist.
-4.  **💣 [bild.de](https://www.bild.de):** Der 'Endgegner'. Wenn die Seite nicht läd, ist dein Filter scharf! 😉
-
----
-
-## 🏛️ Historie & Quellen
-*   **Fritz!Box 500:** Aus historischen Gründen findest du in den Releases noch die alte Top-500 Liste für die Fritz!Box-Kindersicherung. Aufgrund des 500er-Limits raten wir heute jedoch zu DoT/DoH oder lokalen Filtern (Teil 1-3).
-*   Inspiriert durch das **[Kuketz IT-Security Forum](https://www.kuketz-forum.de/t/tabelle-dns-server-vergleichstabelle/9643)**.
+*⚠️ Hinweis: Aufgrund des harten 500-Einträge-Limits der Fritz!Box ist diese Methode heute veraltet. Wir empfehlen dringend den Wechsel auf moderne DNS-Verschlüsselung (ab Stage 2).*
 
 ---
 
 ## 📜 Lizenz
-[MIT License](https://opensource.org/licenses/MIT) – freie Nutzung mit Namensnennung.
-
----
-
-## 🤖 Agent Test
-Dieser Abschnitt wurde von **Gemini CLI** hinzugefügt, um den Schreibzugriff über den Machine SSH Key zu verifizieren. Test erfolgreich! ✅
+Dieses Projekt ist unter der [MIT License](https://opensource.org/licenses/MIT) lizenziert – freie Nutzung und Weitergabe sind ausdrücklich erwünscht.
