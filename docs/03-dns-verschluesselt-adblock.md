@@ -46,7 +46,7 @@ Besuche die folgenden Testseiten. Wenn dort Werbung blockiert wird, ist dein Set
 ---
 
 <p align="center">
-  <a href="00-vanilla-dns.md">0</a> | <a href="01-alternative-dns.md">1</a> | <a href="02-dns-verschluesselt.md">2</a> | **3** | <a href="04-cloud-adblocker.md">4</a> | <a href="05-selfhosting.md">5</a> | <a href="06-testing.md">6</a> | <a href="07-sources.md">7</a>
+  <a href="00-vanilla-dns.md">**Stufe 0**</a> | <a href="01-alternative-dns.md">**Stufe 1**</a> | <a href="02-dns-verschluesselt.md">**Stufe 2**</a> | **Stufe 3** | <a href="04-cloud-adblocker.md">**Stufe 4**</a> | <a href="05-selfhosting.md">**Stufe 5**</a> | <a href="06-testing.md">**Stufe 6**</a> | <a href="07-sources.md">**Stufe 7**</a>
 </p>
 <p align="center">
   <a href="../README.md">🏠 Zurück zur Übersicht</a>
