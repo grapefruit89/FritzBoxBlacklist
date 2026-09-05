@@ -1,110 +1,105 @@
-# Code & Documentation Review
+# Review — FritzBoxBlacklist
 
-**Repository:** [grapefruit89/FritzBoxBlacklist](https://github.com/grapefruit89/FritzBoxBlacklist)  
-**Scope:** Dokumentation, Dual-Stack, DoT/DoH, Self-Hosting, Tests  
-**Basis:** `master` vor diesem Commit (`docs/`, `legacy/`)
+**Repo:** [grapefruit89/FritzBoxBlacklist](https://github.com/grapefruit89/FritzBoxBlacklist)  
+**Branch dieses Dokuments:** `master`  
+**Begleitdateien:** [`README.md`](README.md), [`README.alternative.md`](README.alternative.md)
+
+## Was in diesem Chat zusammengetragen wurde
+
+1. Code-/Doku-Review der acht Stufen (`docs/00`–`07`, `fritzbox-basics.md`, `manual-client-setup.md`, `legacy/`).
+2. ChatGPT-Zweitmeinung: Kontrollebenen-These, Fallback/Zertifikat, Testschichten, Threat-Model — uebernommen wo sie schaerfer waren.
+3. Kuketz-Empfehlungsecke und Privacy-Handbuch 93d als Massstab (Stufe 7 verlinkt sie, Stufe 1 folgt ihnen nicht).
+4. Alternatives Root-README plus zweite Datei `README.alternative.md` mit GFM/Advanced-Formatting, **ohne** `<details>`.
+5. Kein weiterer Feature-Branch. Arbeit liegt auf `master`.
+
+---
 
 ## Executive Assessment
 
-Nuetzliches Stufen-Curriculum, mittlere Reife. Die Dokumentation behandelt IPv4-DNS, IPv6-DNS, Router-DNS, Client-DNS, DoT, DoH und Filter so, als waeren sie **eine** Kontrollebene. Das sind sie nicht.
+Nuetzliches Curriculum, mittlere Reife. Die Doku behandelt IPv4, IPv6, Router-DNS, Client-DNS, DoT, DoH und Filter als **eine** Kontrollebene. Das sind sie nicht.
 
-| Ebene | Was das Repo dokumentiert | Was den Pfad wirklich steuert |
+| Ebene | Repo heute | Was den Pfad steuert |
 | --- | --- | --- |
-| IPv4 DHCP DNS | Ja (Stufe 1, 5 Weg B) | DHCPv4 Option 6 |
-| IPv6 DNS | Ein Satz in `fritzbox-basics.md` | RA RDNSS, DHCPv6, ULA, WAN-DNSv6 |
-| Router-Uplink | DoT-Hostname, drei Klicks | WAN-DoT plus Fallback |
-| Client-DNS | `manual-client-setup.md` | Browser-DoH, Windows-11-DoH, Android Private DNS |
-| Filter | Cloud-Hostname oder Pi-hole | Wer die Query tatsaechlich bekommt |
+| IPv4 DHCP | Stufe 1, Stufe 5 Weg B | DHCPv4 Option 6 |
+| IPv6 DNS | Ein Satz in `fritzbox-basics.md` | RA RDNSS, DHCPv6, ULA |
+| WAN-DoT | Hostname, drei Klicks | DoT plus Fallback-Haken |
+| Client-DNS | `manual-client-setup.md` | Browser-/OS-DoH |
+| Filter | Cloud-Hostname oder Pi-hole | Wer die Query wirklich bekommt |
 
-Filter ≠ Verschluesselung ≠ Logging-Politik ≠ DNSSEC.
+Filter ≠ Encryption ≠ Logging ≠ DNSSEC.
 
 ---
 
 ## 1. Critical Weaknesses
 
-### 1.1 IPv6 fehlt in der Haupttabelle — Severity: high
+### 1.1 IPv6-Neglect — high
 
-`docs/01-alternative-dns.md` listet nur IPv4. Stufe 5 Weg B geht nur in die **IPv4-Konfiguration** (`192.168.178.X`). SLAAC-Clients nutzen RA/RDNSS und laufen am Filter vorbei.
+Stufe-1-Tabelle nur IPv4. Stufe 5 nur **IPv4-Konfiguration** / `192.168.178.X`. SLAAC-Clients gehen ueber RA am Filter vorbei.
 
-```
-Client
- ├── IPv4 DNS → FRITZ!Box / Filter → gewollte Policy
- └── IPv6 DNS → ISP-Resolver          → unkontrolliert
-```
+### 1.2 IPv6-Disable-Fallacy — high
 
-### 1.2 "IPv6 deaktivieren" — Severity: high
+Stufe 6: *Deaktiviere IPv6 testweise oder konfiguriere es ebenfalls.* Isolation ja (60 s). Dauerloesung nein. Danach IPv6 konfigurieren.
 
-Stufe 6: *Deaktiviere IPv6 testweise oder konfiguriere es ebenfalls.*
+### 1.3 DoT nicht operationalisiert — high
 
-Isolationsprobe: erlaubt, 60 Sekunden. Dauerloesung: verboten. Danach IPv6 explizit konfigurieren.
+DoT ist WAN-seitig. LAN bleibt Port 53. DoH im Client ist Bypass.
 
-### 1.3 DoT nicht operationalisiert — Severity: high
+Fehlt: v4+v6-Felder plus Aufloesungsname, Semikolon, Fallback-Klartext, Zertifikat=Hostname, Online-Monitor fuer beide Familien, eine Policy-Ebene.
 
-DoT auf der Box ist **WAN-seitig**. LAN bleibt Port 53. DoH im Browser umgeht Filter und Pi-hole.
+### 1.4 Keine Validierung — high
 
-Fehlt in der Anleitung:
+`dig` / `nslookup` beweisen kein TLS und keinen IPv6-Pfad.
 
-- IPv4- **und** IPv6-Felder plus Aufloesungsnamen
-- mehrere Namen mit Semikolon
-- Fallback auf Klartext (Verfuegbarkeit vs. "immer TLS")
-- Zertifikat = Hostname
-- Online-Monitor `(DoT verschluesselt)` fuer beide Familien
-
-### 1.4 Keine Validierung von Encryption und IPv6-Leak — Severity: high
-
-`nslookup` / `dig` beweisen nur den Port-53-Responder.
-
-| Schicht | Frage | Werkzeug |
-| :---: | :--- | :--- |
-| 1 | Wer antwortet im LAN? | `dig example.com` |
-| 2 | IPv4-Pfad | `dig A example.com` |
-| 3 | IPv6-Pfad | `dig -6 AAAA example.com` |
-| 4 | Transport | Online-Monitor, `kdig +tls-ca +tls-host=...` |
-| 5 | Zertifikat | dieselbe `kdig`-Zeile |
-| 6 | Draht | `tcpdump ... port 53 or port 853` |
+Noetig: Monitor `(DoT verschluesselt)`, `dig -6`, `kdig +tls-ca +tls-host=`, optional `tcpdump 53/853`, Firefox-DoH an/aus.
 
 ### 1.5 Weitere Luecken
 
-- Gastnetz / Mesh / Weg A vs. Weg B nicht modelliert
-- kein Hinweis, Port 53/853 von Clients ausser zum Resolver zu blocken
-- Marketing-Labels statt Logging-Matrix
+Gastnetz/Mesh, kein Port-53-Intercept, Marketing statt Logging-Matrix, 500-Limit gilt nur fuer Kindersicherung.
 
-### 1.6 Kuketz und Privacy-Handbuch zitiert, nicht angewandt — Severity: high
+### 1.6 Eigene Quellen ignoriert — high
 
-Stufe 7 verlinkt beides. Stufe 1 folgt ihnen nicht.
-
-| Repo Stufe 1 | Kuketz / Privacy-Handbuch |
+| Stufe 1 | Kuketz / Privacy-Handbuch |
 | --- | --- |
-| Digitalcourage = `5.1.66.255` | Das ist **ffmuc** (`dot.ffmuc.net`). Digitalcourage: `dns3.digitalcourage.de` / `5.9.164.112` / `2a01:4f8:251:554::2`, **nur DoT**. |
-| dnsforge = `94.16.114.222` | `176.9.93.198` / `176.9.1.117` plus IPv6, extra `hard.dnsforge.de` |
-| Mullvad = nur `194.242.2.2` | Hostnamen sind verschiedene Produkte (`dns.`, `base.`, `adblock.`, ...) |
-| Cloudflare = Privacy-first | Speed-Option, Logs ~25 h, kein Privacy-Default |
-| Google in der Haupttabelle | Logging-Beispiel, nicht fuer Datenschutz |
+| Digitalcourage = `5.1.66.255` | **ffmuc** / `dot.ffmuc.net`. Digitalcourage = `dns3.digitalcourage.de` `5.9.164.112` `2a01:4f8:251:554::2`, nur DoT |
+| dnsforge = `94.16.114.222` | `176.9.93.198` / `176.9.1.117` + IPv6, extra `hard.dnsforge.de` |
+| Mullvad nur `194.242.2.2` | Hostnamen sind Produkte (`dns.` `base.` `adblock.`) |
+| Cloudflare Privacy-first | Speed, Logs ~25 h |
+| Google in der Haupttabelle | Logging-Beispiel |
 
-Quellen:
-
-- https://www.kuketz-blog.de/empfehlungsecke/#dns
-- https://www.privacy-handbuch.de/handbuch_93d.htm
+https://www.kuketz-blog.de/empfehlungsecke/#dns  
+https://www.privacy-handbuch.de/handbuch_93d.htm
 
 ---
 
-## 2. Optimization Roadmap (ROI)
+## 2. Roadmap nach ROI
 
-1. **Hoechstes ROI** — Stufe-1-Tabelle: IPv4 + IPv6 + DoT + DoH, sourced aus Kuketz/PH, Digitalcourage ≠ ffmuc zuerst korrigieren.
-2. **Hoch** — Stufe 6: sechs Testschichten, IPv6-Disable nur als Isolation.
-3. **Hoch** — Kapitel Advanced DoT (Fallback, Zertifikat, Semikolon, Gastnetz).
-4. **Mittel-hoch** — Logging-/Filter-Matrix, datiert.
-5. **Mittel-hoch** — eine Policy-Ebene in `manual-client-setup.md` (DoH-Bypass).
-6. **Mittel** — Stufe 5 dual-stack: ULA, DNSv6 im Heimnetz, RA.
-7. **Spaeter** — Firewall-Cookbook, DoT-Cert-Lint, Screenshots.
+Sortiert: Wirkung geteilt durch Aufwand. Nicht nach Attraktivitaet.
 
-Reihenfolge: Tabelle und Tests vor Self-Hosting-Umbau.
+| Rang | Aufgabe | ROI | Aufwand | Warum zuerst / spaeter |
+| :---: | :--- | :---: | :---: | :--- |
+| 1 | Stufe-1-Tabelle: IPv4 + IPv6 + DoT + DoH, sourced Kuketz/PH. Digitalcourage ≠ ffmuc, dnsforge-Anycast, Mullvad-Hostnamen | hoechstes | niedrig | Jeder kopiert diese Seite |
+| 2 | Stufe 6: sechs Testschichten. IPv6-aus nur Isolation | hoechstes | niedrig | Fehlerfall ist der einzige Moment fuer extra Kommandos |
+| 3 | Kapitel Advanced DoT: Fallback, Zertifikat, Semikolon, Gastnetz, Blacklist vs. Resolver | hoch | mittel | AVM-spezifischer Mehrwert |
+| 4 | Logging-/Filter-Matrix, datiert, Jurisdiktion | hoch | mittel | Privacy-Claims belegbar machen |
+| 5 | `manual-client-setup.md`: eine Policy-Ebene, DoH-Bypass | mittel-hoch | niedrig | Windows 11 / Firefox Default-DoH |
+| 6 | Stufe 5 dual-stack: ULA, DNSv6 im Heimnetz, RA, Docker-v6, Fail-open/closed | mittel | hoch | Minderheit der Leser, hoher Schreibaufwand |
+| 7 | Firewall 53/853, DoT-Cert-Lint, Screenshots, DoH3-Notiz | niedrig | variabel | Haertung, nicht Einstieg |
+
+**Woche 1:** Rang 1, 2, 5.  
+**Woche 2:** Rang 3, 4.  
+**Danach:** Rang 6, 7.
+
+Nicht auf Rang 6 warten, bevor die Tabelle stimmt.
 
 ---
 
-## Schreibweise dieses Repos
+## Markdown-Regeln fuer Folge-Edits
 
-Inspiration, keine Klappboxen:
+Nutzen: GFM-Tabellen, Tasklisten, Strike, Alerts, Fenced Code inkl. `diff`/`mermaid`/`bash`, Math, Footnotes, `<kbd>`.
+
+Nicht nutzen: `<details>` / `<summary>`.
+
+Doku:
 
 - https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 - https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
